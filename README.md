@@ -47,6 +47,7 @@ GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
 - PNET in-depth analysis PDF scan record: [data/privacy-reviews/pnet-indepth-analysis-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-indepth-analysis-pdf-scan-2026-06-27.md)
 - PNET standalone data snapshot PDF scan record: [data/privacy-reviews/pnet-data-snapshot-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-data-snapshot-pdf-scan-2026-06-27.md)
 - Roadmap preparation: [ROADMAP.md](ROADMAP.md)
+- Phase 1 core token utility specification: [docs/15_PHASE_1_CORE_TOKEN_UTILITY_SPEC.md](docs/15_PHASE_1_CORE_TOKEN_UTILITY_SPEC.md)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
 - Media archive: [media/README.md](media/README.md)
 - Machine-readable asset facts: [data/asset-metadata/pnet-asset-facts.json](data/asset-metadata/pnet-asset-facts.json)
@@ -72,6 +73,7 @@ Facts in this repository are treated as unverified until confirmed against autho
 | Sensitive material scan | PASS | No private keys, mnemonics, API keys, `.env` files, wallet logic, or signer logic are included. |
 | Dated public snapshots | PASS | Tokenomics and market reference snapshots were added for 2026-06-27. |
 | Public claims policy | PASS | Investment, income, custody, trading, and guarantee framing are disallowed. |
+| Phase 1 utility spec | READY FOR REVIEW | Staking/payment/revenue-attribution requirements are documented as TestNet-only future implementation work. |
 | Listing-readiness package | PASS | Listing readiness, bridge notes, on-chain checklist, and data-source references are documented. |
 | Deep tokenomics review | PASS | Dated read-only review added from indexer, Vestige, and public-page sources. |
 | SOP privacy review | PASS | Raw DOCX was scanned and not committed; public-safe Markdown SOP was added. |

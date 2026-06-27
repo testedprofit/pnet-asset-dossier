@@ -46,6 +46,8 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Add product status table | Include product name, network, status, source link, and security-review status |
 | P1 | Create AlgoFlow tool status matrix | Review Crowdfund, Token Launchpad, PNET Genesis, MultiSend, Wallet Inspector, AlgoSocial, ProfitLock, and AlgoPool with source-backed status labels |
 | P1 | Evaluate contribution/access-tier design | Any lock or access mechanism should be utility-based, non-yield-framed, and reviewed for security/listing risk before publication |
+| P1 | Create separate Phase 1 implementation repository | Contract code, ABI, deployment scripts, frontend stubs, and CLI tools must stay outside this docs-only dossier |
+| P1 | Write Phase 1 threat model | Cover escrow custody, admin powers, reward accounting, treasury depletion, migration, and stale dashboard data |
 | P2 | Add neutral integration notes | Do not imply partner endorsement from public links alone |
 | P2 | Add market-intelligence receipt examples | Use static examples and source citations, not executable transaction code |
 

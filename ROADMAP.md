@@ -69,6 +69,27 @@ Future implementation work should happen in one of the following:
 | Basic testing wallet | PENDING | Create only in a wallet/tooling environment that keeps recovery material outside Git |
 | Funding and deployment plan | PENDING | Must be documented without private keys or transaction-signing material |
 
+## Section 2: Phase 1 - Core Token Utility
+
+Detailed specification: [docs/15_PHASE_1_CORE_TOKEN_UTILITY_SPEC.md](docs/15_PHASE_1_CORE_TOKEN_UTILITY_SPEC.md)
+
+### Objective
+
+Give PNET a TestNet-first utility path through voluntary token locking, access tiers, optional tool payments, and transparent revenue attribution. This section is a specification only. It does not add code, signer logic, deployment scripts, frontend stubs, or CLI tooling to this docs-only repository.
+
+### Phase 1 Components
+
+| Component | Purpose | Current status |
+| --- | --- | --- |
+| Staking / proof-of-contribution | Test voluntary lock/accounting mechanics and tiered access flags | Spec ready; implementation pending outside this repo |
+| PNET payments in AlgoFlow tools | Test optional tool fees routed to a documented treasury | Spec ready; implementation pending outside this repo |
+| Revenue attribution view | Test dated, source-linked treasury and tool-fee reporting | Spec ready; implementation pending outside this repo |
+| Burn mechanism documentation | Document lost-creator burn-path claims only after verification | Needs on-chain and disclosure review |
+
+### Phase 1 Gate
+
+Phase 1 cannot be described as live until a separate implementation repository or private TestNet workspace has reviewed code, tests, deployment records, security notes, and public claims review.
+
 ## Codex Planning Prompt
 
 Use this prompt for planning only. Do not use it to add code to this dossier.
@@ -88,4 +109,4 @@ Section 1 is complete when:
 - future implementation work has a separate location and security policy,
 - all claims remain dated, source-linked, and reviewable.
 
-Current Gate Status: SECTION 1 READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
+Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
