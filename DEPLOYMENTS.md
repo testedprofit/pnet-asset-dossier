@@ -10,6 +10,7 @@ This repository does not contain deployment code, smart contract code, wallet co
 | Vestige | https://vestige.fi/asset/3169177585 | Needs verification |
 | Official website | https://testedprofit.com | Needs verification |
 | Tokenomics page | https://testedprofit.com/pages/tokenomics/ | Needs verification |
+| PNET page | https://testedprofit.com/pages/PNET/ | Needs verification |
 
 ## Deployment Notes
 
@@ -17,6 +18,7 @@ This repository does not contain deployment code, smart contract code, wallet co
 - No creator address is verified in this repository. Needs verification.
 - No manager, reserve, freeze, or clawback address is verified in this repository. Needs verification.
 - No liquidity pool, marketplace, or exchange relationship is verified in this repository. Needs verification.
+- No LP, vault, burn, partner, or lock label has been verified from an explorer or indexer in this repository. Needs verification.
 - No audit, review, or formal attestation is included in this repository. Needs verification.
 
 ## Publication Checklist
@@ -30,4 +32,3 @@ Before changing any reference from `Needs verification` to `Verified`, record:
 | Exact field checked | Needs verification |
 | Observed value | Needs verification |
 | Reviewer name or handle | Needs verification |
-

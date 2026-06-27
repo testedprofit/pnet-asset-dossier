@@ -2,6 +2,8 @@
 
 This directory is reserved for public media connected to the ProfitNet / PNET dossier.
 
+Media handling rules are documented in [docs/07_MEDIA_GUIDE.md](../docs/07_MEDIA_GUIDE.md).
+
 ## Allowed Media
 
 - Logos
@@ -27,4 +29,3 @@ Each media file should include source notes in this README or a neighboring meta
 ## Current Media Inventory
 
 No media files have been added yet. Needs verification.
-

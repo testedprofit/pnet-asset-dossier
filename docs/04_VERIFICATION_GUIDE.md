@@ -33,8 +33,9 @@ Review:
 
 - https://testedprofit.com
 - https://testedprofit.com/pages/tokenomics/
+- https://testedprofit.com/pages/PNET/
 
-Record whether those pages identify the same brand, token name, unit, ASA ID, supply, decimals, and any stated tokenomics.
+Record whether those pages identify the same brand, token name, unit, ASA ID, supply, decimals, and any stated tokenomics. Treat LP, vault, lock, burn, and partner labels as page-displayed claims until on-chain evidence is recorded.
 
 ## Step 3: Verify Third-Party Listing
 
@@ -68,4 +69,3 @@ Only change `Needs verification` to `Verified` after adding:
 | Method | Plain-language description of how it was checked |
 | Result | Exact observed value |
 | Reviewer | Name or handle of the reviewer |
-

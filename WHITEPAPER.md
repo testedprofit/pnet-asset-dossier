@@ -20,6 +20,7 @@ All asset facts in this document are marked `Needs verification` until they are 
 | Decimals | 6 | Needs verification |
 | Website | https://testedprofit.com | Needs verification |
 | Tokenomics page | https://testedprofit.com/pages/tokenomics/ | Needs verification |
+| PNET page | https://testedprofit.com/pages/PNET/ | Needs verification |
 | Vestige page | https://vestige.fi/asset/3169177585 | Needs verification |
 
 ## Purpose
@@ -40,14 +41,18 @@ No utility claims are verified in this repository at this time. Any stated or pr
 
 ## Tokenomics
 
-The provided tokenomics facts are:
+The 2026-06-27 tokenomics snapshot records page-displayed values from the testedprofit tokenomics page:
 
 | Item | Value | Status |
 | --- | --- | --- |
 | Total supply | 100,000,000 | Needs verification |
+| Burned supply shown | 8,180,000 | Needs on-chain verification |
 | Decimals | 6 | Needs verification |
+| Founder allocation shown | 25M PNET locked | Needs on-chain lock verification |
+| Strategic reserve shown | 15M PNET locked | Needs on-chain lock verification |
+| Major unlock shown | 25% supply lock, Sept 2026 | Needs on-chain lock verification |
 
-Additional tokenomics details such as allocation, distribution, circulating supply, vesting, treasury controls, and reserve policies are not verified here. See [docs/03_TOKENOMICS.md](docs/03_TOKENOMICS.md).
+LP, vault, burn, lock, and partner labels shown on public pages are treated as dated claims only until explorer or indexer evidence is recorded. See [docs/03_TOKENOMICS.md](docs/03_TOKENOMICS.md) and [data/tokenomics/tokenomics-snapshot-2026-06-27.md](data/tokenomics/tokenomics-snapshot-2026-06-27.md).
 
 ## Verification Approach
 
@@ -56,6 +61,7 @@ Verification should compare the provided facts against:
 - The Algorand asset record for ASA ID `3169177585`
 - The official website at https://testedprofit.com
 - The tokenomics page at https://testedprofit.com/pages/tokenomics/
+- The PNET page at https://testedprofit.com/pages/PNET/
 - The Vestige listing at https://vestige.fi/asset/3169177585
 - Any other reputable Algorand explorer or indexer
 
@@ -66,4 +72,3 @@ The repository should only move a fact from `Needs verification` to `Verified` w
 Digital asset information can change, third-party listings can be incomplete, and websites can be updated or compromised. Readers should verify every material fact directly before relying on it.
 
 This whitepaper is informational only and does not provide financial, legal, tax, custody, trading, or security advice.
-

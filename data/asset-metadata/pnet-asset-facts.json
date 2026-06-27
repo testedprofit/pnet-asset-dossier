@@ -56,6 +56,11 @@
       "verification_status": "Needs verification",
       "source": "Provided project brief"
     },
+    "pnet_page": {
+      "value": "https://testedprofit.com/pages/PNET/",
+      "verification_status": "Needs verification",
+      "source": "Public reference added during 2026-06-27 dossier update"
+    },
     "vestige": {
       "value": "https://vestige.fi/asset/3169177585",
       "verification_status": "Needs verification",
@@ -73,6 +78,7 @@
     "derived_raw_supply_units",
     "website",
     "tokenomics",
+    "pnet_page",
     "vestige",
     "creator_address",
     "manager_address",
@@ -95,4 +101,3 @@
     "executable_code": true
   }
 }
-

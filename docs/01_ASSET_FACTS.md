@@ -12,6 +12,7 @@ Status date: 2026-06-27
 | ASA ID | 3169177585 | Needs verification |
 | Website | https://testedprofit.com | Needs verification |
 | Tokenomics page | https://testedprofit.com/pages/tokenomics/ | Needs verification |
+| PNET page | https://testedprofit.com/pages/PNET/ | Needs verification |
 | Vestige page | https://vestige.fi/asset/3169177585 | Needs verification |
 | Total supply | 100,000,000 | Needs verification |
 | Decimals | 6 | Needs verification |
@@ -46,5 +47,5 @@ The following fields should be verified against the Algorand asset record:
 | Provided project brief | Initial facts | Needs verification |
 | https://testedprofit.com | Brand and website reference | Needs verification |
 | https://testedprofit.com/pages/tokenomics/ | Tokenomics reference | Needs verification |
+| https://testedprofit.com/pages/PNET/ | PNET page reference | Needs verification |
 | https://vestige.fi/asset/3169177585 | Third-party asset listing | Needs verification |
-
