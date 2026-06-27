@@ -4,6 +4,8 @@ Public documentation hub for the ProfitNet asset, unit `PNET`, associated with t
 
 This repository is documentation and media only. It is intended to collect asset facts, verification steps, public references, tokenomics notes, media files, disclaimers, and security reporting guidance.
 
+GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
+
 ## Quick Facts
 
 | Field | Value | Status |
@@ -48,5 +50,4 @@ Facts in this repository are treated as unverified until confirmed against autho
 | Required file set | PASS | All requested files are present. |
 | Sensitive material scan | PASS | No private keys, mnemonics, API keys, `.env` files, wallet logic, or signer logic are included. |
 | External fact verification | NEEDS VERIFICATION | Asset metadata and public references need independent confirmation. |
-| Public GitHub publication | NEEDS VERIFICATION | Confirm repository visibility after publication. |
-
+| Public GitHub publication | PASS | GitHub reports repository visibility as public. |
