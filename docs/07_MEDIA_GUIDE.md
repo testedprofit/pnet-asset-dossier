@@ -16,6 +16,12 @@ The media archive is for public, reviewable evidence and brand materials connect
 | Logo or icon | Include source, rights/license status, and whether it is official or community-provided. |
 | Verification screenshot | Include source, checked field, observed value, date, and reviewer. |
 
+## Contribution Evidence Media
+
+Raw third-party dashboards, mining dashboards, bandwidth-sharing dashboards, payout pages, referral dashboards, and wallet screens should not be committed to this repository.
+
+If a contribution proof requires media review, publish only a sanitized receipt or metadata record. The public record should state the category, review date, reviewer, receipt hash, privacy-review status, and verification status. It should not include user-specific earnings, payout values, device identifiers, private wallet addresses, personal referral identifiers, or account screenshots.
+
 ## Required Metadata
 
 Every media file should have a matching note in [media/README.md](../media/README.md) or a neighboring metadata file.
@@ -46,4 +52,3 @@ Use dated, descriptive names:
 | `2026-06-27-testedprofit-tokenomics-overview.png` | Official tokenomics page screenshot |
 | `2026-06-27-vestige-pnet-listing.png` | Third-party market listing screenshot |
 | `2026-06-27-allo-pnet-listing.png` | Third-party reference screenshot |
-

@@ -2,92 +2,170 @@
 
 Public documentation hub for the ProfitNet asset, unit `PNET`, associated with the testedprofit / Profitnet brand.
 
-This repository is documentation and media only. It is intended to collect asset facts, verification steps, public references, tokenomics notes, media files, disclaimers, and security reporting guidance.
+This repository is documentation and media only. It acts as a whitepaper, verification hub, public claims record, media archive, tokenomics review package, and roadmap index.
 
 GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
+
+## Current Scope
+
+The dossier records public information and review status for:
+
+- ProfitNet / PNET asset identity,
+- ASA ID `3169177585`,
+- tokenomics and supply claims,
+- source links and market references,
+- public claims policy,
+- media handling,
+- verification procedures,
+- listing-readiness materials,
+- future market-intelligence and contribution-protocol specifications.
+
+It does not contain code, signer logic, wallet logic, private keys, mnemonics, API keys, `.env` files, deployment automation, trading logic, custody flows, or user-deposit instructions.
 
 ## Quick Facts
 
 | Field | Value | Status |
 | --- | --- | --- |
 | Brand | testedprofit / Profitnet | Needs verification |
-| Token name | ProfitNet | Needs verification |
-| Unit | PNET | Needs verification |
-| Algorand ASA ID | 3169177585 | Needs verification |
-| Website | https://testedprofit.com | Needs verification |
-| Tokenomics page | https://testedprofit.com/pages/tokenomics/ | Needs verification |
-| PNET page | https://testedprofit.com/pages/PNET/ | Needs verification |
-| Vestige listing | https://vestige.fi/asset/3169177585 | Needs verification |
-| Total supply | 100,000,000 | Needs verification |
-| Decimals | 6 | Needs verification |
+| Token name | ProfitNet | Verified in prior dossier indexer review; recheck before external use |
+| Unit | PNET | Verified in prior dossier indexer review; recheck before external use |
+| Algorand ASA ID | `3169177585` | Verified in prior dossier indexer review; recheck before external use |
+| Website | https://testedprofit.com | Public project link |
+| Tokenomics page | https://testedprofit.com/pages/tokenomics/ | Public project link |
+| PNET page | https://testedprofit.com/pages/PNET/ | Public project link |
+| Vestige listing | https://vestige.fi/asset/3169177585 | Public market reference |
+| Total supply | `100,000,000` PNET | Verified by public indexers in [asset identity proof](data/on-chain-proofs/asset-identity-proof-2026-06-27.md); recheck before external use |
+| Decimals | `6` | Verified by public indexers in [asset identity proof](data/on-chain-proofs/asset-identity-proof-2026-06-27.md); recheck before external use |
 
-## Repository Scope
+## Start Here
 
-- Whitepaper-style asset overview: [WHITEPAPER.md](WHITEPAPER.md)
-- Deployment and listing references: [DEPLOYMENTS.md](DEPLOYMENTS.md)
-- Security and reporting notes: [SECURITY.md](SECURITY.md)
-- Risk and legal disclaimer: [DISCLAIMER.md](DISCLAIMER.md)
-- Detailed documentation: [docs/](docs/)
-- Market snapshots: [docs/05_MARKET_SNAPSHOTS.md](docs/05_MARKET_SNAPSHOTS.md)
-- Public claims policy: [docs/06_PUBLIC_CLAIMS_POLICY.md](docs/06_PUBLIC_CLAIMS_POLICY.md)
-- Media guide: [docs/07_MEDIA_GUIDE.md](docs/07_MEDIA_GUIDE.md)
-- Public links: [references/public-links.md](references/public-links.md)
-- Dated tokenomics snapshot: [data/tokenomics/tokenomics-snapshot-2026-06-27.md](data/tokenomics/tokenomics-snapshot-2026-06-27.md)
-- Listing readiness package: [docs/08_LISTING_READINESS.md](docs/08_LISTING_READINESS.md)
-- Exchange and bridge notes: [docs/09_EXCHANGE_AND_BRIDGE_NOTES.md](docs/09_EXCHANGE_AND_BRIDGE_NOTES.md)
-- On-chain review checklist: [docs/10_ON_CHAIN_REVIEW_CHECKLIST.md](docs/10_ON_CHAIN_REVIEW_CHECKLIST.md)
-- API and data sources: [docs/11_API_AND_DATA_SOURCES.md](docs/11_API_AND_DATA_SOURCES.md)
-- Deep tokenomics review: [docs/12_DEEP_TOKENOMICS_REVIEW.md](docs/12_DEEP_TOKENOMICS_REVIEW.md)
-- Public-safe Algorand launch and verification protocol: [docs/13_ALGORAND_ASSET_LAUNCH_VERIFICATION_PROTOCOL.md](docs/13_ALGORAND_ASSET_LAUNCH_VERIFICATION_PROTOCOL.md)
-- Public review backlog: [docs/14_PUBLIC_REVIEW_BACKLOG.md](docs/14_PUBLIC_REVIEW_BACKLOG.md)
-- On-chain review record: [data/on-chain-review/pnet-review-2026-06-27.md](data/on-chain-review/pnet-review-2026-06-27.md)
-- API/source review record: [data/api-sources/pnet-api-sources.md](data/api-sources/pnet-api-sources.md)
-- SOP privacy scan record: [data/privacy-reviews/sop-privacy-scan-2026-06-27.md](data/privacy-reviews/sop-privacy-scan-2026-06-27.md)
-- PNET PDF scan record: [data/privacy-reviews/pnet-1-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-1-pdf-scan-2026-06-27.md)
-- PNET in-depth analysis PDF scan record: [data/privacy-reviews/pnet-indepth-analysis-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-indepth-analysis-pdf-scan-2026-06-27.md)
-- PNET standalone data snapshot PDF scan record: [data/privacy-reviews/pnet-data-snapshot-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-data-snapshot-pdf-scan-2026-06-27.md)
-- Roadmap preparation: [ROADMAP.md](ROADMAP.md)
-- Phase 1 core token utility specification: [docs/15_PHASE_1_CORE_TOKEN_UTILITY_SPEC.md](docs/15_PHASE_1_CORE_TOKEN_UTILITY_SPEC.md)
-- Phase 2 market intelligence and governance specification: [docs/16_PHASE_2_MARKET_INTELLIGENCE_GOVERNANCE_SPEC.md](docs/16_PHASE_2_MARKET_INTELLIGENCE_GOVERNANCE_SPEC.md)
-- Phase 3 revenue feedback and tokenomics hardening specification: [docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md](docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md)
-- Documentation, transparency, and website update pack: [docs/18_DOCUMENTATION_TRANSPARENCY_WEBSITE_UPDATES.md](docs/18_DOCUMENTATION_TRANSPARENCY_WEBSITE_UPDATES.md)
-- Testing, security, deployment, and measurement specification: [docs/19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md](docs/19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md)
-- Changelog: [CHANGELOG.md](CHANGELOG.md)
-- Media archive: [media/README.md](media/README.md)
-- Machine-readable asset facts: [data/asset-metadata/pnet-asset-facts.json](data/asset-metadata/pnet-asset-facts.json)
+| Need | File |
+| --- | --- |
+| Canonical specification | [WHITEPAPER.md](WHITEPAPER.md) |
+| Roadmap and implementation gates | [ROADMAP.md](ROADMAP.md) |
+| Documentation index | [docs/README.md](docs/README.md) |
+| User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
+| Developer guide | [docs/developer/DEVELOPER_GUIDE.md](docs/developer/DEVELOPER_GUIDE.md) |
+| Security guide | [docs/security/SECURITY_GUIDE.md](docs/security/SECURITY_GUIDE.md) |
+| Contribution protocol guide | [docs/contribution/CONTRIBUTION_PROTOCOL_GUIDE.md](docs/contribution/CONTRIBUTION_PROTOCOL_GUIDE.md) |
+| Contribution Credit System MVP | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) |
+| Verification handbook | [docs/verification/VERIFICATION_HANDBOOK.md](docs/verification/VERIFICATION_HANDBOOK.md) |
+| Website copy templates | [docs/templates/WEBSITE_COPY.md](docs/templates/WEBSITE_COPY.md) |
+| Announcement templates | [docs/templates/PUBLIC_ANNOUNCEMENTS.md](docs/templates/PUBLIC_ANNOUNCEMENTS.md) |
+| Content and marketing system | [docs/marketing/README.md](docs/marketing/README.md) |
+| On-chain proof package | [data/on-chain-proofs/README.md](data/on-chain-proofs/README.md) |
+| Implementation specifications | [docs/implementation/README.md](docs/implementation/README.md) |
+| Audit readiness package | [docs/audit/README.md](docs/audit/README.md) |
+| Deployment registry | [docs/DEPLOYMENT_REGISTRY.md](docs/DEPLOYMENT_REGISTRY.md) |
 
-## What This Repository Does Not Contain
+## Core Review Records
 
-- Source code or executable scripts
-- Wallet, signer, custody, or transaction logic
-- Private keys, mnemonics, API keys, secrets, or `.env` files
-- Instructions to transfer funds or grant asset control
-- Statements promising outcomes, returns, or investment performance
+| File | Purpose |
+| --- | --- |
+| [DEPLOYMENTS.md](DEPLOYMENTS.md) | Deployment and listing-reference cautions |
+| [SECURITY.md](SECURITY.md) | Sensitive-material and reporting policy |
+| [DISCLAIMER.md](DISCLAIMER.md) | Risk and non-advice disclaimer |
+| [docs/01_ASSET_FACTS.md](docs/01_ASSET_FACTS.md) | Asset facts |
+| [docs/03_TOKENOMICS.md](docs/03_TOKENOMICS.md) | Tokenomics and supply-claim status |
+| [docs/05_MARKET_SNAPSHOTS.md](docs/05_MARKET_SNAPSHOTS.md) | Market snapshot rules |
+| [docs/06_PUBLIC_CLAIMS_POLICY.md](docs/06_PUBLIC_CLAIMS_POLICY.md) | Public claims policy |
+| [docs/08_LISTING_READINESS.md](docs/08_LISTING_READINESS.md) | Listing-readiness package |
+| [docs/10_ON_CHAIN_REVIEW_CHECKLIST.md](docs/10_ON_CHAIN_REVIEW_CHECKLIST.md) | On-chain review checklist |
+| [docs/11_API_AND_DATA_SOURCES.md](docs/11_API_AND_DATA_SOURCES.md) | API and data-source references |
+| [docs/12_DEEP_TOKENOMICS_REVIEW.md](docs/12_DEEP_TOKENOMICS_REVIEW.md) | Deep tokenomics review |
+| [docs/DEPLOYMENT_REGISTRY.md](docs/DEPLOYMENT_REGISTRY.md) | Deployment, prototype, and evidence registry |
+| [docs/LIVE_TESTNET_EVIDENCE.md](docs/LIVE_TESTNET_EVIDENCE.md) | Live/TestNet evidence status |
+| [docs/WHITEPAPER_REALITY_MAP.md](docs/WHITEPAPER_REALITY_MAP.md) | Whitepaper claim-to-artifact map |
+| [docs/OPERATIONAL_WALLET_TRANSPARENCY.md](docs/OPERATIONAL_WALLET_TRANSPARENCY.md) | Operational wallet public evidence and status |
+| [docs/RFC_INDEX.md](docs/RFC_INDEX.md) | Implementation RFC index |
+| [docs/implementation/README.md](docs/implementation/README.md) | Implementation specs |
+| [docs/implementation/algorand-atomic-transaction-groups.md](docs/implementation/algorand-atomic-transaction-groups.md) | Algorand atomic transaction group patterns for PNET |
+| [docs/audit/README.md](docs/audit/README.md) | Audit tracker, threat model, and review checklist |
+| [docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md](docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md) | Contribution protocol disclosure plan |
+| [docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis |
+| [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
+| [docs/pnet-contribution-protocol/METHODS.md](docs/pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
+| [docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md](docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |
+| [docs/pnet-contribution-protocol/PUBLIC_CLAIMS_POLICY.md](docs/pnet-contribution-protocol/PUBLIC_CLAIMS_POLICY.md) | Contribution protocol public claims policy |
+| [docs/pnet-contribution-protocol/VERIFICATION_PROCESS.md](docs/pnet-contribution-protocol/VERIFICATION_PROCESS.md) | Contribution protocol verification process |
+| [docs/pnet-contribution-protocol/RISK_REGISTER.md](docs/pnet-contribution-protocol/RISK_REGISTER.md) | Contribution protocol risk register |
+| [docs/pnet-contribution-protocol/THREAT_MODEL.md](docs/pnet-contribution-protocol/THREAT_MODEL.md) | Contribution protocol threat model |
+| [docs/pnet-contribution-protocol/AUDIT_READINESS_CHECKLIST.md](docs/pnet-contribution-protocol/AUDIT_READINESS_CHECKLIST.md) | Contribution protocol audit readiness checklist |
+| [docs/marketing/30_DAY_CONTENT_CALENDAR.md](docs/marketing/30_DAY_CONTENT_CALENDAR.md) | 30-day education-first content calendar |
+| [docs/marketing/SEO_ARTICLE_TEMPLATES.md](docs/marketing/SEO_ARTICLE_TEMPLATES.md) | SEO article templates |
+| [docs/marketing/X_THREAD_TEMPLATES.md](docs/marketing/X_THREAD_TEMPLATES.md) | X/Twitter thread templates |
+| [docs/marketing/BRAND_ASSET_USAGE_GUIDE.md](docs/marketing/BRAND_ASSET_USAGE_GUIDE.md) | Brand and jingle asset usage guide |
+| [docs/marketing/EMAIL_ONBOARDING_SEQUENCE.md](docs/marketing/EMAIL_ONBOARDING_SEQUENCE.md) | Community onboarding emails |
+| [references/public-links.md](references/public-links.md) | Public links |
+| [media/README.md](media/README.md) | Media guide |
+| [data/asset-metadata/pnet-asset-facts.json](data/asset-metadata/pnet-asset-facts.json) | Machine-readable asset facts |
+| [data/on-chain-proofs/README.md](data/on-chain-proofs/README.md) | On-chain proof package |
 
 ## Verification Model
 
-Facts in this repository are treated as unverified until confirmed against authoritative sources such as the Algorand chain, official brand-controlled pages, and reputable third-party listings. Items that still require confirmation are marked `Needs verification`.
+Facts are treated as unresolved until the dossier records public evidence, capture date, method, observed value, and status.
+
+Accepted status labels:
+
+- `Verified`
+- `Verified by public indexers`
+- `Snapshot only`
+- `Needs verification`
+- `Needs on-chain verification`
+- `Needs methodology review`
+- `Not claimed`
+
+The preferred review path is in [docs/verification/VERIFICATION_HANDBOOK.md](docs/verification/VERIFICATION_HANDBOOK.md).
+
+## Public Claims Policy
+
+The dossier must not claim or imply:
+
+- guaranteed profit,
+- risk-free participation,
+- passive income,
+- deposit and earn,
+- copy trading,
+- managed strategy,
+- Coinbase listing confirmed,
+- guaranteed listing,
+- guaranteed value,
+- APY/APR/ROI,
+- exchange or bridge support unless official and sourced.
+
+Contribution credits, if deployed, must be described only as app-local access/reputation records. They are not PNET tokens, not deposits, not yield, not passive income, not profit share, not guaranteed value, and not investment returns.
+
+## Operational Context
+
+The project context includes a user-provided disclosure that the original creator wallet may be unavailable and a user-provided operational wallet:
+
+`CIVTUU6KLTYO26SPVEBDFBKP3UMZM2DPEO5RINODUVCI5NVIFC6HVNWS7E`
+
+Both remain public-review topics:
+
+| Topic | Status |
+| --- | --- |
+| Lost creator wallet | Needs on-chain and methodology verification |
+| Lost-wallet burn-accounting treatment | Needs on-chain and methodology verification |
+| Operational wallet role, balance, and control status | Needs verification |
+
+No private custody notes, recovery details, signer locations, personal data, or wallet screenshots should be published.
 
 ## Current Gate Status
 
 | Gate | Status | Notes |
 | --- | --- | --- |
-| Documentation-only scope | PASS | Repository contains documentation, metadata, and media placeholders only. |
-| Required file set | PASS | All requested files are present. |
-| Sensitive material scan | PASS | No private keys, mnemonics, API keys, `.env` files, wallet logic, or signer logic are included. |
-| Dated public snapshots | PASS | Tokenomics and market reference snapshots were added for 2026-06-27. |
-| Public claims policy | PASS | Investment, income, custody, trading, and guarantee framing are disallowed. |
-| Phase 1 utility spec | READY FOR REVIEW | Staking/payment/revenue-attribution requirements are documented as TestNet-only future implementation work. |
-| Phase 2 market intelligence spec | READY FOR REVIEW | Intelligence receipts, on-chain hash anchoring, query model, and lightweight governance are documented as future implementation work. |
-| Phase 3 revenue/tokenomics spec | READY FOR REVIEW | Treasury accounting, allocation policy, operational-wallet hardening, and burn-accounting methodology are documented; distribution mechanisms are not approved. |
-| Website update pack | READY FOR REVIEW | Utility roadmap, operational wallet, burn-accounting, and deployment-record copy are drafted for website review. |
-| Testing/security/deployment spec | READY FOR REVIEW | TestNet plan, security checklist, deployment gates, and KPI dashboard outline are documented; no scripts are included. |
-| Listing-readiness package | PASS | Listing readiness, bridge notes, on-chain checklist, and data-source references are documented. |
-| Deep tokenomics review | PASS | Dated read-only review added from indexer, Vestige, and public-page sources. |
-| SOP privacy review | PASS | Raw DOCX was scanned and not committed; public-safe Markdown SOP was added. |
-| PDF review scans | PASS | Raw PDFs were scanned and not committed; safe review items were summarized as backlog. |
-| Operational wallet disclosure | LIMITED PUBLIC DISCLOSURE | User-provided address is published only in the roadmap as `Needs verification`; role, balance, and control status are not treated as verified. |
-| External fact verification | NEEDS VERIFICATION | Asset metadata and public references need independent confirmation. |
-| On-chain lock / vault verification | NEEDS VERIFICATION | Page-displayed LP, vault, lock, and allocation labels need explorer or indexer evidence. |
-| Exchange / bridge support | NOT CLAIMED | Bridge research and exchange support are documented as unconfirmed and future-research-only where applicable. |
-| Public GitHub publication | PASS | GitHub reports repository visibility as public. |
+| Documentation-only scope | PASS | Repository contains documentation, metadata, references, and media only |
+| Whitepaper v1.1 | READY FOR REVIEW | Structure updated around specification, utility, roadmap, verification, and risks |
+| On-chain proof package | STARTED | ASA identity/current controls verified; burn/lock/vault proofs pending |
+| Implementation specs | STARTED | Contribution protocol, contract design principles, and snapshot API specs added |
+| Audit readiness | STARTED | Audit tracker, threat model, and review checklist added |
+| Documentation structure | READY FOR REVIEW | User, developer, security, contribution, verification, and template guides added |
+| Content and marketing system | READY FOR REVIEW | Education-first calendar, article templates, social templates, brand guide, and email sequence added |
+| Sensitive-material policy | PASS | No secrets, wallet files, signer logic, or private data should be committed |
+| Public claims policy | PASS WITH WATCHLIST | Risky terms allowed only in disclaimers or avoided-claims context |
+| Tokenomics claims | PARTIAL | Baseline ASA supply/decimals verified; burns, locks, vaults, allocations, and circulating methodology require evidence |
+| Lost creator wallet | NEEDS VERIFICATION | Do not treat as verified burned supply without methodology and evidence |
+| Operational wallet | SNAPSHOT ONLY | Address validity and current PNET balance snapshot recorded; role and control model not verified |
+| Contribution protocol | MVP READY FOR TESTNET DEPLOYMENT | Local implementation package prepared; TestNet app ID and deployment tx pending; not MainNet, not audited |
+| Exchange / bridge support | NOT CLAIMED | No venue support or listing outcome is implied |

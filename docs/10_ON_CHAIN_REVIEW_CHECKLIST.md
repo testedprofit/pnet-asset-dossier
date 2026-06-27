@@ -8,25 +8,25 @@ This checklist is for human reviewers using public read-only explorers, indexers
 
 | Field | Expected / page-displayed value | Evidence source | Status |
 | --- | --- | --- | --- |
-| ASA ID | 3169177585 | Explorer or indexer | Needs verification |
-| Asset name | ProfitNet | Explorer or indexer | Needs verification |
-| Unit name | PNET | Explorer or indexer | Needs verification |
-| Total supply | 100,000,000 PNET | Explorer or indexer | Needs verification |
-| Decimals | 6 | Explorer or indexer | Needs verification |
-| Raw total | 100,000,000,000,000 if decimals are 6 | Derived and explorer/indexer | Needs verification |
-| Asset URL | Not verified | Explorer or indexer | Needs verification |
-| Metadata hash | Not verified | Explorer or indexer | Needs verification |
+| ASA ID | 3169177585 | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified by public indexers |
+| Asset name | ProfitNet | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified by public indexers |
+| Unit name | PNET | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified by public indexers |
+| Total supply | 100,000,000 PNET | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified by public indexers |
+| Decimals | 6 | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified by public indexers |
+| Raw total | 100,000,000,000,000 | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified by public indexers |
+| Asset URL | https://testedprofit.com | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified as ASA URL field |
+| Metadata hash | Not observed in captured indexer params | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Snapshot only |
 
 ## ASA Controls
 
 | Field | Evidence source | Status |
 | --- | --- | --- |
-| Creator address | Explorer or indexer | Needs verification |
-| Manager address | Explorer or indexer | Needs verification |
-| Reserve address | Explorer or indexer | Needs verification |
-| Freeze address | Explorer or indexer | Needs verification |
-| Clawback address | Explorer or indexer | Needs verification |
-| Default frozen state | Explorer or indexer | Needs verification |
+| Creator address | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified by public indexers |
+| Manager address | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified current value as zero address |
+| Reserve address | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified current value as zero address |
+| Freeze address | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified current value as zero address |
+| Clawback address | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified current value as zero address |
+| Default frozen state | [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) | Verified as `false` |
 | Configuration transaction history | Explorer or indexer | Needs verification |
 
 ## Supply, Burns, and Locks
@@ -68,4 +68,3 @@ This checklist is for human reviewers using public read-only explorers, indexers
 - Do not sign transactions.
 - Do not transfer assets.
 - Do not disclose private screenshots, balances, credentials, session tokens, API keys, or internal dashboards.
-

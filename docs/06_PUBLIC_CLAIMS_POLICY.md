@@ -15,6 +15,7 @@ Use neutral, dated, source-linked statements. Do not use investment framing, inc
 | Market data | Treat as dated snapshot only. Never present as a stable fact. |
 | Media asset | Include origin, capture date, license or rights status, and description. |
 | Derived value | State the formula or dependency and keep the derived value verification-gated. |
+| Contribution evidence | State category, review date, reviewer, receipt hash, and privacy status. Do not publish user-specific payouts, balances, private wallet screenshots, or personal referral identifiers. |
 
 ## Disallowed Claim Types
 
@@ -29,6 +30,9 @@ Do not add claims that suggest:
 | User deposits or custody | Do not include. |
 | Wallet connection as a verification step | Do not include. |
 | Coinbase, exchange, bridge, or listing support | Do not include unless there is direct source evidence from the named venue. |
+| User-specific third-party earnings | Do not publish. Contribution evidence may be reviewed only as redacted activity evidence for app-local credits. |
+| Market-cap comparisons to user earnings | Do not include. They can imply investment upside or token-value linkage. |
+| Cost-free or renewable-energy claims | Do not include unless independently evidenced and scoped. Renewable energy may be listed as future research or roadmap only. |
 
 ## Removed / Avoided Claims QA Note
 
@@ -57,3 +61,6 @@ Before merging public claims:
 | No investment framing | Yes |
 | No transaction instructions | Yes |
 | No secrets or credentials | Yes |
+| No personal dashboards, private wallet screenshots, or user-specific payout values | Yes |
+| No market-cap comparison to user-specific external activity | Yes |
+| No unevidenced cost-free, energy-source, or environmental-impact claim | Yes |

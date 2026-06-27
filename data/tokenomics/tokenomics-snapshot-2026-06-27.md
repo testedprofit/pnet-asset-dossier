@@ -46,7 +46,7 @@ All LP, vault, burn, lock, and partner labels below are page-displayed labels on
 | Burned LP vault | PNET-AURA | Label shown | Needs on-chain verification |
 | Burned LP vault | PNET-CRASHOUT | Label shown | Needs on-chain verification |
 | Burned LP vault | PNET-XDB | Label shown | Needs on-chain verification |
-| Strategic partnership vault | BKIND 10 Year Lock | Label shown | Needs on-chain verification |
+| Strategic partnership vault | Public-page partner lock label | Label shown | Needs on-chain verification |
 | Strategic partnership vault | BONEZ Liquidity | Label shown | Needs on-chain verification |
 | Strategic partnership vault | 69420 Liquidity | Label shown | Needs on-chain verification |
 | Strategic partnership vault | DeckardCain Partner | Label shown | Needs on-chain verification |

@@ -10,10 +10,10 @@ Primary snapshot: [data/tokenomics/tokenomics-snapshot-2026-06-27.md](../data/to
 
 | Field | Page-displayed value | Source | Dossier status |
 | --- | --- | --- | --- |
-| ASA ID | 3169177585 | testedprofit tokenomics page, PNET page | Needs on-chain verification |
-| Total supply | 100,000,000 PNET | testedprofit tokenomics page | Needs on-chain verification |
+| ASA ID | 3169177585 | testedprofit tokenomics page, PNET page; public indexers | Verified by public indexers in [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) |
+| Total supply | 100,000,000 PNET | testedprofit tokenomics page; public indexers | Verified by public indexers in [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) |
 | Burned supply shown | 8,180,000 PNET | testedprofit tokenomics page | Needs on-chain verification |
-| Decimals | 6 | testedprofit tokenomics page | Needs on-chain verification |
+| Decimals | 6 | testedprofit tokenomics page; public indexers | Verified by public indexers in [asset identity proof](../data/on-chain-proofs/asset-identity-proof-2026-06-27.md) |
 | Founder allocation shown | 25M PNET locked | testedprofit tokenomics page | Needs on-chain lock verification |
 | Strategic reserve shown | 15M PNET locked | testedprofit tokenomics page | Needs on-chain lock verification |
 | Major unlock shown | 25% supply lock, Sept 2026 | testedprofit tokenomics page | Needs on-chain lock verification |
@@ -22,11 +22,11 @@ Primary snapshot: [data/tokenomics/tokenomics-snapshot-2026-06-27.md](../data/to
 
 | Item | Page-displayed value | Dossier status |
 | --- | --- | --- |
-| Total supply | 100,000,000 PNET | Needs on-chain verification |
+| Total supply | 100,000,000 PNET | Verified by public indexers |
 | Burned supply shown | 8,180,000 PNET | Needs on-chain verification |
 | Remaining supply after displayed burn | 91,820,000 PNET | Derived from page-displayed values, Needs on-chain verification |
-| Decimals | 6 | Needs on-chain verification |
-| Derived raw total, if decimals are correct | 100,000,000,000,000 raw units | Derived, Needs on-chain verification |
+| Decimals | 6 | Verified by public indexers |
+| Raw total | 100,000,000,000,000 raw units | Verified by public indexers |
 
 ## Allocation and Lock Snapshot
 
@@ -56,7 +56,7 @@ The testedprofit tokenomics page displays LP/vault and partner labels. This doss
 | Burned LP vault | PNET-AURA | Needs on-chain verification |
 | Burned LP vault | PNET-CRASHOUT | Needs on-chain verification |
 | Burned LP vault | PNET-XDB | Needs on-chain verification |
-| Strategic partnership vault | BKIND 10 Year Lock | Needs on-chain verification |
+| Strategic partnership vault | Public-page partner lock label | Needs on-chain verification |
 | Strategic partnership vault | BONEZ Liquidity | Needs on-chain verification |
 | Strategic partnership vault | 69420 Liquidity | Needs on-chain verification |
 | Strategic partnership vault | DeckardCain Partner | Needs on-chain verification |
@@ -88,6 +88,8 @@ Future tokenomics snapshots should separate direct burns, reviewed locks, and in
 | Circulating supply | Calculate only from the approved methodology version and source records | Needs methodology approval |
 
 Related hardening spec: [docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md](17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md).
+
+Current supply methodology: [data/on-chain-proofs/supply-methodology.md](../data/on-chain-proofs/supply-methodology.md).
 
 ## Public Claims Guardrails
 

@@ -1,0 +1,64 @@
+{
+  "schema": "pnet-on-chain-proof-index-v1",
+  "updated": "2026-06-27",
+  "asset_id": 3169177585,
+  "unit": "PNET",
+  "proofs": [
+    {
+      "id": "asset-identity-2026-06-27",
+      "file": "asset-identity-proof-2026-06-27.md",
+      "claim_area": "asset_identity",
+      "status": "Verified by public indexers",
+      "capture_round": 62554271,
+      "sources": [
+        "https://mainnet-idx.algonode.cloud/v2/assets/3169177585",
+        "https://mainnet-idx.4160.nodely.dev/v2/assets/3169177585"
+      ]
+    },
+    {
+      "id": "operational-wallet-2026-06-27",
+      "file": "operational-wallet-proof-2026-06-27.md",
+      "claim_area": "operational_wallet",
+      "status": "Snapshot only; role needs verification",
+      "capture_round": 62554271,
+      "wallet": "CIVTUU6KLTYO26SPVEBDFBKP3UMZM2DPEO5RINODUVCI5NVIFC6HVNWS7E",
+      "pnet_raw_amount": 15583379085,
+      "pnet_display_amount": "15583.379085"
+    },
+    {
+      "id": "contribution-protocol-testnet-pending-2026-06-27",
+      "file": "contribution-protocol/deployment-testnet.md",
+      "claim_area": "contribution_protocol_testnet",
+      "status": "Pending deployment; artifact hashes recorded",
+      "network": "Algorand TestNet",
+      "app_id": "Pending",
+      "deployment_tx": "Pending",
+      "source_hash": "236eae414acaae6e68dc51987318a483f34991230c5745bdda916b297768dae8",
+      "approval_teal_hash": "bfb65b671d0651813adeaa83254da98f230f348d48a2028264fcb12b2605d290",
+      "clear_teal_hash": "f1ed5f2a5843e27469f19d72f430e69fe67aee6746578bbaa7c9097c637a6ffc",
+      "abi_hash": "9133c917c5e1ce7527d138e8f6ee8d3cb7b9868f65cb3db399939e742d9eb586"
+    }
+  ],
+  "blocked_claims": [
+    {
+      "claim": "burned_supply",
+      "status": "Needs on-chain verification"
+    },
+    {
+      "claim": "locked_supply",
+      "status": "Needs on-chain verification"
+    },
+    {
+      "claim": "vault_labels",
+      "status": "Needs on-chain verification"
+    },
+    {
+      "claim": "lost_creator_wallet_burn_treatment",
+      "status": "Needs human and methodology verification"
+    },
+    {
+      "claim": "contribution_protocol_testnet_deployment",
+      "status": "Needs TestNet app ID, deployment transaction, confirmed round, live test report, and audit status"
+    }
+  ]
+}
