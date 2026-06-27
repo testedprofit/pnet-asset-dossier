@@ -67,6 +67,13 @@ Verification should compare the provided facts against:
 
 The repository should only move a fact from `Needs verification` to `Verified` when the source, date, method, and result are documented.
 
+Listing-readiness and diligence materials are maintained in:
+
+- [docs/08_LISTING_READINESS.md](docs/08_LISTING_READINESS.md)
+- [docs/09_EXCHANGE_AND_BRIDGE_NOTES.md](docs/09_EXCHANGE_AND_BRIDGE_NOTES.md)
+- [docs/10_ON_CHAIN_REVIEW_CHECKLIST.md](docs/10_ON_CHAIN_REVIEW_CHECKLIST.md)
+- [docs/11_API_AND_DATA_SOURCES.md](docs/11_API_AND_DATA_SOURCES.md)
+
 ## Risks and Limitations
 
 Digital asset information can change, third-party listings can be incomplete, and websites can be updated or compromised. Readers should verify every material fact directly before relying on it.

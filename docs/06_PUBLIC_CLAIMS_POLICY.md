@@ -28,10 +28,11 @@ Do not add claims that suggest:
 | Managed strategy or delegated trading | Do not include. |
 | User deposits or custody | Do not include. |
 | Wallet connection as a verification step | Do not include. |
+| Coinbase, exchange, bridge, or listing support | Do not include unless there is direct source evidence from the named venue. |
 
 ## Removed / Avoided Claims QA Note
 
-The testedprofit pages include the phrase "Passive Income Opportunity". This repository intentionally does not use that phrase as token positioning, utility language, investment framing, or a reader-facing benefit claim.
+The testedprofit public pages include passive-income and earning-oriented wording. This repository intentionally does not use those phrases as token positioning, utility language, investment framing, or reader-facing benefit claims.
 
 ## Verification Labels
 
@@ -56,4 +57,3 @@ Before merging public claims:
 | No investment framing | Yes |
 | No transaction instructions | Yes |
 | No secrets or credentials | Yes |
-

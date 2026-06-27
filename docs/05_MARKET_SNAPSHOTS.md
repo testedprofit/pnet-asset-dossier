@@ -2,6 +2,8 @@
 
 Snapshot date: 2026-06-27
 
+Exact capture time and timezone were not recorded. Treat every market value in this file as stale historical context.
+
 This file records volatile public-market information as dated snapshots only. Market data changes frequently and should not be used as a permanent token fact.
 
 ## Sources Checked
@@ -47,4 +49,3 @@ Observed on 2026-06-27 from the Vestige page for ASA `3169177585`.
 | Capture Allo details manually or through an accessible public view | Needs verification |
 | Record screenshots for Vestige and official pages in media archive | Needs verification |
 | Reconcile market snapshot against another third-party reference | Needs verification |
-

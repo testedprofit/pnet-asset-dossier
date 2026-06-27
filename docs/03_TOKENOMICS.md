@@ -13,7 +13,7 @@ Primary snapshot: [data/tokenomics/tokenomics-snapshot-2026-06-27.md](../data/to
 | ASA ID | 3169177585 | testedprofit tokenomics page, PNET page | Needs on-chain verification |
 | Total supply | 100,000,000 PNET | testedprofit tokenomics page | Needs on-chain verification |
 | Burned supply shown | 8,180,000 PNET | testedprofit tokenomics page | Needs on-chain verification |
-| Decimals | 6 | testedprofit tokenomics page, PNET page | Needs on-chain verification |
+| Decimals | 6 | testedprofit tokenomics page | Needs on-chain verification |
 | Founder allocation shown | 25M PNET locked | testedprofit tokenomics page | Needs on-chain lock verification |
 | Strategic reserve shown | 15M PNET locked | testedprofit tokenomics page | Needs on-chain lock verification |
 | Major unlock shown | 25% supply lock, Sept 2026 | testedprofit tokenomics page | Needs on-chain lock verification |
@@ -36,10 +36,10 @@ These rows are page-displayed claims only. They should not be described as verif
 | --- | --- | --- | --- |
 | Founder Allocation | 25M PNET | Locked | Needs on-chain lock verification |
 | Strategic Reserve | 15M PNET | Locked | Needs on-chain lock verification |
-| ALGO/PNET Liquidity Pool | 20M PNET paired with 50 ALGO | Liquidity pool | Needs on-chain LP verification |
-| DAO LP DDAO/PNET Ecosystem Pair | 5M PNET paired with 1M DDAO | Liquidity pair | Needs on-chain LP verification |
-| MAX 1 Partner Allocation | 5M PNET | Locked | Needs on-chain lock verification |
-| MAX 2 Partner Allocation | 5M PNET | Locked | Needs on-chain lock verification |
+| ALGO/PNET Liquidity Pool | Label shown; amount not captured in accessible page text | Liquidity pool | Needs on-chain LP verification |
+| DAO LP DDAO/PNET Ecosystem Pair | Label shown; amount not captured in accessible page text | Liquidity pair | Needs on-chain LP verification |
+| MAX 1 Partner Allocation | Partner allocation label shown; amount not captured in accessible page text | Locked | Needs on-chain lock verification |
+| MAX 2 Partner Allocation | Partner allocation label shown; amount not captured in accessible page text | Locked | Needs on-chain lock verification |
 
 ## Vault and Partner Labels
 
@@ -80,4 +80,3 @@ Before any row is upgraded from `Needs on-chain verification`, add evidence that
 Tokenomics pages can contain marketing language. This repo should only preserve neutral, dated facts and should not frame PNET as an investment, income source, managed strategy, or expected-return product.
 
 See [docs/06_PUBLIC_CLAIMS_POLICY.md](06_PUBLIC_CLAIMS_POLICY.md).
-

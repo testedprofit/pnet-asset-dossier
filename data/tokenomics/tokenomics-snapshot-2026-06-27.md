@@ -20,7 +20,7 @@ This is a dated record of public-page claims and third-party references. It is n
 | ASA ID | 3169177585 | testedprofit tokenomics page, testedprofit PNET page | Needs on-chain verification |
 | Total supply | 100,000,000 PNET | testedprofit tokenomics page | Needs on-chain verification |
 | Burned supply shown | 8,180,000 PNET | testedprofit tokenomics page | Needs on-chain verification |
-| Decimals | 6 | testedprofit tokenomics page, testedprofit PNET page | Needs on-chain verification |
+| Decimals | 6 | testedprofit tokenomics page | Needs on-chain verification |
 | Founder allocation shown | 25M PNET locked | testedprofit tokenomics page | Needs on-chain lock verification |
 | Strategic reserve shown | 15M PNET locked | testedprofit tokenomics page | Needs on-chain lock verification |
 | Major unlock shown | 25% supply lock, Sept 2026 | testedprofit tokenomics page | Needs on-chain lock verification |
@@ -33,10 +33,10 @@ All LP, vault, burn, lock, and partner labels below are page-displayed labels on
 | --- | --- | --- | --- |
 | Core allocation | Founder Allocation | 25M PNET locked | Needs on-chain verification |
 | Core allocation | Strategic Reserve | 15M PNET locked | Needs on-chain verification |
-| Liquidity | ALGO/PNET Liquidity Pool | 20M PNET paired with 50 ALGO | Needs on-chain verification |
-| Liquidity | DAO LP DDAO/PNET Ecosystem Pair | 5M PNET paired with 1M DDAO | Needs on-chain verification |
-| Partner allocation | MAX 1 Partner Allocation | 5M PNET | Needs on-chain verification |
-| Partner allocation | MAX 2 Partner Allocation | 5M PNET | Needs on-chain verification |
+| Liquidity | ALGO/PNET Liquidity Pool | Label shown; amount not captured in accessible page text | Needs on-chain verification |
+| Liquidity | DAO LP DDAO/PNET Ecosystem Pair | Label shown; amount not captured in accessible page text | Needs on-chain verification |
+| Partner allocation | MAX 1 Partner Allocation | Partner allocation label shown; amount not captured in accessible page text | Needs on-chain verification |
+| Partner allocation | MAX 2 Partner Allocation | Partner allocation label shown; amount not captured in accessible page text | Needs on-chain verification |
 | Burned LP vault | PNET-ELESQ | Label shown | Needs on-chain verification |
 | Burned LP vault | PNET-JIM | Label shown | Needs on-chain verification |
 | Burned LP vault | PNET-THC | Label shown | Needs on-chain verification |
@@ -86,4 +86,3 @@ The testedprofit pages include the phrase "Passive Income Opportunity". This sna
 | Major unlock mechanics and date | Needs on-chain verification |
 | LP/vault/partner labels and balances | Needs on-chain verification |
 | Allo asset details | Needs manual follow-up |
-
