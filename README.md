@@ -80,6 +80,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | [docs/RFC_INDEX.md](docs/RFC_INDEX.md) | Implementation RFC index |
 | [docs/implementation/README.md](docs/implementation/README.md) | Implementation specs |
 | [docs/implementation/algorand-atomic-transaction-groups.md](docs/implementation/algorand-atomic-transaction-groups.md) | Algorand atomic transaction group patterns for PNET |
+| [docs/implementation/algolens-legacy-progress.md](docs/implementation/algolens-legacy-progress.md) | Legacy AlgoLens prototype progress note |
 | [docs/audit/README.md](docs/audit/README.md) | Audit tracker, threat model, and review checklist |
 | [docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md](docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md) | Contribution protocol disclosure plan |
 | [docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis |

@@ -72,6 +72,7 @@ The repository remains documentation and media only. It must not contain private
 | [implementation/README.md](implementation/README.md) | Implementation specification index |
 | [implementation/community-contribution-protocol-spec.md](implementation/community-contribution-protocol-spec.md) | Community Contribution Protocol methods, state, and security model |
 | [implementation/algorand-atomic-transaction-groups.md](implementation/algorand-atomic-transaction-groups.md) | Algorand atomic transaction group patterns for PNET |
+| [implementation/algolens-legacy-progress.md](implementation/algolens-legacy-progress.md) | Legacy AlgoLens prototype progress note |
 | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Current Contribution Credit System MVP status and artifact hashes |
 | [pnet-contribution-protocol/THREAT_MODEL.md](pnet-contribution-protocol/THREAT_MODEL.md) | Contribution Credit System threat model and MainNet blockers |
 | [contribution/EXTERNAL_ACTIVITY_FRONTEND_FLOW.md](contribution/EXTERNAL_ACTIVITY_FRONTEND_FLOW.md) | Frontend flow for external activity contribution evidence |
