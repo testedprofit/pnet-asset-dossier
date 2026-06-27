@@ -13,6 +13,8 @@ All notable documentation changes to this dossier are recorded here.
 - Added listing-readiness, exchange/bridge notes, on-chain review checklist, and API/data source references.
 - Added deep tokenomics review, on-chain review record, and PNET API/source registry.
 - Added `PNET Whitepaper v1.0` as a canonical technical specification draft with architecture, terminology, verification, security, trust-assumption, and peer-review sections.
+- Added a public-safe Algorand asset launch and verification protocol derived from a privacy-reviewed SOP source document.
+- Added a dated SOP privacy scan record documenting sanitization decisions before repository inclusion.
 
 ### Changed
 
