@@ -21,6 +21,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added a standalone data snapshot PDF scan record and backlog items for lost-wallet burn-path and operational-wallet disclosure review.
 - Added `ROADMAP.md` with Section 1 preparation, TestNet readiness gates, and user-provided operational-wallet context marked `Needs verification`.
 - Added the Phase 1 core token utility specification for staking/proof-of-contribution, optional tool payments, and revenue attribution as TestNet-only future implementation work.
+- Added the Phase 2 market intelligence and governance specification for intelligence receipts, on-chain hash anchoring, public query models, and advisory governance.
 
 ### Changed
 

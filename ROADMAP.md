@@ -90,6 +90,27 @@ Give PNET a TestNet-first utility path through voluntary token locking, access t
 
 Phase 1 cannot be described as live until a separate implementation repository or private TestNet workspace has reviewed code, tests, deployment records, security notes, and public claims review.
 
+## Section 3: Phase 2 - Market Intelligence Layer And Governance
+
+Detailed specification: [docs/16_PHASE_2_MARKET_INTELLIGENCE_GOVERNANCE_SPEC.md](docs/16_PHASE_2_MARKET_INTELLIGENCE_GOVERNANCE_SPEC.md)
+
+### Objective
+
+Start delivering the whitepaper vision through dated intelligence receipts, public queryability, and lightweight governance. This section is a specification only. It does not add snapshot scripts, storage contracts, voting contracts, deployment scripts, frontend stubs, or CLI tooling to this docs-only repository.
+
+### Phase 2 Components
+
+| Component | Purpose | Current status |
+| --- | --- | --- |
+| Intelligence receipts / snapshots | Record dated, source-linked asset facts, holder metrics, liquidity metrics, and claim status | Spec ready; implementation pending outside this repo |
+| Off-chain snapshots plus on-chain hashes | Preserve full receipt content off-chain while anchoring exact content hashes on-chain | Recommended first pattern |
+| Public query model | Support latest receipt, receipt by hash, historical timeline, and open verification claims | Spec ready; implementation pending outside this repo |
+| Lightweight governance | Test advisory signaling for tool priorities, receipt schema, source policy, and treasury research | Spec ready; binding governance not approved |
+
+### Phase 2 Gate
+
+Phase 2 cannot be described as live until a separate implementation repository or private TestNet workspace has reviewed receipt schemas, hash anchoring, query examples, proposal records, voting-weight rules, security notes, and public claims review.
+
 ## Codex Planning Prompt
 
 Use this prompt for planning only. Do not use it to add code to this dossier.
@@ -109,4 +130,4 @@ Section 1 is complete when:
 - future implementation work has a separate location and security policy,
 - all claims remain dated, source-linked, and reviewable.
 
-Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
+Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; PHASE 2 SPEC READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.

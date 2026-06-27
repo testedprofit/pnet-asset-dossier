@@ -34,6 +34,8 @@ Items in this file should be treated as review tasks until completed with public
 | P1 | Add public utility roadmap status labels | Use `Live`, `TestNet`, `Planned`, `Deprecated`, or `Needs verification`; do not imply release commitments |
 | P1 | Add revenue attribution transparency template | Track public revenue categories and treasury support only; do not describe holder payouts without legal, governance, and security review |
 | P1 | Add wallet-movement monitoring methodology | If any project-controlled address is publicly labeled, publish dated balance deltas, source links, and correction notes without exposing private operational notes |
+| P1 | Define intelligence receipt schema | Include source links, capture dates, review status, content hash, and correction history |
+| P1 | Define canonical hash method for receipts | Make off-chain snapshots reproducible before on-chain anchoring |
 
 ## Product and Ecosystem Tasks
 
@@ -48,6 +50,8 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Evaluate contribution/access-tier design | Any lock or access mechanism should be utility-based, non-yield-framed, and reviewed for security/listing risk before publication |
 | P1 | Create separate Phase 1 implementation repository | Contract code, ABI, deployment scripts, frontend stubs, and CLI tools must stay outside this docs-only dossier |
 | P1 | Write Phase 1 threat model | Cover escrow custody, admin powers, reward accounting, treasury depletion, migration, and stale dashboard data |
+| P1 | Create separate Phase 2 implementation repository scope | Snapshot scripts, hash-anchor prototypes, query endpoints, and governance prototypes must stay outside this docs-only dossier |
+| P1 | Write lightweight governance proposal template | Include advisory/binding status, snapshot round, voting rule, execution note, and concentration context |
 | P2 | Add neutral integration notes | Do not imply partner endorsement from public links alone |
 | P2 | Add market-intelligence receipt examples | Use static examples and source citations, not executable transaction code |
 
