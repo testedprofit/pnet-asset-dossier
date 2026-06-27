@@ -1,0 +1,31 @@
+# Local operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and workspace noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and local environment files
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.token
+*.secret
+secrets/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+

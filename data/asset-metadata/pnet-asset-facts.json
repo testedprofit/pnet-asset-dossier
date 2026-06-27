@@ -1,0 +1,98 @@
+{
+  "schema_name": "pnet_asset_facts",
+  "schema_version": "1.0.0",
+  "status_date": "2026-06-27",
+  "repository_scope": "documentation-and-media-only",
+  "asset": {
+    "brand": {
+      "value": "testedprofit / Profitnet",
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "token_name": {
+      "value": "ProfitNet",
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "unit": {
+      "value": "PNET",
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "network": {
+      "value": "Algorand",
+      "verification_status": "Needs verification",
+      "source": "Inferred from ASA ID reference"
+    },
+    "asa_id": {
+      "value": 3169177585,
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "total_supply_display_units": {
+      "value": "100000000",
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "decimals": {
+      "value": 6,
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "derived_raw_supply_units": {
+      "value": "100000000000000",
+      "verification_status": "Needs verification",
+      "source": "Derived from provided total_supply_display_units and decimals"
+    }
+  },
+  "links": {
+    "website": {
+      "value": "https://testedprofit.com",
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "tokenomics": {
+      "value": "https://testedprofit.com/pages/tokenomics/",
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    },
+    "vestige": {
+      "value": "https://vestige.fi/asset/3169177585",
+      "verification_status": "Needs verification",
+      "source": "Provided project brief"
+    }
+  },
+  "unverified_fields": [
+    "brand",
+    "token_name",
+    "unit",
+    "network",
+    "asa_id",
+    "total_supply_display_units",
+    "decimals",
+    "derived_raw_supply_units",
+    "website",
+    "tokenomics",
+    "vestige",
+    "creator_address",
+    "manager_address",
+    "reserve_address",
+    "freeze_address",
+    "clawback_address",
+    "circulating_supply",
+    "distribution",
+    "vesting",
+    "liquidity",
+    "audit_status"
+  ],
+  "prohibited_content_excluded": {
+    "wallet_logic": true,
+    "signer_logic": true,
+    "private_keys": true,
+    "mnemonics": true,
+    "api_keys": true,
+    "env_files": true,
+    "executable_code": true
+  }
+}
+

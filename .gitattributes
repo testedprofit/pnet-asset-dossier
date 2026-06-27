@@ -1,0 +1,16 @@
+* text=auto
+
+*.md text diff=markdown
+*.json text diff=json
+*.txt text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg text
+*.pdf binary
+*.mp4 binary
+*.mov binary
+
