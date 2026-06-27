@@ -12,6 +12,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added public claims policy and media guide.
 - Added listing-readiness, exchange/bridge notes, on-chain review checklist, and API/data source references.
 - Added deep tokenomics review, on-chain review record, and PNET API/source registry.
+- Added `PNET Whitepaper v1.0` as a canonical technical specification draft with architecture, terminology, verification, security, trust-assumption, and peer-review sections.
 
 ### Changed
 
