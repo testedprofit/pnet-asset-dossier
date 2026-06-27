@@ -11,6 +11,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added dated tokenomics and market snapshot documentation.
 - Added public claims policy and media guide.
 - Added listing-readiness, exchange/bridge notes, on-chain review checklist, and API/data source references.
+- Added deep tokenomics review, on-chain review record, and PNET API/source registry.
 
 ### Changed
 
@@ -24,4 +25,4 @@ All notable documentation changes to this dossier are recorded here.
 - External on-chain verification remains incomplete.
 - ASA control fields remain `Needs verification`.
 - Circulating, burned, and locked supply claims remain `Needs verification` or `Needs on-chain verification`.
-
+- Public indexers and Vestige API now provide dated evidence for core ASA identity, control fields, holder concentration, and liquidity snapshots.
