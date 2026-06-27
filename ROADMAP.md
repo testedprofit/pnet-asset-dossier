@@ -132,6 +132,28 @@ Close the loop with auditable treasury accounting, reviewed allocation policy, o
 
 Phase 3 cannot be described as live until treasury accounting, legal review, governance review, security review, public-proof workflows, operational-wallet verification, and burn accounting methodology are complete.
 
+## Section 5: Documentation, Transparency, And Website Updates
+
+Detailed update pack: [docs/18_DOCUMENTATION_TRANSPARENCY_WEBSITE_UPDATES.md](docs/18_DOCUMENTATION_TRANSPARENCY_WEBSITE_UPDATES.md)
+
+### Objective
+
+Maintain and strengthen PNET's transparency posture through clear dossier updates, website copy, contract/deployment disclosure templates, utility-roadmap language, operational-wallet disclosure guidance, and burn-accounting methodology.
+
+### Section 5 Components
+
+| Component | Purpose | Current status |
+| --- | --- | --- |
+| Dossier update checklist | Track roadmap, tokenomics, wallet, contract, and snapshot documentation work | Ready for review |
+| Website utility roadmap copy | Provide restrained language for Phase 1, Phase 2, and Phase 3 status | Ready for review |
+| Operational wallet website copy | Disclose address only as user-provided and `Needs verification` | Ready for review |
+| Lost creator account copy | Provide pre-verification and post-verification wording | Ready for review |
+| Contract deployment table | Prevent claims of live contracts without app IDs, source commits, and review status | Ready for review |
+
+### Section 5 Gate
+
+Website updates should not describe utility, governance, revenue routing, burn accounting, or contracts as live until the related evidence, review status, and source-linked deployment records exist.
+
 ## Codex Planning Prompt
 
 Use this prompt for planning only. Do not use it to add code to this dossier.
@@ -151,4 +173,4 @@ Section 1 is complete when:
 - future implementation work has a separate location and security policy,
 - all claims remain dated, source-linked, and reviewable.
 
-Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; PHASE 2 SPEC READY FOR REVIEW; PHASE 3 SPEC READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
+Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; PHASE 2 SPEC READY FOR REVIEW; PHASE 3 SPEC READY FOR REVIEW; SECTION 5 WEBSITE UPDATE PACK READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
