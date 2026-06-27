@@ -16,6 +16,8 @@ Items in this file should be treated as review tasks until completed with public
 | P0 | Explain Sept 2026 unlock mechanics | Unlock timing should not rely on page text alone | Needs on-chain verification |
 | P0 | Reconcile website, Vestige, and explorer supply/burn/circulation fields | Public diligence requires one documented methodology | Needs methodology review |
 | P0 | Confirm LP/vault labels with pool IDs, balances, and account evidence | Pool labels are not proof of lock or burn state | Needs on-chain verification |
+| P0 | Verify ASA creation date and creation round from explorer/indexer sources | A review PDF cited `August 12, 2025` and round `52678300`; these should not be treated as facts until independently confirmed | Needs verification |
+| P0 | Verify Pera asset verification status and meaning | Explorer badges can change and may not mean broad project endorsement | Needs verification |
 
 ## Documentation and Transparency Tasks
 
@@ -26,6 +28,9 @@ Items in this file should be treated as review tasks until completed with public
 | P1 | Add official channel list | Public website, GitHub, explorer, market pages, and social links with `Needs verification` status where needed |
 | P1 | Add correction/dispute process | GitHub issue template or public review process |
 | P1 | Add reviewer-signed verification records | Human review notes for control fields, locks, burns, liquidity, and market snapshots |
+| P1 | Add tokenomics methodology definitions | Define total supply, circulating supply, burned supply, locked supply, vault balance, liquidity balance, and excluded balances |
+| P1 | Add public utility roadmap status labels | Use `Live`, `TestNet`, `Planned`, `Deprecated`, or `Needs verification`; do not imply release commitments |
+| P1 | Add revenue attribution transparency template | Track public revenue categories and treasury support only; do not describe holder payouts without legal, governance, and security review |
 
 ## Product and Ecosystem Tasks
 
@@ -36,6 +41,8 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Separate live product claims from future-product targets | Every feature should be marked `Live`, `TestNet`, `Planned`, or `Needs verification` |
 | P1 | Publish public API/schema docs only after implementation | Docs should remain read-only and should not include signing, wallet, or transaction logic |
 | P1 | Add product status table | Include product name, network, status, source link, and security-review status |
+| P1 | Create AlgoFlow tool status matrix | Review Crowdfund, Token Launchpad, PNET Genesis, MultiSend, Wallet Inspector, AlgoSocial, ProfitLock, and AlgoPool with source-backed status labels |
+| P1 | Evaluate contribution/access-tier design | Any lock or access mechanism should be utility-based, non-yield-framed, and reviewed for security/listing risk before publication |
 | P2 | Add neutral integration notes | Do not imply partner endorsement from public links alone |
 | P2 | Add market-intelligence receipt examples | Use static examples and source citations, not executable transaction code |
 
@@ -46,6 +53,7 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Separate PNET protocol pages from earning-oriented/referral content | Keep PNET positioning focused on market intelligence and verification |
 | P1 | Replace promotional language with factual language | Describe what is live, what is planned, and what is unverified |
 | P1 | Add a neutral asset verification page | Include ASA ID, links, source dates, and risk disclosures |
+| P1 | Add source-linked public data/content index | Use dated entries, source URLs, review status, and correction notes; avoid income or return framing |
 | P2 | Add FAQ for asset verification | Avoid purchase instructions, return framing, and exchange/listing implications |
 | P2 | Add content-source methodology | Explain how public claims, market data, and tokenomics snapshots are reviewed |
 
@@ -56,6 +64,7 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Publish canonical liquidity references | Venue, pool ID, pair assets, capture date, and source |
 | P1 | Publish slippage and counter-asset quality methodology | Treat all market metrics as stale snapshots |
 | P1 | Track LP concentration and withdrawal sensitivity | Do not present token liquidity as protocol TVL |
+| P1 | Evaluate protocol-liquidity policy only after treasury policy exists | Liquidity work should be documented as risk management, not as a TVL target or market-making promise |
 | P2 | Add liquidity fragmentation notes | Explain micro-pool and long-tail pair risk |
 | P2 | Add dashboard/source comparison notes | Compare Vestige, Pera, Allo, Lora, Tinyman, Pact, and indexer data when available |
 
@@ -77,6 +86,8 @@ The source review material contained suggestions or descriptions that should not
 | --- | --- |
 | Staking or revenue-share language | Not imported as PNET utility; requires formal design and legal/security review |
 | Buyback or burn-from-revenue ideas | Not imported as a commitment; would require governance and treasury policy |
+| Holder-benefit or token-value phrasing | Not imported; public docs should define utility and risks without implying expected returns |
+| Internal strategic analysis PDFs | Raw PDFs not imported when labeled internal/confidential; only sanitized findings may be added |
 | Purchase or exchange onboarding instructions | Not included in this dossier |
 | Web2 earning/referral positioning | Not imported as PNET protocol positioning |
 | MainNet tool availability claims | Mark `Needs verification` unless live source evidence is recorded |
