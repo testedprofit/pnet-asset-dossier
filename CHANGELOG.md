@@ -6,6 +6,27 @@ All notable documentation changes to this dossier are recorded here.
 
 ### Added
 
+- Added `docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md`, `PUBLIC_CLAIMS_POLICY.md`, and `VERIFICATION_PROCESS.md` for the Contribution Credit System MVP.
+- Added `docs/pnet-contribution-protocol/RISK_REGISTER.md` for MVP risk tracking and MainNet gate criteria.
+- Added `docs/pnet-contribution-protocol/THREAT_MODEL.md` for contribution-specific threat modeling and MainNet blocker tracking.
+- Added `docs/pnet-contribution-protocol/AUDIT_READINESS_CHECKLIST.md` for MVP audit preparation.
+- Added `docs/pnet-contribution-protocol/MVP.md` and `METHODS.md` to connect the implementation package to the public dossier without claiming a live deployment.
+- Added `docs/implementation/algorand-atomic-transaction-groups.md` to define public-safe Algorand atomic transaction group patterns for PNET coordination, access receipts, fee sponsorship, and future tool integrations.
+- Added `data/on-chain-proofs/contribution-protocol/` with a TestNet deployment proof template.
+- Added `docs/contribution/PUBLIC_CASE_STUDY_POLICY.md` to prevent user-specific earnings, payout values, market-cap comparisons, and hardware-profitability claims from being published as PNET case studies.
+- Added `docs/contribution/EXTERNAL_ACTIVITY_FRONTEND_FLOW.md` with a public-safe frontend workflow for Kryptex-style compute-participation evidence and Honeygain / JumpTask-style bandwidth-sharing evidence.
+- Added `docs/contribution/REAL_WORLD_CONTRIBUTION_EVIDENCE.md` to define safe handling for third-party activity evidence such as compute participation, bandwidth-sharing participation, referral-campaign participation, and educational proof-of-work.
+- Added `data/on-chain-proofs/` with an asset identity proof, operational-wallet snapshot proof, supply methodology, burn/lock/vault worklist, transaction-proof template, and machine-readable proof index.
+- Added `docs/implementation/` with the Community Contribution Protocol implementation specification, smart-contract design principles, and market-intelligence API specification.
+- Added `docs/audit/` with an audit readiness index, audit tracker, threat model, and security review checklist.
+- Added `docs/DEPLOYMENT_REGISTRY.md`, `docs/LIVE_TESTNET_EVIDENCE.md`, `docs/WHITEPAPER_REALITY_MAP.md`, `docs/OPERATIONAL_WALLET_TRANSPARENCY.md`, and `docs/RFC_INDEX.md` to separate implementation status from verified evidence.
+- Rewrote `WHITEPAPER.md` as `PNET Whitepaper v1.1` with a cleaner specification structure, utility model, implementation roadmap, verification model, contribution protocol section, and updated risk framing.
+- Added `docs/README.md` as the public documentation index.
+- Added user, developer, security, contribution-protocol, verification-handbook, website-copy, and announcement-template documentation folders.
+- Added a public verification handbook explaining how reviewers can audit asset identity, controls, supply, tokenomics, holders, markets, and future contribution protocol deployments from public sources.
+- Added website copy templates for tokenomics, utility, contribution protocol, operational wallet, and lost creator account sections.
+- Added public announcement templates for dossier updates, whitepaper v1.1, TestNet contribution protocol updates, verification reports, security updates, and corrections.
+- Added a ProfitNet content and marketing system with a 30-day education-first calendar, SEO article templates, X/Twitter thread templates, brand and jingle usage guide, and email onboarding sequence.
 - Created the initial docs-only PNET asset dossier.
 - Added tokenomics, verification, security, disclaimer, media, and asset-facts documentation.
 - Added dated tokenomics and market snapshot documentation.
@@ -25,9 +46,24 @@ All notable documentation changes to this dossier are recorded here.
 - Added the Phase 3 revenue feedback and tokenomics hardening specification, including treasury accounting, operational-wallet hardening, and lost-wallet burn-accounting methodology.
 - Added the documentation, transparency, and website update pack with utility-roadmap, operational-wallet, burn-accounting, and deployment-record copy.
 - Added the testing, security, deployment, and measurement specification with TestNet test matrix, deployment gates, audit areas, and KPI dashboard outline.
+- Added the contribution protocol public disclosure plan with website-safe copy, security and verification wording, operational-wallet handling, and contract publication checklist.
+- Added the contribution protocol final package with executive summary, implementation status, dossier-ready sections, risk register, next actions, audit timing, and public announcement draft.
 
 ### Changed
 
+- Updated README, documentation index, deployment registry, live evidence page, and whitepaper reality map to reference the Contribution Credit System MVP and pending TestNet proof package.
+- Updated `WHITEPAPER.md` to include Algorand atomic transaction groups as a PNET coordination primitive, with custody/deposit/trading/yield boundaries.
+- Updated website copy templates with reviewed tokenomics-page language for the Contribution Credit System.
+- Added dual-use hardware and energy-disclosure guidance for compute-participation evidence, including future-roadmap treatment for renewable-energy attestations.
+- Updated external contribution evidence guidance to distinguish private reviewer evidence from public case-study records.
+- Extended the Community Contribution Protocol specification to draft v0.2 with external-activity state counters, `record_verified_activity`, `record_kryptex_activity`, `record_honeygain_activity`, and `reject_activity` method designs.
+- Added service-specific evidence handling rules for Kryptex-style and Honeygain / JumpTask-style submissions while keeping screenshots and wallet/account references off-chain and redacted.
+- Updated the contribution protocol guide, implementation specification, media guide, documentation index, and public claims policy to require redacted evidence, receipt hashes, and no public user-specific payout or wallet screenshot data for external contribution categories.
+- Updated the README gate status to show the on-chain proof package, implementation specs, and audit readiness package as started.
+- Updated the asset facts, tokenomics, deployment, and on-chain checklist records to mark ASA identity, raw total, decimals, creator, and current control fields as verified by dated public-indexer evidence.
+- Updated `WHITEPAPER.md` with a `Current Implementation Status` section and contribution-based token utility mechanics that distinguish specification, TestNet work, and unverified claims.
+- Updated `README.md` to make the new whitepaper, documentation index, verification handbook, and website/announcement templates the primary navigation path.
+- Sanitized an unverified third-party partner-lock label in tokenomics records to avoid confusing public partnership or inspiration context.
 - Reframed tokenomics as dated public-page snapshots.
 - Added a tokenomics supply methodology addendum separating direct burns, inaccessible-account claims, reviewed locks, and circulating-supply methodology.
 - Marked lock, vault, burn, liquidity, and allocation claims as requiring on-chain verification.
@@ -36,7 +72,7 @@ All notable documentation changes to this dossier are recorded here.
 
 ### Verification Status
 
-- External on-chain verification remains incomplete.
-- ASA control fields remain `Needs verification`.
+- ASA identity, supply, decimals, creator address, current zero control fields, and operational-wallet balance snapshot now have dated public-indexer evidence.
+- Historical control changes, creator-wallet access status, burn accounting, lock accounting, vault labels, and LP labels remain `Needs verification` or `Needs on-chain verification`.
 - Circulating, burned, and locked supply claims remain `Needs verification` or `Needs on-chain verification`.
 - Public indexers and Vestige API now provide dated evidence for core ASA identity, control fields, holder concentration, and liquidity snapshots.

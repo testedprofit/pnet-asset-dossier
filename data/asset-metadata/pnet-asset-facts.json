@@ -11,13 +11,13 @@
     },
     "token_name": {
       "value": "ProfitNet",
-      "verification_status": "Needs verification",
-      "source": "Provided project brief"
+      "verification_status": "Verified by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
     },
     "unit": {
       "value": "PNET",
-      "verification_status": "Needs verification",
-      "source": "Provided project brief"
+      "verification_status": "Verified by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
     },
     "network": {
       "value": "Algorand",
@@ -26,23 +26,48 @@
     },
     "asa_id": {
       "value": 3169177585,
-      "verification_status": "Needs verification",
-      "source": "Provided project brief"
+      "verification_status": "Verified by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
     },
     "total_supply_display_units": {
       "value": "100000000",
-      "verification_status": "Needs verification",
-      "source": "Provided project brief"
+      "verification_status": "Verified by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
     },
     "decimals": {
       "value": 6,
-      "verification_status": "Needs verification",
-      "source": "Provided project brief"
+      "verification_status": "Verified by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
     },
     "derived_raw_supply_units": {
       "value": "100000000000000",
-      "verification_status": "Needs verification",
-      "source": "Derived from provided total_supply_display_units and decimals"
+      "verification_status": "Verified by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
+    },
+    "creator_address": {
+      "value": "7FRTVAZ5KCEF2CDCJACZHLLHH5QF3DTC7R4IV4KJO4K3P7TMD75ADU3Y5E",
+      "verification_status": "Verified by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
+    },
+    "manager_address": {
+      "value": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ",
+      "verification_status": "Verified current value by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
+    },
+    "reserve_address": {
+      "value": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ",
+      "verification_status": "Verified current value by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
+    },
+    "freeze_address": {
+      "value": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ",
+      "verification_status": "Verified current value by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
+    },
+    "clawback_address": {
+      "value": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY5HFKQ",
+      "verification_status": "Verified current value by public indexers",
+      "source": "data/on-chain-proofs/asset-identity-proof-2026-06-27.md"
     }
   },
   "links": {
@@ -69,22 +94,11 @@
   },
   "unverified_fields": [
     "brand",
-    "token_name",
-    "unit",
     "network",
-    "asa_id",
-    "total_supply_display_units",
-    "decimals",
-    "derived_raw_supply_units",
     "website",
     "tokenomics",
     "pnet_page",
     "vestige",
-    "creator_address",
-    "manager_address",
-    "reserve_address",
-    "freeze_address",
-    "clawback_address",
     "circulating_supply",
     "distribution",
     "vesting",
