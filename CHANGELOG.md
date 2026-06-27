@@ -12,6 +12,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added `docs/pnet-contribution-protocol/AUDIT_READINESS_CHECKLIST.md` for MVP audit preparation.
 - Added `docs/pnet-contribution-protocol/MVP.md` and `METHODS.md` to connect the implementation package to the public dossier without claiming a live deployment.
 - Added `docs/implementation/algorand-atomic-transaction-groups.md` to define public-safe Algorand atomic transaction group patterns for PNET coordination, access receipts, fee sponsorship, and future tool integrations.
+- Added `docs/implementation/algolens-legacy-progress.md` to record a privacy-reviewed legacy AlgoLens standalone asset-auditor prototype without committing executable HTML to the docs-only dossier.
 - Added `data/on-chain-proofs/contribution-protocol/` with a TestNet deployment proof template.
 - Added `docs/contribution/PUBLIC_CASE_STUDY_POLICY.md` to prevent user-specific earnings, payout values, market-cap comparisons, and hardware-profitability claims from being published as PNET case studies.
 - Added `docs/contribution/EXTERNAL_ACTIVITY_FRONTEND_FLOW.md` with a public-safe frontend workflow for Kryptex-style compute-participation evidence and Honeygain / JumpTask-style bandwidth-sharing evidence.

@@ -12,6 +12,7 @@ This folder bridges the whitepaper and future code repositories. It defines beha
 | [smart-contract-design-principles.md](smart-contract-design-principles.md) | Shared contract design rules and safety invariants | Ready for review |
 | [market-intelligence-api-spec.md](market-intelligence-api-spec.md) | Snapshot and receipt API model | Draft |
 | [algorand-atomic-transaction-groups.md](algorand-atomic-transaction-groups.md) | Algorand atomic-group patterns for PNET receipts, access checks, and future tool integrations | Draft |
+| [algolens-legacy-progress.md](algolens-legacy-progress.md) | Legacy AlgoLens standalone HTML prototype scan and progress note | Archived prototype note |
 
 ## Rules
 
