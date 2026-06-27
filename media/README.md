@@ -28,4 +28,16 @@ Each media file should include source notes in this README or a neighboring meta
 
 ## Current Media Inventory
 
-No media files have been added yet. Needs verification.
+| File | Description | Origin | Capture / added date | Privacy scan | Rights / official status |
+| --- | --- | --- | --- | --- | --- |
+| [pnet-logo.jpg](pnet-logo.jpg) | ProfitNet / PNET logo image for ASA and dossier references | Maintainer-provided local file `PNET.jpg` | Added 2026-06-27 | PASS: no EXIF metadata found; no embedded objects found | Needs verification |
+
+## File Notes
+
+### `pnet-logo.jpg`
+
+- Format: JPEG
+- Dimensions: 1024 x 1024
+- SHA-256: `8AFB8D0A570B1BBE9A5B273E707A7D53F96806DF8E07D474778220A2E4D1AFA0`
+- Visual description: ProfitNet badge logo with mountain, sun, and `PROFIT NET` wordmark.
+- Official ASA logo status: Needs verification against an official asset metadata source, wallet listing, or brand-controlled media page.

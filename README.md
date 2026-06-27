@@ -43,7 +43,7 @@ GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
 - API/source review record: [data/api-sources/pnet-api-sources.md](data/api-sources/pnet-api-sources.md)
 - SOP privacy scan record: [data/privacy-reviews/sop-privacy-scan-2026-06-27.md](data/privacy-reviews/sop-privacy-scan-2026-06-27.md)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
-- Media archive placeholder: [media/README.md](media/README.md)
+- Media archive: [media/README.md](media/README.md)
 - Machine-readable asset facts: [data/asset-metadata/pnet-asset-facts.json](data/asset-metadata/pnet-asset-facts.json)
 
 ## What This Repository Does Not Contain
