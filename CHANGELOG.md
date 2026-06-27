@@ -16,6 +16,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added a public-safe Algorand asset launch and verification protocol derived from a privacy-reviewed SOP source document.
 - Added a dated SOP privacy scan record documenting sanitization decisions before repository inclusion.
 - Added maintainer-provided PNET logo media with metadata/privacy scan notes.
+- Added a public review backlog and PDF scan record derived from a privacy-reviewed project review PDF.
 
 ### Changed
 
