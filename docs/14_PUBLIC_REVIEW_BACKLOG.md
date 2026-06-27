@@ -19,7 +19,7 @@ Items in this file should be treated as review tasks until completed with public
 | P0 | Verify ASA creation date and creation round from explorer/indexer sources | A review PDF cited `August 12, 2025` and round `52678300`; these should not be treated as facts until independently confirmed | Needs verification |
 | P0 | Verify Pera asset verification status and meaning | Explorer badges can change and may not mean broad project endorsement | Needs verification |
 | P0 | Verify claimed lost-creator burn path | A later snapshot claims opted-out tokens sent to the original creator account are permanently irrecoverable; this needs on-chain, wallet-control, and disclosure review before publication | Needs on-chain and disclosure review |
-| P0 | Review operational wallet label disclosure | A source PDF contains an operational wallet address; do not publish it until the project explicitly approves disclosure and the address, balance, and role are independently verified | Needs security review |
+| P0 | Review operational wallet label disclosure | The operational wallet address is now published in `ROADMAP.md` as user-provided; balance, role, and project-control status still require independent verification | Needs security review |
 
 ## Documentation and Transparency Tasks
 
@@ -92,7 +92,7 @@ The source review material contained suggestions or descriptions that should not
 | Buyback or burn-from-revenue ideas | Not imported as a commitment; would require governance and treasury policy |
 | Holder-benefit or token-value phrasing | Not imported; public docs should define utility and risks without implying expected returns |
 | Internal strategic analysis PDFs | Raw PDFs not imported when labeled internal/confidential; only sanitized findings may be added |
-| User-provided operational wallet address | Not imported until disclosure is explicitly approved and independently verified |
+| User-provided operational wallet address | Included only in `ROADMAP.md` after explicit user instruction; not treated as verified without on-chain and human review |
 | Code-generation prompt requesting contracts or deployment scripts | Not implemented in this docs-only repository; future code belongs in a separate implementation repository |
 | Purchase or exchange onboarding instructions | Not included in this dossier |
 | Web2 earning/referral positioning | Not imported as PNET protocol positioning |

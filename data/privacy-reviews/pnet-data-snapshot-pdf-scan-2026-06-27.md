@@ -37,14 +37,14 @@ Repository action: The raw PDF was not committed. The PDF contains user-provided
 | Identity documents | None found |
 | Transaction-signing material | None found |
 | Local filesystem paths | None imported |
-| Operational wallet context | Present in source; exact address not imported |
+| Operational wallet context | Present in source; exact address was not imported during this scan |
 
 ## Public-Safe Candidate Items
 
 | Candidate item | Handling |
 | --- | --- |
 | Claimed lost-creator burn path | Added to backlog as `Needs on-chain and disclosure review` |
-| Operational wallet label | Added to backlog as a disclosure-review task without publishing the address |
+| Operational wallet label | Added to backlog as a disclosure-review task; later roadmap disclosure remains `Needs verification` |
 | Creation date and Pera verification status | Already present in backlog from the prior PDF scan |
 | Supply-definition methodology | Already present in backlog; reinforced by this snapshot |
 | Explorer-difference reconciliation | Already present in backlog through supply/burn/circulation methodology tasks |
@@ -55,11 +55,11 @@ Repository action: The raw PDF was not committed. The PDF contains user-provided
 
 | Source material type | Handling |
 | --- | --- |
-| User-provided operational address | Not imported until explicitly approved for public disclosure and independently verified |
+| User-provided operational address | Not imported during the scan; later included in `ROADMAP.md` after explicit user instruction and marked `Needs verification` |
 | Internal/reference-use source wording | Raw PDF not committed |
 | Claims marked as verified or authoritative inside the source | Downgraded to review tasks unless already independently sourced |
 | Market-cap or upside language | Not imported |
 | Tooling, lock, or treasury suggestions | Converted to review tasks only; no implementation added |
 | Attached code-generation prompt | Not implemented in this docs-only repository; future code belongs in a separate implementation repository after security review |
 
-Current Gate Status: PASS for scan; raw PDF not included; operational address not published.
+Current Gate Status: PASS for scan; raw PDF not included; operational address later disclosed only in `ROADMAP.md` as user-provided and unverified.
