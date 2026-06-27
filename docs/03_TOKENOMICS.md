@@ -75,6 +75,20 @@ Before any row is upgraded from `Needs on-chain verification`, add evidence that
 | Method | Plain-language verification method |
 | Reviewer | Name or handle of reviewer |
 
+## Supply Methodology Addendum
+
+Future tokenomics snapshots should separate direct burns, reviewed locks, and inaccessible-account claims. These categories should not be merged unless a methodology, public evidence, and reviewer sign-off are recorded.
+
+| Category | Treatment | Dossier status |
+| --- | --- | --- |
+| Direct burned supply | Count only when supported by public explorer or indexer evidence | Needs on-chain verification |
+| Inaccessible-account supply | Track separately from direct burn amounts when an account is claimed to be unavailable | Needs disclosure and human review |
+| Opt-out-to-creator loss | Do not describe as a verified burn method until chain behavior, account status, and disclosure wording are reviewed | Needs on-chain and disclosure review |
+| Locked supply | Count only when lock address, escrow, app, or contract evidence is recorded | Needs on-chain lock verification |
+| Circulating supply | Calculate only from the approved methodology version and source records | Needs methodology approval |
+
+Related hardening spec: [docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md](17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md).
+
 ## Public Claims Guardrails
 
 Tokenomics pages can contain marketing language. This repo should only preserve neutral, dated facts and should not frame PNET as an investment, income source, managed strategy, or expected-return product.

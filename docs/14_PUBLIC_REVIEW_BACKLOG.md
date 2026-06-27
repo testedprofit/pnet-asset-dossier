@@ -36,6 +36,8 @@ Items in this file should be treated as review tasks until completed with public
 | P1 | Add wallet-movement monitoring methodology | If any project-controlled address is publicly labeled, publish dated balance deltas, source links, and correction notes without exposing private operational notes |
 | P1 | Define intelligence receipt schema | Include source links, capture dates, review status, content hash, and correction history |
 | P1 | Define canonical hash method for receipts | Make off-chain snapshots reproducible before on-chain anchoring |
+| P1 | Define treasury accounting template | Include source category, amount, asset, date, route, transaction reference, policy version, reviewer, and correction path |
+| P1 | Add revenue feedback policy review | Treat allocation splits as research until legal, governance, security, and public-claims review are complete |
 
 ## Product and Ecosystem Tasks
 
@@ -52,6 +54,8 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Write Phase 1 threat model | Cover escrow custody, admin powers, reward accounting, treasury depletion, migration, and stale dashboard data |
 | P1 | Create separate Phase 2 implementation repository scope | Snapshot scripts, hash-anchor prototypes, query endpoints, and governance prototypes must stay outside this docs-only dossier |
 | P1 | Write lightweight governance proposal template | Include advisory/binding status, snapshot round, voting rule, execution note, and concentration context |
+| P1 | Write operational-wallet hardening guide | Verify role/balance, segment functions, review time-lock strategy, and avoid private custody details |
+| P1 | Write Phase 3 threat model | Cover treasury accounting errors, admin control, legal/listing risk, buyback/burn assumptions, and operational-wallet compromise |
 | P2 | Add neutral integration notes | Do not imply partner endorsement from public links alone |
 | P2 | Add market-intelligence receipt examples | Use static examples and source citations, not executable transaction code |
 

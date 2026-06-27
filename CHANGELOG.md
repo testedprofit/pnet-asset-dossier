@@ -22,10 +22,12 @@ All notable documentation changes to this dossier are recorded here.
 - Added `ROADMAP.md` with Section 1 preparation, TestNet readiness gates, and user-provided operational-wallet context marked `Needs verification`.
 - Added the Phase 1 core token utility specification for staking/proof-of-contribution, optional tool payments, and revenue attribution as TestNet-only future implementation work.
 - Added the Phase 2 market intelligence and governance specification for intelligence receipts, on-chain hash anchoring, public query models, and advisory governance.
+- Added the Phase 3 revenue feedback and tokenomics hardening specification, including treasury accounting, operational-wallet hardening, and lost-wallet burn-accounting methodology.
 
 ### Changed
 
 - Reframed tokenomics as dated public-page snapshots.
+- Added a tokenomics supply methodology addendum separating direct burns, inaccessible-account claims, reviewed locks, and circulating-supply methodology.
 - Marked lock, vault, burn, liquidity, and allocation claims as requiring on-chain verification.
 - Downgraded LP and partner allocation amounts that were not visible in accessible page text.
 - Added explicit guidance that bridge, Base, Wormhole, or exchange references do not imply Coinbase or exchange support.

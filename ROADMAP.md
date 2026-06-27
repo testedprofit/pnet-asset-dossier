@@ -111,6 +111,27 @@ Start delivering the whitepaper vision through dated intelligence receipts, publ
 
 Phase 2 cannot be described as live until a separate implementation repository or private TestNet workspace has reviewed receipt schemas, hash anchoring, query examples, proposal records, voting-weight rules, security notes, and public claims review.
 
+## Section 4: Phase 3 - Revenue Feedback And Tokenomics Hardening
+
+Detailed specification: [docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md](docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md)
+
+### Objective
+
+Close the loop with auditable treasury accounting, reviewed allocation policy, operational-wallet hardening, and clearer tokenomics methodology. This section is a specification only. It does not add revenue-routing code, multisig setup, buyback logic, burn logic, deployment scripts, frontend stubs, or CLI tooling to this docs-only repository.
+
+### Phase 3 Components
+
+| Component | Purpose | Current status |
+| --- | --- | --- |
+| Treasury accounting | Record source-linked inflows, outflows, routes, and policy versions | Spec ready; implementation pending outside this repo |
+| Revenue feedback policy | Define conservative allocation templates before any live mechanism | Spec ready; direct staker flow not approved |
+| Operational wallet hardening | Verify role, balance, controls, movement history, and possible lock strategy | Needs on-chain, human, and security review |
+| Lost-wallet burn accounting | Separate direct burn figures from inaccessible-account methodology | Needs methodology approval |
+
+### Phase 3 Gate
+
+Phase 3 cannot be described as live until treasury accounting, legal review, governance review, security review, public-proof workflows, operational-wallet verification, and burn accounting methodology are complete.
+
 ## Codex Planning Prompt
 
 Use this prompt for planning only. Do not use it to add code to this dossier.
@@ -130,4 +151,4 @@ Section 1 is complete when:
 - future implementation work has a separate location and security policy,
 - all claims remain dated, source-linked, and reviewable.
 
-Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; PHASE 2 SPEC READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
+Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; PHASE 2 SPEC READY FOR REVIEW; PHASE 3 SPEC READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
