@@ -45,6 +45,7 @@ GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
 - SOP privacy scan record: [data/privacy-reviews/sop-privacy-scan-2026-06-27.md](data/privacy-reviews/sop-privacy-scan-2026-06-27.md)
 - PNET PDF scan record: [data/privacy-reviews/pnet-1-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-1-pdf-scan-2026-06-27.md)
 - PNET in-depth analysis PDF scan record: [data/privacy-reviews/pnet-indepth-analysis-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-indepth-analysis-pdf-scan-2026-06-27.md)
+- PNET standalone data snapshot PDF scan record: [data/privacy-reviews/pnet-data-snapshot-pdf-scan-2026-06-27.md](data/privacy-reviews/pnet-data-snapshot-pdf-scan-2026-06-27.md)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
 - Media archive: [media/README.md](media/README.md)
 - Machine-readable asset facts: [data/asset-metadata/pnet-asset-facts.json](data/asset-metadata/pnet-asset-facts.json)
@@ -74,6 +75,7 @@ Facts in this repository are treated as unverified until confirmed against autho
 | Deep tokenomics review | PASS | Dated read-only review added from indexer, Vestige, and public-page sources. |
 | SOP privacy review | PASS | Raw DOCX was scanned and not committed; public-safe Markdown SOP was added. |
 | PDF review scans | PASS | Raw PDFs were scanned and not committed; safe review items were summarized as backlog. |
+| Operational wallet disclosure | NOT PUBLISHED | User-provided operational wallet details require explicit disclosure approval and independent verification before publication. |
 | External fact verification | NEEDS VERIFICATION | Asset metadata and public references need independent confirmation. |
 | On-chain lock / vault verification | NEEDS VERIFICATION | Page-displayed LP, vault, lock, and allocation labels need explorer or indexer evidence. |
 | Exchange / bridge support | NOT CLAIMED | Bridge research and exchange support are documented as unconfirmed and future-research-only where applicable. |

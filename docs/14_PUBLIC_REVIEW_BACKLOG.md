@@ -18,6 +18,8 @@ Items in this file should be treated as review tasks until completed with public
 | P0 | Confirm LP/vault labels with pool IDs, balances, and account evidence | Pool labels are not proof of lock or burn state | Needs on-chain verification |
 | P0 | Verify ASA creation date and creation round from explorer/indexer sources | A review PDF cited `August 12, 2025` and round `52678300`; these should not be treated as facts until independently confirmed | Needs verification |
 | P0 | Verify Pera asset verification status and meaning | Explorer badges can change and may not mean broad project endorsement | Needs verification |
+| P0 | Verify claimed lost-creator burn path | A later snapshot claims opted-out tokens sent to the original creator account are permanently irrecoverable; this needs on-chain, wallet-control, and disclosure review before publication | Needs on-chain and disclosure review |
+| P0 | Review operational wallet label disclosure | A source PDF contains an operational wallet address; do not publish it until the project explicitly approves disclosure and the address, balance, and role are independently verified | Needs security review |
 
 ## Documentation and Transparency Tasks
 
@@ -31,6 +33,7 @@ Items in this file should be treated as review tasks until completed with public
 | P1 | Add tokenomics methodology definitions | Define total supply, circulating supply, burned supply, locked supply, vault balance, liquidity balance, and excluded balances |
 | P1 | Add public utility roadmap status labels | Use `Live`, `TestNet`, `Planned`, `Deprecated`, or `Needs verification`; do not imply release commitments |
 | P1 | Add revenue attribution transparency template | Track public revenue categories and treasury support only; do not describe holder payouts without legal, governance, and security review |
+| P1 | Add wallet-movement monitoring methodology | If any project-controlled address is publicly labeled, publish dated balance deltas, source links, and correction notes without exposing private operational notes |
 
 ## Product and Ecosystem Tasks
 
@@ -65,6 +68,7 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Publish slippage and counter-asset quality methodology | Treat all market metrics as stale snapshots |
 | P1 | Track LP concentration and withdrawal sensitivity | Do not present token liquidity as protocol TVL |
 | P1 | Evaluate protocol-liquidity policy only after treasury policy exists | Liquidity work should be documented as risk management, not as a TVL target or market-making promise |
+| P1 | Reconcile direct burn figures with claimed irrecoverable-wallet mechanics | Document which explorers count direct burn-address balances and which require separate methodology for inaccessible accounts |
 | P2 | Add liquidity fragmentation notes | Explain micro-pool and long-tail pair risk |
 | P2 | Add dashboard/source comparison notes | Compare Vestige, Pera, Allo, Lora, Tinyman, Pact, and indexer data when available |
 
@@ -88,6 +92,8 @@ The source review material contained suggestions or descriptions that should not
 | Buyback or burn-from-revenue ideas | Not imported as a commitment; would require governance and treasury policy |
 | Holder-benefit or token-value phrasing | Not imported; public docs should define utility and risks without implying expected returns |
 | Internal strategic analysis PDFs | Raw PDFs not imported when labeled internal/confidential; only sanitized findings may be added |
+| User-provided operational wallet address | Not imported until disclosure is explicitly approved and independently verified |
+| Code-generation prompt requesting contracts or deployment scripts | Not implemented in this docs-only repository; future code belongs in a separate implementation repository |
 | Purchase or exchange onboarding instructions | Not included in this dossier |
 | Web2 earning/referral positioning | Not imported as PNET protocol positioning |
 | MainNet tool availability claims | Mark `Needs verification` unless live source evidence is recorded |
