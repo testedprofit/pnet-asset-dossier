@@ -51,6 +51,7 @@ GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
 - Phase 2 market intelligence and governance specification: [docs/16_PHASE_2_MARKET_INTELLIGENCE_GOVERNANCE_SPEC.md](docs/16_PHASE_2_MARKET_INTELLIGENCE_GOVERNANCE_SPEC.md)
 - Phase 3 revenue feedback and tokenomics hardening specification: [docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md](docs/17_PHASE_3_REVENUE_TOKENOMICS_HARDENING_SPEC.md)
 - Documentation, transparency, and website update pack: [docs/18_DOCUMENTATION_TRANSPARENCY_WEBSITE_UPDATES.md](docs/18_DOCUMENTATION_TRANSPARENCY_WEBSITE_UPDATES.md)
+- Testing, security, deployment, and measurement specification: [docs/19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md](docs/19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md)
 - Changelog: [CHANGELOG.md](CHANGELOG.md)
 - Media archive: [media/README.md](media/README.md)
 - Machine-readable asset facts: [data/asset-metadata/pnet-asset-facts.json](data/asset-metadata/pnet-asset-facts.json)
@@ -80,6 +81,7 @@ Facts in this repository are treated as unverified until confirmed against autho
 | Phase 2 market intelligence spec | READY FOR REVIEW | Intelligence receipts, on-chain hash anchoring, query model, and lightweight governance are documented as future implementation work. |
 | Phase 3 revenue/tokenomics spec | READY FOR REVIEW | Treasury accounting, allocation policy, operational-wallet hardening, and burn-accounting methodology are documented; distribution mechanisms are not approved. |
 | Website update pack | READY FOR REVIEW | Utility roadmap, operational wallet, burn-accounting, and deployment-record copy are drafted for website review. |
+| Testing/security/deployment spec | READY FOR REVIEW | TestNet plan, security checklist, deployment gates, and KPI dashboard outline are documented; no scripts are included. |
 | Listing-readiness package | PASS | Listing readiness, bridge notes, on-chain checklist, and data-source references are documented. |
 | Deep tokenomics review | PASS | Dated read-only review added from indexer, Vestige, and public-page sources. |
 | SOP privacy review | PASS | Raw DOCX was scanned and not committed; public-safe Markdown SOP was added. |

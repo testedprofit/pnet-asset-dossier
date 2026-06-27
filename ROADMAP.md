@@ -154,6 +154,27 @@ Maintain and strengthen PNET's transparency posture through clear dossier update
 
 Website updates should not describe utility, governance, revenue routing, burn accounting, or contracts as live until the related evidence, review status, and source-linked deployment records exist.
 
+## Section 6: Testing, Security, Deployment, And Measurement
+
+Detailed specification: [docs/19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md](docs/19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md)
+
+### Objective
+
+Ensure future implementation work is tested, reviewed, deployed, and measured before any public claim that utility, governance, receipt anchoring, or treasury-routing systems are live.
+
+### Section 6 Components
+
+| Component | Purpose | Current status |
+| --- | --- | --- |
+| TestNet testing plan | Define contract, payment, receipt, governance, and wallet-monitoring tests | Ready for review |
+| Security checklist | Identify audit-sensitive custody, accounting, admin, treasury, and privacy areas | Ready for review |
+| Deployment readiness plan | Separate TestNet gates from MainNet migration gates | Ready for review |
+| KPI dashboard outline | Track utility, treasury attribution, governance, receipt cadence, and verification progress | Ready for review |
+
+### Section 6 Gate
+
+Deployment scripts, TestNet scripts, MainNet migration actions, and signer material must remain outside this docs-only repository. This dossier may record reviewed deployment summaries and KPI snapshots after sensitive material is excluded.
+
 ## Codex Planning Prompt
 
 Use this prompt for planning only. Do not use it to add code to this dossier.
@@ -173,4 +194,4 @@ Section 1 is complete when:
 - future implementation work has a separate location and security policy,
 - all claims remain dated, source-linked, and reviewable.
 
-Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; PHASE 2 SPEC READY FOR REVIEW; PHASE 3 SPEC READY FOR REVIEW; SECTION 5 WEBSITE UPDATE PACK READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.
+Current Gate Status: SECTION 1 READY FOR REVIEW; PHASE 1 SPEC READY FOR REVIEW; PHASE 2 SPEC READY FOR REVIEW; PHASE 3 SPEC READY FOR REVIEW; SECTION 5 WEBSITE UPDATE PACK READY FOR REVIEW; SECTION 6 TESTING/SECURITY SPEC READY FOR REVIEW; TESTNET IMPLEMENTATION PENDING OUTSIDE THIS REPOSITORY.

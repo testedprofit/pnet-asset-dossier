@@ -24,6 +24,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added the Phase 2 market intelligence and governance specification for intelligence receipts, on-chain hash anchoring, public query models, and advisory governance.
 - Added the Phase 3 revenue feedback and tokenomics hardening specification, including treasury accounting, operational-wallet hardening, and lost-wallet burn-accounting methodology.
 - Added the documentation, transparency, and website update pack with utility-roadmap, operational-wallet, burn-accounting, and deployment-record copy.
+- Added the testing, security, deployment, and measurement specification with TestNet test matrix, deployment gates, audit areas, and KPI dashboard outline.
 
 ### Changed
 

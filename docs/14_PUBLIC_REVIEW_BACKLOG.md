@@ -40,6 +40,8 @@ Items in this file should be treated as review tasks until completed with public
 | P1 | Add revenue feedback policy review | Treat allocation splits as research until legal, governance, security, and public-claims review are complete |
 | P1 | Review website utility roadmap copy | Ensure Phase 1-3 statuses remain `Spec ready`, `Pending`, or `Not approved` until evidence exists |
 | P1 | Review website operational-wallet copy | Confirm address disclosure, role label, balance source, movement notes, and correction process |
+| P1 | Create TestNet testing matrix | Cover voluntary locks, tool payments, treasury attribution, receipt hashes, governance, and wallet monitoring |
+| P1 | Create KPI dashboard source map | Define source, capture date, stale-data policy, and approval status for each KPI |
 
 ## Product and Ecosystem Tasks
 
@@ -59,6 +61,8 @@ Future tools such as AlgoFlow, AlgoPulse, ProfitLock, launchpad tools, MultiSend
 | P1 | Write operational-wallet hardening guide | Verify role/balance, segment functions, review time-lock strategy, and avoid private custody details |
 | P1 | Write Phase 3 threat model | Cover treasury accounting errors, admin control, legal/listing risk, buyback/burn assumptions, and operational-wallet compromise |
 | P1 | Add website contract deployment table | Prevent live-contract claims unless app IDs, source commits, audit status, and deployment dates are recorded |
+| P1 | Write MainNet migration checklist | Require TestNet history, audit status, governance approval, treasury policy, and claims review before MainNet |
+| P1 | Track professional audit needs | Identify contracts, treasury routing, governance, receipt hashing, and operational-wallet controls needing external review |
 | P2 | Add neutral integration notes | Do not imply partner endorsement from public links alone |
 | P2 | Add market-intelligence receipt examples | Use static examples and source citations, not executable transaction code |
 
