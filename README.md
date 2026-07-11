@@ -49,7 +49,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 
 PNET is a legitimate project. The verified Base contract does not contain honeypot mechanics. The warning appears to be a third-party heuristic false positive, likely from new-token/tiny-liquidity/not-listed/holder-concentration signals.
 
-The verified source is a minimal OpenZeppelin ERC-20: its fixed supply is minted once in the constructor; it has no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, exposed `owner()`, or exposed `minter()`. The Blockaid-sourced warning remains displayed in affected Uniswap or wallet surfaces pending third-party review and update. See [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) for the contract findings, evidence status, official report route, and remediation plan.
+The verified source is a minimal OpenZeppelin ERC-20: its fixed supply is minted once in the constructor; it has no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, exposed `owner()`, or exposed `minter()`. The Blockaid-sourced warning remains displayed in affected Uniswap or wallet surfaces pending third-party review and update. One tiny [buy-direction swap is verified](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md); no successful sell-direction swap was found through block `48,488,596`, so sell proof remains open. See [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) for the contract findings, evidence status, official report route, and remediation plan.
 
 ### Uniswap Pink-Check Status
 
@@ -89,6 +89,7 @@ The current decision is **NO-GO on another standard Uniswap CCA** until the acti
 | Uniswap CCA verified-listing plan | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) |
 | Base treasury and distribution plan | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) |
 | Base holder-distribution snapshot | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) |
+| Base PNET/USDC trade proof | [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
 | User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
 | Developer guide | [docs/developer/DEVELOPER_GUIDE.md](docs/developer/DEVELOPER_GUIDE.md) |
@@ -137,6 +138,7 @@ The current decision is **NO-GO on another standard Uniswap CCA** until the acti
 | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA pink-check criteria, PNET scorecard, and application plan |
 | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base custody, beneficial-owner distribution, canonical-pool gates, and 30/60/90 execution plan |
 | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) | Block-pinned Base balance and concentration snapshot with ownership cautions |
+| [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) | Verified tiny buy and bounded search showing no sell-direction pool swap yet |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | [docs/pnet-contribution-protocol/METHODS.md](docs/pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md](docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |
@@ -216,7 +218,7 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | --- | --- | --- |
 | Documentation-only scope | PASS | Repository contains documentation, metadata, references, and media only |
 | Whitepaper v1.1 | READY FOR REVIEW | Structure updated around specification, utility, roadmap, verification, and risks |
-| On-chain proof package | STARTED | ASA identity/current controls and a block-pinned Base holder snapshot are recorded; the founder-control label is maintainer-supplied, while burn/lock/vesting/vault and custody-access proofs remain incomplete |
+| On-chain proof package | STARTED | ASA identity/current controls, a block-pinned Base holder snapshot, and one tiny Base buy are recorded; no sell-direction swap was found through block 48,488,596, and burn/lock/vesting/vault and custody-access proofs remain incomplete |
 | Implementation specs | STARTED | Contribution protocol, contract design principles, and snapshot API specs added |
 | Audit readiness | STARTED | Audit tracker, threat model, and review checklist added |
 | Documentation structure | READY FOR REVIEW | User, developer, security, contribution, verification, and template guides added |

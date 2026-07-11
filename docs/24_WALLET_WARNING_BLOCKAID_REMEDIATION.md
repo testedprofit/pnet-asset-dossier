@@ -61,8 +61,8 @@ The official [Blockaid report portal](https://report.blockaid.io/) includes a pa
 | BaseScan source verification | Complete | Keep the verified-source URL in every packet |
 | BaseScan address ownership verification | Complete | Retain the ownership-verification record for submissions |
 | BaseScan token profile/logo | Submitted; external approval pending | Finish the approval workflow and record the approval date |
-| Successful PNET buy transaction | Not yet recorded in this dossier | Add a dated Base transaction link and observed outcome |
-| Successful PNET sell transaction | Not yet recorded in this dossier | Add a dated Base transaction link and observed outcome |
+| Successful PNET buy transaction | [Verified tiny routed buy](../data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md): `0.000039 USDC` into the pool for `6.755115987102991431 PNET` | Treat as buy-execution proof only; recipient independence and organic demand are not established |
+| Successful PNET sell transaction | No sell-direction swap found through block `48,488,596` | Record one successful sell and label any project-performed transaction as QA rather than organic activity |
 | Uniswap v4 pool | Public; very small seed liquidity | Record dated liquidity, price-impact, and availability snapshots |
 | Uniswap v4 position | Public UI link recorded | Document position ownership and management without calling it locked |
 | Auction evidence | PNET CCA, launcher transaction, strategy, dates, and configured LP allocation recorded | Record graduation/migration transaction and final canonical pool after auction completion |
@@ -74,7 +74,7 @@ The official [Blockaid report portal](https://report.blockaid.io/) includes a pa
 ## Remediation Plan
 
 1. Finish the pending BaseScan profile/logo approval and preserve the submission and approval references.
-2. Record one successful ordinary buy transaction and one successful ordinary sell transaction from the existing PNET/USDC v4 pool. Publish transaction hashes, timestamps, amounts, and observed outcomes as factual test evidence, not as a trading recommendation.
+2. Preserve the [verified buy proof](../data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) and record one successful ordinary sell transaction from the existing PNET/USDC v4 pool. Publish its hash, timestamp, amounts, and observed outcome as factual test evidence, not as a trading recommendation. If the project performs the test, label it as QA and exclude it from organic-volume or independent-trader claims.
 3. Publish liquidity provenance. Identify the existing pool and position, every relevant liquidity transaction, and any auction mechanism actually used. A position page alone does not prove that liquidity is locked or burned.
 4. If liquidity is locked or burned, publish the exact on-chain mechanism, transaction, amount, duration or permanence, unlock authority, and beneficiary. If it is not locked or burned, say so plainly.
 5. Maintain dated holder-distribution snapshots, publish the controlled-address registry and founder-allocation custody/vesting status, and improve concentration honestly through genuine users, contributors, liquidity participants, or disclosed allocations. Keep the project/founder control label identified as maintainer-supplied. Do not manufacture holder count by splitting balances across controlled wallets.

@@ -64,6 +64,7 @@ The repository remains documentation and media only. It must not contain private
 | [24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Base wallet-warning analysis and Blockaid false-positive remediation record |
 | [25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA verified-launch requirements and PNET execution plan |
 | [26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base treasury controls, holder-distribution plan, second-CCA no-go gates, and execution ownership |
+| [../data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](../data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) | Verified tiny Base buy and bounded review showing that successful sell proof remains open |
 | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP |
 | [pnet-contribution-protocol/METHODS.md](pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [pnet-contribution-protocol/LEGAL_DISCLAIMER.md](pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |

@@ -23,6 +23,7 @@ This folder is the evidence layer for claims that appear in the whitepaper, toke
 | [asset-identity-proof-2026-06-27.md](asset-identity-proof-2026-06-27.md) | ASA identity, supply, decimals, control fields, creation transaction | Verified by Algonode and Nodely indexers at capture round |
 | [operational-wallet-proof-2026-06-27.md](operational-wallet-proof-2026-06-27.md) | Dated public snapshot of user-provided operational wallet | Address and balance snapshot verified; role/control status needs human verification |
 | [base-holder-distribution-2026-07-11.md](base-holder-distribution-2026-07-11.md) | Block-pinned Base ERC-20 balances, concentration indicators, contract-inventory labels, and beneficial-control gaps | Snapshot verified; project/founder control label maintainer-supplied; on-chain vesting, lock, and custody access not evidenced |
+| [base-pnet-usdc-trade-proof-2026-07-11.md](base-pnet-usdc-trade-proof-2026-07-11.md) | Base PNET/USDC swap-direction review and one transaction-level buy proof | Buy verified; no sell found through block 48,488,596; buyer independence not established |
 | [supply-methodology.md](supply-methodology.md) | Methodology for total, circulating, burned, locked, and inaccessible-account supply | Methodology draft; burn/lock/vault values need proof |
 | [burn-lock-vault-worklist.md](burn-lock-vault-worklist.md) | Worklist for burn, lock, vault, LP, and allocation proof packets | Active worklist |
 | [proof-index.json](proof-index.json) | Machine-readable proof index | Draft |
@@ -44,6 +45,8 @@ This folder is the evidence layer for claims that appear in the whitepaper, toke
 | Maintainer-reported 15,000,000-PNET founder-allocation custody wallet | Balance and transfer on-chain verified; role, project/founder control, and custodial status maintainer-supplied; on-chain vesting, lock, transfer restriction, and custody access not evidenced |
 | Base CCA/LBP/PoolManager balances | Contract inventory; not independent-owner evidence |
 | Base v4 LP lock | Not established by ERC-20 holder data; requires position/timelock transaction proof |
+| Base PNET/USDC buy execution | Verified by successful receipt, v4 pool `Swap`, and matching PNET `Transfer` |
+| Base PNET/USDC sell execution | No sell-direction swap found through block 48,488,596; successful sell proof remains open |
 | Burned supply | Needs on-chain verification |
 | Locked supply | Needs on-chain verification |
 | Vault/LP labels | Needs on-chain verification |

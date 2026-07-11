@@ -20,6 +20,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added `data/asset-metadata/pnet-base-token.json` and `tokenlist.json` so Base PNET's 18-decimal ERC-20 identity is machine-readable and separate from the 6-decimal legacy Algorand ASA record.
 - Added a block-pinned Base holder-distribution proof at block `48,477,164`, including direct balance reconciliation, address-level concentration indicators, contract-inventory cautions, and the maintainer-supplied founder-allocation custody label for the 15,000,000-PNET address. No on-chain vesting, lock, or custody access is evidenced for that allocation.
 - Added `docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md` with a strong no-go on another standard CCA now, canonical-pool and organic-participation gates, custody/beneficial-ownership distinctions, integrity rules, and split human/AI 30/60/90 actions.
+- Added `data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md` with a transaction-level successful tiny buy and a bounded review of all PNET transfers through block `48,488,235` and pool logs through block `48,488,596`; all 11 decoded seed-pool swaps were buy-direction and no successful sell-direction swap was found.
 
 ### Changed
 
@@ -39,7 +40,7 @@ All notable documentation changes to this dossier are recorded here.
 - Current Base Uniswap liquidity remains a small seed-liquidity reference only and should not be described as deep liquidity.
 - PNET's configured CCA LP allocation appears to exceed Uniswap's numeric LP threshold after successful migration, but the public record does not yet evidence three of the four required founder/social/press/fund criteria.
 - Verified-source review found no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, or other contract-level honeypot mechanics.
-- The Blockaid-sourced warning remains displayed pending external review/update; buy/sell transaction evidence, auction/LP-lock evidence, founder-wallet custody/vesting evidence, and recurring holder-distribution updates remain open evidence items.
+- The Blockaid-sourced warning remains displayed pending external review/update. A tiny buy is now transaction-verified, while successful sell evidence, auction/LP-lock evidence, founder-wallet custody/vesting evidence, and recurring holder-distribution updates remain open.
 - At block `48,477,164`, the largest Base PNET address held `74.747111457500%`. The maintainer confirms the separate 15,000,000-PNET address is a founder-controlled custodial allocation wallet, making maintainer-reported project/founder beneficial control at least `89.747111457500%`. The balance and transfer are on-chain verified; the role/custodial label is maintainer-supplied, and no on-chain vesting, lock, or custody access is evidenced.
 - CCA, LBP-strategy, and PoolManager balances are recorded as contract inventory rather than independent owners; ERC-20 balances do not prove that a v4 LP position NFT is locked.
 

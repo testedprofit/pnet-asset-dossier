@@ -53,6 +53,32 @@
       ]
     },
     {
+      "id": "base-pnet-usdc-trade-proof-2026-07-11",
+      "file": "base-pnet-usdc-trade-proof-2026-07-11.md",
+      "claim_area": "base_market_trade_execution",
+      "status": "Buy verified; no sell found through block 48488596; buyer independence not established",
+      "network": "Base mainnet",
+      "chain_id": 8453,
+      "contract": "0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a",
+      "pool_id": "0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a",
+      "capture_block": 48488596,
+      "capture_time_utc": "2026-07-11T10:42:19Z",
+      "transfer_history_block": 48488235,
+      "transfer_history_time_utc": "2026-07-11T10:30:17Z",
+      "reviewed_transfer_events": 47,
+      "decoded_pool_swaps": 11,
+      "buy_direction_swaps": 11,
+      "sell_direction_swaps": 0,
+      "selected_buy_transaction": "0x9dcadf472eb94e69033a40d6b1e2079187ee75c2799819bce1a3e1a79d80f3ab",
+      "selected_buy_usdc_raw_input": "39",
+      "selected_buy_pnet_raw_output": "6755115987102991431",
+      "sources": [
+        "https://basescan.org/tx/0x9dcadf472eb94e69033a40d6b1e2079187ee75c2799819bce1a3e1a79d80f3ab",
+        "https://base.blockscout.com/api?module=account&action=tokentx&contractaddress=0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a&page=1&offset=10000&sort=asc",
+        "https://base.blockscout.com/api/v2/transactions/0x9dcadf472eb94e69033a40d6b1e2079187ee75c2799819bce1a3e1a79d80f3ab/logs"
+      ]
+    },
+    {
       "id": "contribution-protocol-testnet-pending-2026-06-27",
       "file": "contribution-protocol/deployment-testnet.md",
       "claim_area": "contribution_protocol_testnet",
@@ -98,6 +124,10 @@
     {
       "claim": "base_v4_lp_lock",
       "status": "Needs final position, owner, timelock transaction, unlock authority, and duration evidence"
+    },
+    {
+      "claim": "base_pnet_usdc_sell_execution",
+      "status": "No sell-direction swap found through block 48488596; successful sell transaction proof remains needed"
     }
   ]
 }
