@@ -1,7 +1,9 @@
 {
   "schema_name": "pnet_asset_facts",
-  "schema_version": "1.0.0",
-  "status_date": "2026-06-27",
+  "schema_version": "1.0.1",
+  "status_date": "2026-07-11",
+  "asset_scope": "legacy-algorand-asa-only",
+  "base_metadata_reference": "data/asset-metadata/pnet-base-token.json",
   "repository_scope": "documentation-and-media-only",
   "asset": {
     "brand": {

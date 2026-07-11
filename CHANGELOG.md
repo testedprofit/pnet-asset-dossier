@@ -14,17 +14,35 @@ All notable documentation changes to this dossier are recorded here.
 - Expanded the moonshot runway with the AutoDev concept, liquidity planning tiers, and a public-safe trader activation plan.
 - Added `docs/23_COINGECKO_CMC_BUILD_TARGETS.md` to make CoinGecko and CoinMarketCap explicit build-toward goals with readiness gates.
 - Added the Uniswap PNET/USDC price-chart URL as a public market-reference link for future snapshots and listing evidence packets.
+- Added `docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md` with the verified Base contract findings, current third-party warning status, public-safe response wording, official Blockaid false-positive route, and evidence checklist.
+- Added `docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md` with the official pink-check criteria, PNET eligibility scorecard, post-migration LP evidence gate, and truthful application path.
+- Added a prepared Uniswap CCA application worksheet, public founder-disclosure template, and factual reporter source pack without claiming that PNET is currently eligible or covered by a qualifying outlet.
+- Added `data/asset-metadata/pnet-base-token.json` and `tokenlist.json` so Base PNET's 18-decimal ERC-20 identity is machine-readable and separate from the 6-decimal legacy Algorand ASA record.
+- Added a block-pinned Base holder-distribution proof at block `48,477,164`, including direct balance reconciliation, address-level concentration indicators, contract-inventory cautions, and the maintainer-supplied founder-allocation custody label for the 15,000,000-PNET address. No on-chain vesting, lock, or custody access is evidenced for that allocation.
+- Added `docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md` with a strong no-go on another standard CCA now, canonical-pool and organic-participation gates, custody/beneficial-ownership distinctions, integrity rules, and split human/AI 30/60/90 actions.
+- Added `data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md` with a transaction-level successful tiny buy and a bounded review of all PNET transfers through block `48,488,235` and pool logs through block `48,488,596`; all 11 decoded seed-pool swaps were buy-direction and no successful sell-direction swap was found.
 
 ### Changed
 
 - Updated public link snapshot date to include the Base ERC-20 launch and BaseScan token-profile workflow references.
 - Updated `media/pnet-logo-32.svg` to a gold badge / red banner mark matching the maintainer-provided ProfitNet gold logo source image.
+- Updated the README, documentation index, listing-readiness package, CoinGecko/CMC targets, and public link registry to track wallet-warning remediation without claiming that the displayed warning has already been removed.
+- Added explicit remediation guardrails: use the existing Uniswap v4 market, do not create a duplicate v2 pool merely to burn LP, do not wash trade or fake volume, and improve holder distribution only through genuine activity.
+- Recorded the active Uniswap CCA, launcher transaction, LBP strategy, configured LP commitment, and timelock recipient while leaving the final migrated pool and position pending on-chain confirmation.
+- Clarified that Uniswap's pink CCA check is an auction/launch designation, not a generic token verification and not a Blockaid-warning correction.
+- Updated the README, documentation index, on-chain proof index, and proof-package index to expose the Base concentration snapshot and treasury/distribution decision.
+- Added a public-claims and sale-readiness rule requiring any planned issuer-, founder-, treasury-, affiliate-, or related-party-funded repurchase or market-support program to receive qualified counsel review and counsel-approved material disclosure before a token sale. Confidential funding-source details remain private to counsel/compliance; the public record uses only a truthful counsel-approved non-sensitive category.
 
 ### Verification Status
 
 - Base ERC-20 source verification and BaseScan address ownership verification are complete.
 - BaseScan token profile/logo application has been submitted; review remains pending until BaseScan approves the update.
 - Current Base Uniswap liquidity remains a small seed-liquidity reference only and should not be described as deep liquidity.
+- PNET's configured CCA LP allocation appears to exceed Uniswap's numeric LP threshold after successful migration, but the public record does not yet evidence three of the four required founder/social/press/fund criteria.
+- Verified-source review found no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, or other contract-level honeypot mechanics.
+- The Blockaid-sourced warning remains displayed pending external review/update. A tiny buy is now transaction-verified, while successful sell evidence, auction/LP-lock evidence, founder-wallet custody/vesting evidence, and recurring holder-distribution updates remain open.
+- At block `48,477,164`, the largest Base PNET address held `74.747111457500%`. The maintainer confirms the separate 15,000,000-PNET address is a founder-controlled custodial allocation wallet, making maintainer-reported project/founder beneficial control at least `89.747111457500%`. The balance and transfer are on-chain verified; the role/custodial label is maintainer-supplied, and no on-chain vesting, lock, or custody access is evidenced.
+- CCA, LBP-strategy, and PoolManager balances are recorded as contract inventory rather than independent owners; ERC-20 balances do not prove that a v4 LP position NFT is locked.
 
 ## 2026-06-27
 

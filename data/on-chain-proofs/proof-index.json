@@ -1,7 +1,8 @@
 {
   "schema": "pnet-on-chain-proof-index-v1",
-  "updated": "2026-06-27",
+  "updated": "2026-07-11",
   "asset_id": 3169177585,
+  "base_contract": "0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a",
   "unit": "PNET",
   "proofs": [
     {
@@ -24,6 +25,58 @@
       "wallet": "CIVTUU6KLTYO26SPVEBDFBKP3UMZM2DPEO5RINODUVCI5NVIFC6HVNWS7E",
       "pnet_raw_amount": 15583379085,
       "pnet_display_amount": "15583.379085"
+    },
+    {
+      "id": "base-holder-distribution-2026-07-11",
+      "file": "base-holder-distribution-2026-07-11.md",
+      "claim_area": "base_holder_distribution",
+      "status": "Snapshot verified; project/founder control label maintainer-supplied; on-chain vesting, lock, and custody access not evidenced",
+      "network": "Base mainnet",
+      "chain_id": 8453,
+      "contract": "0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a",
+      "capture_block": 48477164,
+      "capture_time_utc": "2026-07-11T04:21:15Z",
+      "capture_block_hash": "0x83754ad647aa4dabd6a56978f934071e32bc2f8d754dfd44d8f691e302175cbe",
+      "positive_balance_addresses": 10,
+      "largest_address_share_percent": "74.747111457500",
+      "two_largest_address_share_percent": "89.747111457500",
+      "maintainer_reported_founder_allocation_wallet": "0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58",
+      "maintainer_reported_founder_allocation_balance": "15000000",
+      "maintainer_reported_project_founder_control_share_percent": "89.747111457500",
+      "control_label_source": "Maintainer confirmation dated 2026-07-11",
+      "on_chain_vesting_or_lock_status": "Not evidenced",
+      "custody_access_structure_status": "Not evidenced",
+      "sources": [
+        "https://basescan.org/block/48477164",
+        "https://base.blockscout.com/api?module=account&action=tokentx&contractaddress=0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a&startblock=0&endblock=48477164&page=1&offset=10000&sort=asc",
+        "https://mainnet.base.org"
+      ]
+    },
+    {
+      "id": "base-pnet-usdc-trade-proof-2026-07-11",
+      "file": "base-pnet-usdc-trade-proof-2026-07-11.md",
+      "claim_area": "base_market_trade_execution",
+      "status": "Buy verified; no sell found through block 48488596; buyer independence not established",
+      "network": "Base mainnet",
+      "chain_id": 8453,
+      "contract": "0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a",
+      "pool_id": "0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a",
+      "capture_block": 48488596,
+      "capture_time_utc": "2026-07-11T10:42:19Z",
+      "transfer_history_block": 48488235,
+      "transfer_history_time_utc": "2026-07-11T10:30:17Z",
+      "reviewed_transfer_events": 47,
+      "decoded_pool_swaps": 11,
+      "buy_direction_swaps": 11,
+      "sell_direction_swaps": 0,
+      "selected_buy_transaction": "0x9dcadf472eb94e69033a40d6b1e2079187ee75c2799819bce1a3e1a79d80f3ab",
+      "selected_buy_usdc_raw_input": "39",
+      "selected_buy_pnet_raw_output": "6755115987102991431",
+      "sources": [
+        "https://basescan.org/tx/0x9dcadf472eb94e69033a40d6b1e2079187ee75c2799819bce1a3e1a79d80f3ab",
+        "https://base.blockscout.com/api?module=account&action=tokentx&contractaddress=0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a&page=1&offset=10000&sort=asc",
+        "https://base.blockscout.com/api/v2/transactions/0x9dcadf472eb94e69033a40d6b1e2079187ee75c2799819bce1a3e1a79d80f3ab/logs"
+      ]
     },
     {
       "id": "contribution-protocol-testnet-pending-2026-06-27",
@@ -59,6 +112,22 @@
     {
       "claim": "contribution_protocol_testnet_deployment",
       "status": "Needs TestNet app ID, deployment transaction, confirmed round, live test report, and audit status"
+    },
+    {
+      "claim": "base_beneficial_owner_distribution",
+      "status": "Top-two project/founder control is maintainer-supplied; full controlled-address registry, custody evidence, and beneficial-control methodology remain needed"
+    },
+    {
+      "claim": "base_founder_allocation_vesting_or_lock",
+      "status": "No on-chain vesting, lock, transfer restriction, or custody access evidenced"
+    },
+    {
+      "claim": "base_v4_lp_lock",
+      "status": "Needs final position, owner, timelock transaction, unlock authority, and duration evidence"
+    },
+    {
+      "claim": "base_pnet_usdc_sell_execution",
+      "status": "No sell-direction swap found through block 48488596; successful sell transaction proof remains needed"
     }
   ]
 }

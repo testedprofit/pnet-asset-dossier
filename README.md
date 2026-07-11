@@ -11,6 +11,7 @@ GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
 The dossier records public information and review status for:
 
 - ProfitNet / PNET asset identity,
+- Base contract `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a`,
 - ASA ID `3169177585`,
 - tokenomics and supply claims,
 - source links and market references,
@@ -32,11 +33,33 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Base token unit | PNET | Source verified on BaseScan; token profile submitted and review pending |
 | Base chain ID | `8453` | Public chain reference |
 | Base contract | `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a` | Source verified on BaseScan/Blockscout/Sourcify |
+| Base decimals | `18` | Verified ERC-20 interface/source |
 | Base total supply | `100,000,000` PNET | Fixed-supply ERC-20 constructor mint |
 | Base initial recipient | `0xd58cc829622c4c988af43028aaa37eda84104649` | Deployment constructor argument |
-| Base Uniswap pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small seed-liquidity reference only |
+| Base deployment transaction | https://basescan.org/tx/0x7d6300cb7f84d18fdaeafe3c34195e946ec86e6ce8c91d87d577177873b39fd1 | Public chain reference |
+| Base Uniswap CCA | https://app.uniswap.org/explore/auctions/base/0x777900C0FF11845c8e0D6C134b58C695023Aab4e | Active auction reference; migration pending at status date |
+| Base Uniswap seed pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small legacy seed-liquidity reference; not the final auction-migrated pool |
 | Base Uniswap price chart | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a?chart=price | Third-party chart reference |
+| Base Uniswap position | https://app.uniswap.org/positions/v4/base/2731162 | Public position reference; not proof of an LP lock or burn |
 | Base token logo | [media/pnet-logo-32.svg](media/pnet-logo-32.svg) | Maintainer-provided listing icon |
+| Base machine metadata | [data/asset-metadata/pnet-base-token.json](data/asset-metadata/pnet-base-token.json) | Base-specific facts; separate from legacy Algorand metadata |
+| Base token list | [tokenlist.json](tokenlist.json) | Uniswap token-list-schema candidate; not a guarantee of interface verification |
+
+### Wallet-Warning Status
+
+PNET is a legitimate project. The verified Base contract does not contain honeypot mechanics. The warning appears to be a third-party heuristic false positive, likely from new-token/tiny-liquidity/not-listed/holder-concentration signals.
+
+The verified source is a minimal OpenZeppelin ERC-20: its fixed supply is minted once in the constructor; it has no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, exposed `owner()`, or exposed `minter()`. The Blockaid-sourced warning remains displayed in affected Uniswap or wallet surfaces pending third-party review and update. One tiny [buy-direction swap is verified](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md); no successful sell-direction swap was found through block `48,488,596`, so sell proof remains open. See [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) for the contract findings, evidence status, official report route, and remediation plan.
+
+### Uniswap Pink-Check Status
+
+The pink check shown beside some Uniswap auctions is a Verified CCA auction/launch designation, not a generic verified-token badge. PNET's configured LP allocation appears sufficient for the numerical liquidity gate after successful migration, but the public record does not yet evidence the required three-of-four founder/social/press/fund criteria. See [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) for the exact criteria, scorecard, application worksheet, and truthful build path.
+
+### Base Holder and Treasury Status
+
+At Base block `48,477,164`, the initial-recipient wallet held `74.747111457500%` of supply. The maintainer confirms that `0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58` is a founder-controlled custodial allocation wallet holding `15,000,000` PNET. On that maintainer-supplied control label, at least `89.747111457500%` of supply was under project/founder beneficial control at the snapshot. The 15,000,000-PNET balance and transfer are on-chain verified; its role and custodial status are maintainer-supplied, and no on-chain vesting, lock, transfer restriction, or custody access is evidenced. Auction, LBP-strategy, and PoolManager balances are contract inventory, not independent owners, and ERC-20 balances do not prove an LP position NFT is locked.
+
+The current decision is **NO-GO on another standard Uniswap CCA** until the active auction resolves, migration and LP custody are proven, a controlled-address registry and allocation/lock status are published, the canonical market meets the written quality gates, and legal review is complete. See the [holder snapshot](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) and [Base treasury and distribution plan](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md).
 
 ### Legacy Algorand ASA
 
@@ -62,6 +85,11 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Roadmap and implementation gates | [ROADMAP.md](ROADMAP.md) |
 | Moonshot runway | [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) |
 | CoinGecko / CMC build targets | [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) |
+| Wallet warning / Blockaid remediation | [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) |
+| Uniswap CCA verified-listing plan | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) |
+| Base treasury and distribution plan | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) |
+| Base holder-distribution snapshot | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) |
+| Base PNET/USDC trade proof | [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
 | User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
 | Developer guide | [docs/developer/DEVELOPER_GUIDE.md](docs/developer/DEVELOPER_GUIDE.md) |
@@ -106,6 +134,11 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | [docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis |
 | [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) | Public-safe growth, legitimacy, and distribution runway |
 | [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) | CoinGecko and CoinMarketCap build-toward checklist |
+| [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Verified-contract wallet-warning analysis and false-positive remediation status |
+| [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA pink-check criteria, PNET scorecard, and application plan |
+| [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base custody, beneficial-owner distribution, canonical-pool gates, and 30/60/90 execution plan |
+| [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) | Block-pinned Base balance and concentration snapshot with ownership cautions |
+| [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) | Verified tiny buy and bounded search showing no sell-direction pool swap yet |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | [docs/pnet-contribution-protocol/METHODS.md](docs/pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md](docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |
@@ -119,9 +152,14 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | [docs/marketing/X_THREAD_TEMPLATES.md](docs/marketing/X_THREAD_TEMPLATES.md) | X/Twitter thread templates |
 | [docs/marketing/BRAND_ASSET_USAGE_GUIDE.md](docs/marketing/BRAND_ASSET_USAGE_GUIDE.md) | Brand and jingle asset usage guide |
 | [docs/marketing/EMAIL_ONBOARDING_SEQUENCE.md](docs/marketing/EMAIL_ONBOARDING_SEQUENCE.md) | Community onboarding emails |
+| [docs/marketing/CCA_PRESS_KIT.md](docs/marketing/CCA_PRESS_KIT.md) | Factual reporter source pack for CCA, contract, and warning evidence |
+| [docs/templates/FOUNDER_DISCLOSURE_TEMPLATE.md](docs/templates/FOUNDER_DISCLOSURE_TEMPLATE.md) | Public founder/team disclosure template |
+| [docs/templates/UNISWAP_CCA_APPLICATION_WORKSHEET.md](docs/templates/UNISWAP_CCA_APPLICATION_WORKSHEET.md) | Prepared CCA form worksheet; not ready to submit |
 | [references/public-links.md](references/public-links.md) | Public links |
 | [media/README.md](media/README.md) | Media guide |
 | [data/asset-metadata/pnet-asset-facts.json](data/asset-metadata/pnet-asset-facts.json) | Machine-readable asset facts |
+| [data/asset-metadata/pnet-base-token.json](data/asset-metadata/pnet-base-token.json) | Machine-readable Base token and auction facts |
+| [tokenlist.json](tokenlist.json) | Base PNET token-list candidate |
 | [data/on-chain-proofs/README.md](data/on-chain-proofs/README.md) | On-chain proof package |
 
 ## Verification Model
@@ -180,7 +218,7 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | --- | --- | --- |
 | Documentation-only scope | PASS | Repository contains documentation, metadata, references, and media only |
 | Whitepaper v1.1 | READY FOR REVIEW | Structure updated around specification, utility, roadmap, verification, and risks |
-| On-chain proof package | STARTED | ASA identity/current controls verified; burn/lock/vault proofs pending |
+| On-chain proof package | STARTED | ASA identity/current controls, a block-pinned Base holder snapshot, and one tiny Base buy are recorded; no sell-direction swap was found through block 48,488,596, and burn/lock/vesting/vault and custody-access proofs remain incomplete |
 | Implementation specs | STARTED | Contribution protocol, contract design principles, and snapshot API specs added |
 | Audit readiness | STARTED | Audit tracker, threat model, and review checklist added |
 | Documentation structure | READY FOR REVIEW | User, developer, security, contribution, verification, and template guides added |
@@ -191,4 +229,7 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | Lost creator wallet | NEEDS VERIFICATION | Do not treat as verified burned supply without methodology and evidence |
 | Operational wallet | SNAPSHOT ONLY | Address validity and current PNET balance snapshot recorded; role and control model not verified |
 | Contribution protocol | MVP READY FOR TESTNET DEPLOYMENT | Local implementation package prepared; TestNet app ID and deployment tx pending; not MainNet, not audited |
+| Base wallet warning | REMEDIATION OPEN | Verified source review found no contract-level honeypot mechanics; third-party warning remains displayed pending Blockaid/wallet update |
+| Base holder concentration | ACTION REQUIRED | Maintainer-reported project/founder control of the top two addresses was at least 89.7471% at block 48,477,164; no on-chain vesting, lock, or custody access for the 15,000,000-PNET founder allocation is evidenced |
+| Additional standard CCA | NO-GO | Finish the current auction, prove migration/LP custody, preserve one canonical market, and pass the published distribution gates before reconsideration |
 | Exchange / bridge support | NOT CLAIMED | No venue support or listing outcome is implied |
