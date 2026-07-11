@@ -121,7 +121,49 @@ Prototype:
 
 This moves the project from "token with docs" to "docs as a product."
 
-### Phase 4: Distribution Without Spam
+### Phase 4: Concept AutoDev
+
+Goal: define a future AI marketing and release copilot for public builder sessions.
+
+AutoDev is a concept for an AI tool that watches meaningful public GitHub progress and turns it into public-safe updates.
+
+It should not be an auto-shill bot. It should be a claims-aware release assistant.
+
+Possible workflow:
+
+- watch selected public repos, branches, releases, and merged PRs,
+- summarize major changes,
+- extract source links, commits, docs, screenshots, contracts, and deployment records,
+- draft updates for GitHub Releases, X/Twitter, Farcaster, Discord, a website changelog, and newsletter,
+- run each draft through public-claims rules,
+- require human approval before publishing,
+- record the published update back into the repo.
+
+PNET can be the case study:
+
+```text
+An AI-assisted project ships public work, and AutoDev converts the evidence trail into clear updates without making price, yield, listing, or partnership claims.
+```
+
+Safety rules:
+
+- no automatic posting without explicit approval,
+- no private keys, `.env`, signer notes, or wallet screenshots,
+- no price predictions,
+- no "buy now" language,
+- no hashrate/yield/investment claims,
+- no fake partnership or endorsement language,
+- no duplicate listing or explorer submissions,
+- no posts based only on unsourced chat claims.
+
+Why this belongs in the PNET moonshot:
+
+- it makes the AI-first story concrete,
+- it gives builders a useful product surface,
+- it turns GitHub progress into distribution,
+- and it supports public documentation instead of hype.
+
+### Phase 5: Distribution Without Spam
 
 Goal: become discoverable through useful public work.
 
@@ -142,7 +184,7 @@ We are building PNET as an AI-first Web3 verification and multichain-ops experim
 
 Do not ask communities to spam listing pages or review queues.
 
-### Phase 5: Liquidity and Market Readiness
+### Phase 6: Liquidity and Market Readiness
 
 Goal: improve trading access without pretending the market is mature.
 
@@ -155,6 +197,28 @@ Actions:
 - Avoid wash trading or artificial activity.
 - Keep price/volume claims dated and sourced.
 
+Rough USDC-side liquidity ladder:
+
+| USDC-side active liquidity | Public interpretation |
+| --- | --- |
+| `$10 - $250` | Dust/demo route. Useful for proving the pool exists, not for meaningful trading. |
+| `$500 - $2,000` | Tiny microcap surface. Useful for wallet tests and cautious early swaps; high price impact should be expected. |
+| `$5,000 - $10,000` | First credible microcap zone if the website, profile, and docs are clean. |
+| `$25,000 - $50,000` | Meaningful early DEX market with better entry/exit conditions for small traders. |
+| `$100,000+` | Serious early-market depth, still small compared with established tokens. |
+| `$250,000+` | Stronger discovery/listing conversation if paired with real holders, activity, website, socials, and consistent metadata. |
+
+These are planning ranges, not guarantees. On Uniswap v3/v4-style concentrated liquidity, active price-range liquidity matters more than headline TVL. A small concentrated position can quote better near the current price, but it can also go inactive if price leaves the range.
+
+Liquidity principles:
+
+- keep at least one baseline position active across a wide range,
+- optionally add concentrated liquidity around the current market for better quotes,
+- track price impact for common trade sizes,
+- add liquidity in planned steps,
+- avoid liquidity theater,
+- and never describe the pool as deep unless the depth is visible and current.
+
 Listing gates:
 
 - public website updated,
@@ -164,7 +228,27 @@ Listing gates:
 - official contact surface,
 - consistent supply and contract records.
 
-### Phase 6: Wormhole NTT Practice
+Trader activation:
+
+- ship the public Command Center,
+- publish a verification thread,
+- post every meaningful release with source links,
+- make the Uniswap route easy to find,
+- show BaseScan profile approval when it arrives,
+- build the AI verifier prototype,
+- post weekly metrics as dated snapshots,
+- invite feedback from Base and Algorand builders,
+- encourage only risk-aware, voluntary, small test swaps.
+
+Do not:
+
+- wash trade,
+- pay for fake volume,
+- imply guaranteed upside,
+- coordinate spam,
+- or market liquidity as stability.
+
+### Phase 7: Wormhole NTT Practice
 
 Goal: prove bridge mechanics before making bridge claims.
 
@@ -182,7 +266,7 @@ Approved public wording:
 PNET is preparing Wormhole NTT practice workflows. No production PNET bridge is live yet.
 ```
 
-### Phase 7: Official Listing Pipeline
+### Phase 8: Official Listing Pipeline
 
 Goal: use evidence, not middlemen.
 
@@ -233,6 +317,9 @@ PNET should not claim:
 | --- | --- |
 | Base token launch and post-launch guidance | https://docs.base.org/get-started/launch-token |
 | Base builder funding paths | https://docs.base.org/get-started/get-funded |
+| Uniswap liquidity and price impact | https://developers.uniswap.org/docs/get-started/concepts/traders/swaps |
+| Uniswap concentrated liquidity | https://developers.uniswap.org/docs/get-started/concepts/liquidity-providers/concentrated-liquidity |
+| Uniswap pool mechanics | https://developers.uniswap.org/docs/get-started/concepts/how-uniswap-works |
 | Uniswap v4 pool creation | https://developers.uniswap.org/docs/protocols/v4/guides/create-pool |
 | Uniswap token-list specification | https://github.com/Uniswap/token-lists |
 | Wormhole NTT overview | https://wormhole.com/docs/products/token-transfers/native-token-transfers/overview/ |
