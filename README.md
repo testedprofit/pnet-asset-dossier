@@ -57,9 +57,9 @@ The pink check shown beside some Uniswap auctions is a Verified CCA auction/laun
 
 ### Base Holder and Treasury Status
 
-At Base block `48,477,164`, the largest address held `74.747111457500%` of supply. A second, unlabelled address held `15,000,000` PNET, so potential same-control concentration would be `89.747111457500%` if both addresses share one beneficial controller; that relationship remains unconfirmed. Auction, LBP-strategy, and PoolManager balances are contract inventory, not independent owners, and ERC-20 balances do not prove an LP position NFT is locked.
+At Base block `48,477,164`, the initial-recipient wallet held `74.747111457500%` of supply. The maintainer confirms that `0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58` is a founder-controlled custodial allocation wallet holding `15,000,000` PNET. On that maintainer-supplied control label, at least `89.747111457500%` of supply was under project/founder beneficial control at the snapshot. The 15,000,000-PNET balance and transfer are on-chain verified; its role and custodial status are maintainer-supplied, and no on-chain vesting, lock, transfer restriction, or custody access is evidenced. Auction, LBP-strategy, and PoolManager balances are contract inventory, not independent owners, and ERC-20 balances do not prove an LP position NFT is locked.
 
-The current decision is **NO-GO on another standard Uniswap CCA** until the active auction resolves, migration and LP custody are proven, beneficial-control labels are published, the canonical market meets the written quality gates, and legal review is complete. See the [holder snapshot](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) and [Base treasury and distribution plan](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md).
+The current decision is **NO-GO on another standard Uniswap CCA** until the active auction resolves, migration and LP custody are proven, a controlled-address registry and allocation/lock status are published, the canonical market meets the written quality gates, and legal review is complete. See the [holder snapshot](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) and [Base treasury and distribution plan](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md).
 
 ### Legacy Algorand ASA
 
@@ -216,7 +216,7 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | --- | --- | --- |
 | Documentation-only scope | PASS | Repository contains documentation, metadata, references, and media only |
 | Whitepaper v1.1 | READY FOR REVIEW | Structure updated around specification, utility, roadmap, verification, and risks |
-| On-chain proof package | STARTED | ASA identity/current controls and a block-pinned Base holder snapshot are recorded; burn/lock/vault and beneficial-control proofs remain incomplete |
+| On-chain proof package | STARTED | ASA identity/current controls and a block-pinned Base holder snapshot are recorded; the founder-control label is maintainer-supplied, while burn/lock/vesting/vault and custody-access proofs remain incomplete |
 | Implementation specs | STARTED | Contribution protocol, contract design principles, and snapshot API specs added |
 | Audit readiness | STARTED | Audit tracker, threat model, and review checklist added |
 | Documentation structure | READY FOR REVIEW | User, developer, security, contribution, verification, and template guides added |
@@ -228,6 +228,6 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | Operational wallet | SNAPSHOT ONLY | Address validity and current PNET balance snapshot recorded; role and control model not verified |
 | Contribution protocol | MVP READY FOR TESTNET DEPLOYMENT | Local implementation package prepared; TestNet app ID and deployment tx pending; not MainNet, not audited |
 | Base wallet warning | REMEDIATION OPEN | Verified source review found no contract-level honeypot mechanics; third-party warning remains displayed pending Blockaid/wallet update |
-| Base holder concentration | ACTION REQUIRED | Largest address held 74.7471% at block 48,477,164; the separate 15,000,000-PNET address still needs a public control/purpose label |
+| Base holder concentration | ACTION REQUIRED | Maintainer-reported project/founder control of the top two addresses was at least 89.7471% at block 48,477,164; no on-chain vesting, lock, or custody access for the 15,000,000-PNET founder allocation is evidenced |
 | Additional standard CCA | NO-GO | Finish the current auction, prove migration/LP custody, preserve one canonical market, and pass the published distribution gates before reconsideration |
 | Exchange / bridge support | NOT CLAIMED | No venue support or listing outcome is implied |

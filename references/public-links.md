@@ -29,7 +29,7 @@ This file records public references used by the dossier. Links are source refere
 | CCA auction contract | https://basescan.org/address/0x777900C0FF11845c8e0D6C134b58C695023Aab4e | PNET auction contract | Public chain reference |
 | CCA LBP strategy | https://basescan.org/address/0x34385dD739FE5464892BF0bA4CC42492804dA000 | Liquidity bootstrapping strategy | Public chain reference |
 | CCA lock / fee recipient | https://basescan.org/address/0xe684c6a25fcced415a5b503bf9738abf7873d023 | Configured LP timelock and fee-disposition recipient | Public chain reference; final migrated position pending |
-| Base holder-distribution snapshot | ../data/on-chain-proofs/base-holder-distribution-2026-07-11.md | Transfer reconstruction and direct contract calls pinned to block `48,477,164` | Snapshot verified; beneficial-control labels remain incomplete |
+| Base holder-distribution snapshot | ../data/on-chain-proofs/base-holder-distribution-2026-07-11.md | Transfer reconstruction and direct contract calls pinned to block `48,477,164` | Snapshot verified; founder-control label maintainer-supplied; on-chain vesting, lock, and custody access not evidenced |
 | Uniswap PNET/USDC v4 seed pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small legacy seed-liquidity pool | Third-party UI reference; not the final auction-migrated pool |
 | Uniswap PNET/USDC v4 price chart | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a?chart=price | Pool chart view for price snapshots | Third-party UI reference |
 | Uniswap PNET/USDC v4 position | https://app.uniswap.org/positions/v4/base/2731162 | Liquidity position reference | Third-party UI reference |
@@ -72,6 +72,6 @@ This file records public references used by the dossier. Links are source refere
 | Record successful Base buy and sell transaction links | Needs on-chain evidence |
 | Finish the active CCA and record final migration, canonical pool, position, liquidity amounts, and timelock proof | Auction/configuration recorded; final migration evidence pending |
 | Confirm the official X handle, public founder identity, qualifying press, and any qualifying fund evidence before a CCA verification application | User/project action required |
-| Maintain dated Base holder-distribution snapshots and improve concentration honestly | Initial block-pinned snapshot published; control label, refresh, and genuine improvement remain open |
+| Maintain dated Base holder-distribution snapshots and improve concentration honestly | Initial block-pinned snapshot and maintainer-supplied founder-control label published; custody/vesting evidence, periodic refresh, and genuine improvement remain open |
 | Submit the verified-source false-positive packet through Blockaid's report portal; reference its ticket in any optional Uniswap support follow-up | Needs external submission evidence |
 | Confirm warning removal before marking the remediation complete | Pending external provider update |

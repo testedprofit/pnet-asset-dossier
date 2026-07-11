@@ -24,7 +24,7 @@ The likely signals listed above are an evidence-based remediation hypothesis, no
 | Verified source | [BaseScan contract source](https://basescan.org/address/0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a#code) | Verified source |
 | PNET/USDC market | [Uniswap v4 pool](https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a) | Very small seed-liquidity reference |
 | Liquidity position | [Uniswap v4 position 2731162](https://app.uniswap.org/positions/v4/base/2731162) | Public UI reference; not proof of a lock or burn |
-| Base holder snapshot | [Block `48,477,164` proof](../data/on-chain-proofs/base-holder-distribution-2026-07-11.md) | Largest address held `74.747111457500%`; 15% address control remains unconfirmed |
+| Base holder snapshot | [Block `48,477,164` proof](../data/on-chain-proofs/base-holder-distribution-2026-07-11.md) | Maintainer-reported project/founder control of the top two addresses is at least `89.747111457500%`; no on-chain vesting, lock, or custody access for the 15,000,000-PNET founder allocation is evidenced |
 | Legacy asset | Algorand ASA `3169177585` | Legacy ProfitNet asset reference |
 | Public dossier | [testedprofit/pnet-asset-dossier](https://github.com/testedprofit/pnet-asset-dossier) | Maintainer-controlled documentation |
 
@@ -67,7 +67,7 @@ The official [Blockaid report portal](https://report.blockaid.io/) includes a pa
 | Uniswap v4 position | Public UI link recorded | Document position ownership and management without calling it locked |
 | Auction evidence | PNET CCA, launcher transaction, strategy, dates, and configured LP allocation recorded | Record graduation/migration transaction and final canonical pool after auction completion |
 | LP lock or burn evidence | Lock/fee-recipient contract and configured 30-day timelock recorded | Record final migrated position, exact amounts, timelock block/time, and any executed dead-address transfers separately |
-| Holder distribution | Block-pinned snapshot published; concentration risk remains open | Confirm the 15% address label, refresh after CCA settlement, and improve distribution through genuine participation |
+| Holder distribution | Block-pinned snapshot and maintainer-supplied founder-control label published; concentration risk remains open | Publish custody/vesting status, refresh after CCA settlement, and improve distribution through genuine participation |
 | Blockaid false-positive report | Submission not evidenced in this dossier | Submit the verified-source packet through Blockaid's official report portal and record date/ticket status |
 | Warning removal | Pending external provider update | Recheck affected surfaces and record the first confirmed clear result |
 
@@ -77,7 +77,7 @@ The official [Blockaid report portal](https://report.blockaid.io/) includes a pa
 2. Record one successful ordinary buy transaction and one successful ordinary sell transaction from the existing PNET/USDC v4 pool. Publish transaction hashes, timestamps, amounts, and observed outcomes as factual test evidence, not as a trading recommendation.
 3. Publish liquidity provenance. Identify the existing pool and position, every relevant liquidity transaction, and any auction mechanism actually used. A position page alone does not prove that liquidity is locked or burned.
 4. If liquidity is locked or burned, publish the exact on-chain mechanism, transaction, amount, duration or permanence, unlock authority, and beneficiary. If it is not locked or burned, say so plainly.
-5. Maintain dated holder-distribution snapshots, resolve beneficial-control labels, and improve concentration honestly through genuine users, contributors, liquidity participants, or disclosed allocations. Do not manufacture holder count by splitting balances across controlled wallets.
+5. Maintain dated holder-distribution snapshots, publish the controlled-address registry and founder-allocation custody/vesting status, and improve concentration honestly through genuine users, contributors, liquidity participants, or disclosed allocations. Keep the project/founder control label identified as maintainer-supplied. Do not manufacture holder count by splitting balances across controlled wallets.
 6. Submit a false-positive packet to Blockaid using the official report portal. Include the verified source, deployment transaction, address-ownership evidence, BaseScan metadata status, pool and position links, recorded buy/sell transactions, liquidity evidence, holder snapshot, official website, and this dossier.
 7. Reference Uniswap's official token-warning article when asking Uniswap support to route or track the provider-level correction. Record the submission date and ticket/reference number without publishing private support correspondence.
 8. Recheck Uniswap and affected wallet surfaces after Blockaid responds. Do not mark the issue resolved until the warning is actually absent or the provider confirms correction.

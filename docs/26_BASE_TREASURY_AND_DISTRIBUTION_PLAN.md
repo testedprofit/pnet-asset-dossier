@@ -2,18 +2,18 @@
 
 Status date: 2026-07-11
 
-Decision: **NO-GO on scheduling another standard Uniswap CCA now.** Finish and document the active CCA first, establish transparent treasury custody and beneficial-owner labels, build organic demand in one canonical market, and require every future distribution gate below to pass.
+Decision: **NO-GO on scheduling another standard Uniswap CCA now.** Finish and document the active CCA first, establish transparent treasury custody and controlled-address evidence, build organic demand in one canonical market, and require every future distribution gate below to pass.
 
 This is a project operations and disclosure plan, not project-specific legal, tax, securities, or investment advice. Another public token sale or auction requires qualified counsel in the relevant jurisdictions before launch.
 
-Base treasury-category amounts and allocation percentages remain pending the project owner's documented decision and legal review. This plan does not assign tokens to treasury, team, grants, liquidity, or any sale.
+The `15,000,000`-PNET (`15%`) founder allocation and its custodial role are maintainer-confirmed; the balance and transfer are on-chain verified, while no on-chain vesting, lock, transfer restriction, or custody access is evidenced. All other Base allocation amounts, percentages, restrictions, and sale terms remain pending the project owner's documented decision and qualified counsel review. This plan does not approve or assign tokens to treasury, team, grants, liquidity, any sale, or any repurchase or market-support program.
 
 ## Why Another Auction Is Not The Immediate Fix
 
 The [dated holder snapshot](../data/on-chain-proofs/base-holder-distribution-2026-07-11.md) records:
 
 - `74.747111457500%` in the largest address;
-- an unlabelled `15,000,000`-PNET address, making potential same-control concentration `89.747111457500%` if it shares the largest address's beneficial controller;
+- a `15,000,000`-PNET founder-allocation custody wallet, making maintainer-reported project/founder beneficial control at least `89.747111457500%`; its balance and transfer are on-chain verified, while its role/custodial status are maintainer-supplied and no on-chain vesting, lock, transfer restriction, or custody access is evidenced;
 - `4.745752137568%` in the active CCA contract;
 - `3.559314103176%` in its LBP strategy; and
 - `1.947813470058%` at the Uniswap v4 PoolManager.
@@ -46,12 +46,12 @@ PNET should report these dimensions separately. A multisig improves custody but 
 
 ## Immediate Treasury Policy
 
-1. **Label before moving.** Publish the purpose and beneficial-control category of the unlabelled 15,000,000-PNET address and every project-controlled Base address.
+1. **Document before moving.** Record the 15,000,000-PNET address as a maintainer-supplied founder-allocation custody wallet, publish its intended use and a public-safe custody/controller model, and state whether any on-chain vesting or lock exists. At present, none is evidenced.
 2. **Define Base tokenomics.** Publish Base treasury, team, liquidity, auction, grant, vesting, reserve, and circulating-supply treatments separately from the legacy Algorand ASA unless a verified bridge/accounting policy connects them.
 3. **Improve custody deliberately.** Consider a `2-of-3` or `3-of-5` Safe with genuinely independent signers. Test creation, recovery, and a small transfer before moving material treasury inventory. Do not publish private signer details or recovery information.
 4. **Use restrictions that are verifiable.** Where team or grant allocations are intended to vest, use reviewed vesting/timelock contracts and publish their addresses, schedules, beneficiaries by public role, and funding transactions.
 5. **Do not move the whole balance for optics.** Approve a written allocation, risk review, and transaction packet first. Same-controller wallet transfers do not improve beneficial ownership.
-6. **Publish a controlled-address registry.** Record address, public role, control category, custodian type, restrictions, funding source, and current balance. Mark unknown relationships as unknown.
+6. **Publish a controlled-address registry.** Record address, public role, control category, custodian type, evidenced restrictions, counsel-approved non-sensitive funding category, and current balance. Mark unknown relationships as unknown. Keep full confidential funding-source and custody-access details in private counsel/compliance records. Sensitive operational details may be redacted from the public record only if the public category and material economic terms remain truthful and non-misleading and counsel approves the redaction.
 7. **Separate LP evidence.** ERC-20 holder data cannot prove a v4 position NFT is locked. After migration, publish the final position token ID, owner, timelock contract, lock transaction, unlock time/block, withdrawal authority, fee recipient, and post-expiry plan. Until that exists, do not claim the current position is locked.
 
 [Safe's official smart-account concepts](https://docs.safe.global/advanced/smart-account-concepts) describe owners and signature thresholds. A Safe configuration is only as independent as its real signers.
@@ -77,17 +77,28 @@ These are PNET's proposed internal guardrails, not official Uniswap requirements
 | Current CCA resolved | Auction ended; success/failure, sold and unsold amounts, USDC raised/refunded, unique independently funded bidders, top-bidder concentration, and settlement transactions published |
 | Migration complete | If the auction graduates, `migrate()` succeeded and the final PoolKey, pool ID, position, deposited amounts, and LP custody are published |
 | Observation period | At least 30 days after successful migration with no overlapping public distribution round |
-| Purpose and proceeds | Written non-price purpose, token source, maximum allocation, eligibility, use of proceeds, conflicts, refund/failure treatment, and public risk disclosure |
+| Purpose and proceeds | Written non-price purpose, token source, maximum amount pending owner/counsel approval, eligibility, use of proceeds, conflicts, refund/failure treatment, and public risk disclosure; disclose any related repurchase or market-support program under the separate gate below |
 | One canonical market | The proposed mechanism is proven not to fragment liquidity; if the objective is liquidity, it adds to the existing canonical PoolKey instead of launching another stock CCA/pool |
 | Organic participation | At least 25 non-affiliated organic traders over the trailing 30 days, including at least five sellers, excluding project/team/agent-controlled activity |
 | Usable two-sided market | A modeled `US$100` buy and `US$100` sell each show no more than `2%` price impact at the review snapshot; methodology and timestamp published |
 | Proportional scale | Canonical-pool TVL is at least the proposed gross raise and trailing-30-day organic volume is at least three times the proposed gross raise |
-| Conservative size | Maximum tokens are the lesser of `1%` of fixed total supply or `50%` of the tokens actually sold in the first CCA |
+| Conservative size | Maximum token amount and all sale terms remain pending the project owner's documented decision and qualified counsel review; scale must be proportionate to the canonical market and concentration objective |
 | Concentration improvement | Forecast and post-round reports use beneficial-control groups, not address count, and show genuine improvement without related-wallet splitting |
-| Integrity controls | No self/team bidding, self-trading, wallet splitting, rebates, bought holders, wash trading, artificial volume, trading contests, or undisclosed market support |
-| External review | Current warning/remediation evidence updated, operational/security review passed, and qualified legal/tax counsel clears the proposed structure and disclosures |
+| Repurchase / market-support disclosure | Before any token sale, disclose in counsel-approved public sale materials the existence and all material terms of any planned issuer-, founder-, treasury-, affiliate-, or related-party-funded repurchase, liquidity-support, or market-support program, including a truthful counsel-approved non-sensitive funding-source category; provide full confidential source details privately to counsel/compliance |
+| Integrity controls | No self/team bidding, self-trading, wallet splitting, rebates, bought holders, wash trading, artificial volume, trading contests, price-floor/appreciation promises, or undisclosed or manipulative market support |
+| External review | Current warning/remediation evidence updated, operational/security review passed, and qualified securities, commodities, market-manipulation, and tax counsel clears the proposed structure and disclosures |
 
 A failed gate means **NO-GO**. The response is to fix demand, product, disclosure, liquidity, or control weaknesses—not to lower the measurement standard or create another pool.
+
+## Issuer-Funded Repurchase or Market Support
+
+Any planned issuer-, founder-, treasury-, affiliate-, or related-party-funded PNET repurchase, liquidity-support, or market-support program must be disclosed in counsel-approved public sale materials and reviewed in writing by qualified securities, commodities, and market-manipulation counsel before any token sale is announced or opened.
+
+Public materials must disclose all terms that counsel determines are material, using a truthful counsel-approved non-sensitive funding-source category. Full funding-source details must be provided privately to counsel/compliance. Sensitive operational details may be redacted from the public record only if the public category and material economic terms remain truthful and non-misleading and counsel approves the redaction. The program must not promise or imply a price floor, guaranteed liquidity, appreciation, returns, or buyer protection, and must not create artificial demand, auction participation, volume, price, holder count, or listing evidence.
+
+Before approval, counsel and the project owner should document the program's lawful purpose, authority, maximum approved exposure, eligible venues and instruments, decision-maker, conflicts, timing and blackout rules, custody, recordkeeping, reporting cadence, suspension/termination criteria, and required public disclosure. These are review categories, not approved PNET program terms. This dossier does not authorize a repurchase or market-support program; if one is planned, the dossier and sale materials must be updated before any sale is announced or opened.
+
+The [SEC's April 2026 crypto-transaction guidance](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/transactions-involving-crypto-assets) explains that issuer representations or promises of managerial efforts can affect investment-contract analysis. The [CFTC's virtual-currency risk advisory](https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html) identifies cash-market manipulation risk and the CFTC's general anti-fraud and manipulation authority. These sources support obtaining project-specific counsel; this plan does not reach a legal conclusion about PNET.
 
 ## 30 / 60 / 90-Day Execution Plan
 
@@ -95,7 +106,7 @@ A failed gate means **NO-GO**. The response is to fix demand, product, disclosur
 
 | Project owner / human actions | AI-assisted documentation and analysis |
 | --- | --- |
-| Confirm whether `0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58` is related to the project and approve its public label. | Maintain the block-pinned holder snapshot and draft the beneficial-control registry with unknowns visibly marked. |
+| Approve the maintainer-supplied founder-allocation custody label for `0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58` and publish its intended use and custody/vesting/lock status without exposing private access details. | Maintain the block-pinned holder snapshot and draft the controlled-address registry with unknowns visibly marked; preserve the distinction between on-chain balance evidence and maintainer-supplied control labels. |
 | Decide Base-specific allocation categories and approve a treasury policy; do not copy legacy Algorand figures without a documented relationship. | Draft allocation tables, circulating-supply methodology, treasury-policy text, and public transaction-proof templates. |
 | Choose genuinely independent Safe signers, use hardware wallets, document conflicts, and test a small transaction before any material move. | Prepare an unsigned Safe setup/transaction checklist and review public configuration fields; never request or store keys, seed phrases, or recovery data. |
 | Let the active CCA finish without project/team self-bids or undisclosed support. Execute settlement/migration only through the verified official flow. | Monitor public auction and chain state, then prepare a factual settlement report showing sold/unsold amounts, independently funded bidders, concentration, migration, final pool, and open gaps. |
@@ -122,6 +133,7 @@ A failed gate means **NO-GO**. The response is to fix demand, product, disclosur
 
 - No self-bidding or team bidding in an auction presented as independent demand.
 - No wash trading, circular trading, bought volume, fake market making, or coordinated price support.
+- No undisclosed issuer-, founder-, treasury-, affiliate-, or related-party-funded repurchase or market-support program before, during, or after a token sale.
 - No dust airdrops, controlled-wallet splitting, or Sybil wallets used to inflate holder counts.
 - No duplicate v2/v3/v4 pool created merely to burn or lock a different LP artifact.
 - No claims of “decentralized,” “community owned,” “LP locked,” or “warning cleared” without the corresponding dated evidence.
@@ -134,7 +146,7 @@ Uniswap's [CCA terms](https://support.uniswap.org/hc/en-us/articles/309351008596
 
 Current decision: **NO-GO for another standard CCA.**
 
-Reconsideration trigger: the current CCA is fully resolved, the final canonical pool and LP custody are proven, the 30-day observation period completes, beneficial-control labels are published, all quantitative gates pass, and qualified counsel approves the proposed distribution.
+Reconsideration trigger: the current CCA is fully resolved, the final canonical pool and LP custody are proven, the 30-day observation period completes, the controlled-address registry and custody/vesting status are published, all quantitative gates pass, and qualified counsel approves the proposed distribution and any related repurchase or market-support disclosure.
 
 Related records:
 

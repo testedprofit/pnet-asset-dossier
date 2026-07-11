@@ -1,6 +1,6 @@
 # Base PNET Holder-Distribution Snapshot
 
-Status: public-chain snapshot; beneficial-owner labels remain incomplete
+Status: public-chain snapshot verified; project/founder control label maintainer-supplied; on-chain vesting, lock, and custody access not evidenced
 
 Capture block: `48,477,164`
 
@@ -16,8 +16,8 @@ The Base ERC-20 ledger had ten addresses with a positive PNET balance at the cap
 
 | Rank | Address | PNET balance | Supply share | Public interpretation at capture |
 | ---: | --- | ---: | ---: | --- |
-| 1 | [`0xd58cc829622c4c988af43028aaa37eda84104649`](https://basescan.org/address/0xd58cc829622c4c988af43028aaa37eda84104649) | `74,747,111.457500470910009950` | `74.747111457500%` | Initial-recipient smart-wallet address. The public dossier does not yet document its controller model or treasury policy. |
-| 2 | [`0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58`](https://basescan.org/address/0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58) | `15,000,000` | `15.000000000000%` | Unlabelled externally owned address. Its project relationship, controller, purpose, and restrictions require maintainer confirmation. |
+| 1 | [`0xd58cc829622c4c988af43028aaa37eda84104649`](https://basescan.org/address/0xd58cc829622c4c988af43028aaa37eda84104649) | `74,747,111.457500470910009950` | `74.747111457500%` | Initial-recipient smart-wallet address. The maintainer identifies it as project/founder-controlled; its controller model, treasury policy, and custody-access structure are not evidenced on-chain in this dossier. |
+| 2 | [`0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58`](https://basescan.org/address/0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58) | `15,000,000` | `15.000000000000%` | Founder-allocation custody wallet. The balance and transfer are on-chain verified; the role, project/founder control, and custodial status are maintainer-supplied. No on-chain vesting, lock, transfer restriction, or custody access is evidenced. |
 | 3 | [`0x777900c0ff11845c8e0d6c134b58c695023aab4e`](https://basescan.org/address/0x777900c0ff11845c8e0d6c134b58c695023aab4e) | `4,745,752.137568596788575110` | `4.745752137568%` | Uniswap CCA auction contract inventory; not an independent beneficial owner. Final bidder distribution is pending auction settlement. |
 | 4 | [`0x34385dd739fe5464892bf0ba4cc42492804da000`](https://basescan.org/address/0x34385dd739fe5464892bf0ba4cc42492804da000) | `3,559,314.103176447591431331` | `3.559314103176%` | Auction LBP strategy inventory; not an independent beneficial owner. Final migration evidence is pending. |
 | 5 | [`0x498581ff718922c3f8e6a244956af099b2652b2b`](https://basescan.org/address/0x498581ff718922c3f8e6a244956af099b2652b2b) | `1,947,813.470058203859406294` | `1.947813470058%` | Uniswap v4 PoolManager inventory. The singleton contract address is infrastructure, not an independent beneficial owner. |
@@ -30,17 +30,21 @@ The Base ERC-20 ledger had ten addresses with a positive PNET balance at the cap
 
 The five small unlabelled balances total only `8.831696280850577315` PNET. Auction, LBP-strategy, and PoolManager inventory totals `10,252,879.710803248239412735` PNET, or `10.252879710803%` of supply. Those three contracts describe launch/liquidity mechanics; they must not be counted as three independent owners.
 
+## Maintainer-Supplied Control Label
+
+On 2026-07-11, the maintainer confirmed that `0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58` is their custodial founder-allocation wallet and that the initial-recipient and founder-allocation wallets are under project/founder beneficial control. This is a project-supplied disclosure, not a conclusion established by ERC-20 balance data or an independently verified cryptographic ownership proof. The 15,000,000-PNET balance and transfer are on-chain verified. No on-chain vesting, lock, transfer restriction, signer/controller configuration, or custody access is evidenced for that allocation.
+
 ## Concentration Indicators
 
 | Indicator | Address-level result | Interpretation |
 | --- | ---: | --- |
 | Largest address | `74.747111457500%` | One address alone holds more than half of total supply. |
-| Two largest addresses | `89.747111457500%` | If the unlabelled 15,000,000-PNET address shares the same beneficial controller as the initial-recipient wallet, same-control concentration is at least this amount. That relationship is not yet established in this dossier. |
+| Two largest addresses | `89.747111457500%` | The maintainer reports both top addresses under project/founder beneficial control. The combined-control label is maintainer-supplied; the on-chain balances establish the arithmetic, not the control relationship. |
 | Five largest addresses | `99.999991168303%` | Includes three launch/liquidity contracts, so this is not a five-person ownership measure. |
 | Address-level Gini coefficient | approximately `0.814079` | Mechanical result over the ten positive address balances; contract inventory and controlled-wallet splitting can distort it. |
 | Address-level Nakamoto coefficient for more than 50% | `1` | One address has more than 50%; this is not a governance analysis. |
 
-To bring the largest address below 50% of fixed supply, at least `24,747,111.457500470910009950` PNET would need to leave that address for genuinely independent beneficial owners. Moving the same tokens among wallets controlled by the same person would not accomplish that. If the unlabelled 15,000,000-PNET address is under the same beneficial control, at least `39,747,111.457500470910009950` PNET would need to leave that combined control group to bring it below 50%.
+To bring the largest address below 50% of fixed supply, at least `24,747,111.457500470910009950` PNET would need to leave that address for genuinely independent beneficial owners. Moving the same tokens among wallets controlled by the same person would not accomplish that. Because the maintainer reports both top addresses under the same project/founder beneficial control, at least `39,747,111.457500470910009950` PNET would need to leave that combined control group for genuinely independent beneficial owners to bring it below 50%.
 
 The current auction inventory has already left the largest address. Even if all `4,745,752.137568596788575110` auction-contract PNET later reaches independent bidders, that event alone does not reduce the largest address's present `74.747111457500%` balance. It would, however, convert contract inventory into broader economic ownership if the bidders are genuinely independent.
 
@@ -65,8 +69,8 @@ The explorer's cached holder-ranking view was not used as the source of truth. T
 
 ## What This Snapshot Does Not Prove
 
-- It does not prove which addresses are controlled by the same person or organization.
-- It does not prove that any unlabelled address is independent, a buyer, a team wallet, or a treasury.
+- ERC-20 balance data alone does not prove which addresses share a controller. The combined project/founder-control classification relies on the maintainer's 2026-07-11 disclosure.
+- It does not prove that any of the remaining small unlabelled addresses is independent, a buyer, a team wallet, or a treasury.
 - It does not turn CCA, LBP-strategy, or PoolManager inventory into independent holders.
 - It does not prove circulating supply; that requires a published treatment for treasury, auction, strategy, liquidity, vesting, and restricted balances.
 - It does not prove that a Uniswap v4 position NFT is locked, burned, or inaccessible. ERC-20 `balanceOf` data cannot establish NFT ownership, timelock custody, unlock authority, or lock duration.
@@ -74,7 +78,7 @@ The explorer's cached holder-ranking view was not used as the source of truth. T
 
 ## Required Maintainer Follow-Up
 
-1. Confirm whether `0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58` is project-related. If it is, publish its role, beneficial-control category, intended use, and any vesting or transfer restriction. If it is not, publish only the supportable non-private label.
+1. Publish the Base founder-allocation policy, the wallet's intended use, a public-safe custody/controller model, and any future on-chain vesting or lock transaction. Until such evidence exists, state plainly that no on-chain vesting, lock, transfer restriction, or custody access is evidenced.
 2. Publish a controlled-address registry covering treasury, team, auction, strategy, liquidity, vesting, grants, and operational addresses.
 3. Publish Base-specific allocation and circulating-supply methodology rather than assuming the legacy Algorand allocation applies.
 4. After the CCA resolves, publish the amounts sold and unsold, independently funded bidder count, bidder concentration, USDC raised, migration transaction, final pool ID, position owner, and exact lock evidence.

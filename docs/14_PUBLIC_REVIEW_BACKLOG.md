@@ -106,7 +106,7 @@ The source review material contained suggestions or descriptions that should not
 | Item type | Handling |
 | --- | --- |
 | Staking or revenue-share language | Not imported as PNET utility; requires formal design and legal/security review |
-| Buyback or burn-from-revenue ideas | Not imported as a commitment; would require governance and treasury policy |
+| Buyback, repurchase, market-support, or burn-from-revenue ideas | Not imported as a commitment. Any planned issuer-, founder-, treasury-, affiliate-, or related-party-funded repurchase or market-support program would require governance and treasury policy, qualified counsel review, and counsel-approved material disclosure before a token sale or execution. Full confidential funding-source details belong in private counsel/compliance records; sensitive operational details may be redacted publicly only if the public category and material economic terms remain truthful and non-misleading and counsel approves the redaction. |
 | Holder-benefit or token-value phrasing | Not imported; public docs should define utility and risks without implying expected returns |
 | Internal strategic analysis PDFs | Raw PDFs not imported when labeled internal/confidential; only sanitized findings may be added |
 | User-provided operational wallet address | Included only in `ROADMAP.md` after explicit user instruction; not treated as verified without on-chain and human review |

@@ -30,7 +30,7 @@
       "id": "base-holder-distribution-2026-07-11",
       "file": "base-holder-distribution-2026-07-11.md",
       "claim_area": "base_holder_distribution",
-      "status": "Snapshot verified; beneficial-control labels incomplete",
+      "status": "Snapshot verified; project/founder control label maintainer-supplied; on-chain vesting, lock, and custody access not evidenced",
       "network": "Base mainnet",
       "chain_id": 8453,
       "contract": "0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a",
@@ -40,7 +40,12 @@
       "positive_balance_addresses": 10,
       "largest_address_share_percent": "74.747111457500",
       "two_largest_address_share_percent": "89.747111457500",
-      "unlabelled_15m_address": "0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58",
+      "maintainer_reported_founder_allocation_wallet": "0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58",
+      "maintainer_reported_founder_allocation_balance": "15000000",
+      "maintainer_reported_project_founder_control_share_percent": "89.747111457500",
+      "control_label_source": "Maintainer confirmation dated 2026-07-11",
+      "on_chain_vesting_or_lock_status": "Not evidenced",
+      "custody_access_structure_status": "Not evidenced",
       "sources": [
         "https://basescan.org/block/48477164",
         "https://base.blockscout.com/api?module=account&action=tokentx&contractaddress=0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a&startblock=0&endblock=48477164&page=1&offset=10000&sort=asc",
@@ -84,7 +89,11 @@
     },
     {
       "claim": "base_beneficial_owner_distribution",
-      "status": "Needs controlled-address labels and beneficial-control methodology"
+      "status": "Top-two project/founder control is maintainer-supplied; full controlled-address registry, custody evidence, and beneficial-control methodology remain needed"
+    },
+    {
+      "claim": "base_founder_allocation_vesting_or_lock",
+      "status": "No on-chain vesting, lock, transfer restriction, or custody access evidenced"
     },
     {
       "claim": "base_v4_lp_lock",
