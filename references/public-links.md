@@ -1,6 +1,6 @@
 # Public Links
 
-Snapshot date: 2026-06-27
+Snapshot date: 2026-07-11
 
 This file records public references used by the dossier. Links are source references only and do not imply endorsement, verification, liquidity, availability, or future support.
 
@@ -11,6 +11,18 @@ This file records public references used by the dossier. Links are source refere
 | testedprofit website | https://testedprofit.com | Public website reference | Needs verification |
 | testedprofit tokenomics page | https://testedprofit.com/pages/tokenomics/ | Displayed PNET supply, burn, allocation, vault, and unlock claims | Needs on-chain verification for asset and lock claims |
 | testedprofit PNET page | https://testedprofit.com/pages/PNET/ | Displayed ASA ID and decimals, plus public site navigation | Needs on-chain verification |
+| PNET asset dossier | https://github.com/testedprofit/pnet-asset-dossier | Public documentation and media hub | Maintainer-controlled reference |
+| 32x32 SVG token logo | https://raw.githubusercontent.com/testedprofit/pnet-asset-dossier/main/media/pnet-logo-32.svg | Token logo URL for explorer/wallet submissions | Maintainer-controlled reference |
+
+## Base Public References
+
+| Reference | URL | Snapshot note | Dossier status |
+| --- | --- | --- | --- |
+| Base ERC-20 token | https://basescan.org/token/0xe1f7f585f458cb6affcee2286b8482523b19ee5a | ProfitNet `PNET` token contract on Base | Source verified; profile review pending |
+| Base contract source | https://basescan.org/address/0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a#code | BaseScan source verification reference | Verified source |
+| Base deployment tx | https://basescan.org/tx/0x7d6300cb7f84d18fdaeafe3c34195e946ec86e6ce8c91d87d577177873b39fd1 | Base deployment transaction | Public chain reference |
+| Uniswap PNET/USDC v4 pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small seed-liquidity pool | Third-party UI reference |
+| Uniswap PNET/USDC v4 position | https://app.uniswap.org/positions/v4/base/2731162 | Liquidity position reference | Third-party UI reference |
 
 ## Third-Party Public References
 

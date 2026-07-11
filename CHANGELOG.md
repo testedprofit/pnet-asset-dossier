@@ -2,6 +2,23 @@
 
 All notable documentation changes to this dossier are recorded here.
 
+## 2026-07-11
+
+### Added
+
+- Added `media/pnet-logo-32.svg` as a simplified 32 x 32 ProfitNet icon for explorer and wallet metadata submissions.
+- Added Base ERC-20 ProfitNet token references, BaseScan source verification status, and Uniswap Base pool references to the README, deployment notes, and public link registry.
+
+### Changed
+
+- Updated public link snapshot date to include the Base ERC-20 launch and BaseScan token-profile workflow references.
+
+### Verification Status
+
+- Base ERC-20 source verification and BaseScan address ownership verification are complete.
+- BaseScan token profile/logo review remains pending until BaseScan approves the submitted update.
+- Current Base Uniswap liquidity remains a small seed-liquidity reference only and should not be described as deep liquidity.
+
 ## 2026-06-27
 
 ### Added

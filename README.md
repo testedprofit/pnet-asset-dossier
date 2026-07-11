@@ -24,6 +24,21 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 
 ## Quick Facts
 
+### Base ERC-20
+
+| Field | Value | Status |
+| --- | --- | --- |
+| Base token name | ProfitNet | Source verified on BaseScan; profile review pending |
+| Base token unit | PNET | Source verified on BaseScan; profile review pending |
+| Base chain ID | `8453` | Public chain reference |
+| Base contract | `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a` | Source verified on BaseScan/Blockscout/Sourcify |
+| Base total supply | `100,000,000` PNET | Fixed-supply ERC-20 constructor mint |
+| Base initial recipient | `0xd58cc829622c4c988af43028aaa37eda84104649` | Deployment constructor argument |
+| Base Uniswap pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small seed-liquidity reference only |
+| Base token logo | [media/pnet-logo-32.svg](media/pnet-logo-32.svg) | Maintainer-provided listing icon |
+
+### Legacy Algorand ASA
+
 | Field | Value | Status |
 | --- | --- | --- |
 | Brand | testedprofit / Profitnet | Needs verification |
