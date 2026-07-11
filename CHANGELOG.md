@@ -14,17 +14,22 @@ All notable documentation changes to this dossier are recorded here.
 - Expanded the moonshot runway with the AutoDev concept, liquidity planning tiers, and a public-safe trader activation plan.
 - Added `docs/23_COINGECKO_CMC_BUILD_TARGETS.md` to make CoinGecko and CoinMarketCap explicit build-toward goals with readiness gates.
 - Added the Uniswap PNET/USDC price-chart URL as a public market-reference link for future snapshots and listing evidence packets.
+- Added `docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md` with the verified Base contract findings, current third-party warning status, public-safe response wording, official Blockaid false-positive route, and evidence checklist.
 
 ### Changed
 
 - Updated public link snapshot date to include the Base ERC-20 launch and BaseScan token-profile workflow references.
 - Updated `media/pnet-logo-32.svg` to a gold badge / red banner mark matching the maintainer-provided ProfitNet gold logo source image.
+- Updated the README, documentation index, listing-readiness package, CoinGecko/CMC targets, and public link registry to track wallet-warning remediation without claiming that the displayed warning has already been removed.
+- Added explicit remediation guardrails: use the existing Uniswap v4 market, do not create a duplicate v2 pool merely to burn LP, do not wash trade or fake volume, and improve holder distribution only through genuine activity.
 
 ### Verification Status
 
 - Base ERC-20 source verification and BaseScan address ownership verification are complete.
 - BaseScan token profile/logo application has been submitted; review remains pending until BaseScan approves the update.
 - Current Base Uniswap liquidity remains a small seed-liquidity reference only and should not be described as deep liquidity.
+- Verified-source review found no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, or other contract-level honeypot mechanics.
+- The Blockaid-sourced warning remains displayed pending external review/update; buy/sell transaction evidence, auction/LP-lock evidence, and holder-distribution snapshots remain open evidence items.
 
 ## 2026-06-27
 

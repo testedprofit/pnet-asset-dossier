@@ -11,6 +11,7 @@ GitHub repository: https://github.com/testedprofit/pnet-asset-dossier
 The dossier records public information and review status for:
 
 - ProfitNet / PNET asset identity,
+- Base contract `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a`,
 - ASA ID `3169177585`,
 - tokenomics and supply claims,
 - source links and market references,
@@ -34,9 +35,17 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Base contract | `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a` | Source verified on BaseScan/Blockscout/Sourcify |
 | Base total supply | `100,000,000` PNET | Fixed-supply ERC-20 constructor mint |
 | Base initial recipient | `0xd58cc829622c4c988af43028aaa37eda84104649` | Deployment constructor argument |
+| Base deployment transaction | https://basescan.org/tx/0x7d6300cb7f84d18fdaeafe3c34195e946ec86e6ce8c91d87d577177873b39fd1 | Public chain reference |
 | Base Uniswap pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small seed-liquidity reference only |
 | Base Uniswap price chart | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a?chart=price | Third-party chart reference |
+| Base Uniswap position | https://app.uniswap.org/positions/v4/base/2731162 | Public position reference; not proof of an LP lock or burn |
 | Base token logo | [media/pnet-logo-32.svg](media/pnet-logo-32.svg) | Maintainer-provided listing icon |
+
+### Wallet-Warning Status
+
+PNET is a legitimate project. The verified Base contract does not contain honeypot mechanics. The warning appears to be a third-party heuristic false positive, likely from new-token/tiny-liquidity/not-listed/holder-concentration signals.
+
+The verified source is a minimal OpenZeppelin ERC-20: its fixed supply is minted once in the constructor; it has no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, exposed `owner()`, or exposed `minter()`. The Blockaid-sourced warning remains displayed in affected Uniswap or wallet surfaces pending third-party review and update. See [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) for the contract findings, evidence status, official report route, and remediation plan.
 
 ### Legacy Algorand ASA
 
@@ -62,6 +71,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Roadmap and implementation gates | [ROADMAP.md](ROADMAP.md) |
 | Moonshot runway | [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) |
 | CoinGecko / CMC build targets | [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) |
+| Wallet warning / Blockaid remediation | [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
 | User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
 | Developer guide | [docs/developer/DEVELOPER_GUIDE.md](docs/developer/DEVELOPER_GUIDE.md) |
@@ -106,6 +116,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | [docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis |
 | [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) | Public-safe growth, legitimacy, and distribution runway |
 | [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) | CoinGecko and CoinMarketCap build-toward checklist |
+| [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Verified-contract wallet-warning analysis and false-positive remediation status |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | [docs/pnet-contribution-protocol/METHODS.md](docs/pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md](docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |
@@ -191,4 +202,5 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | Lost creator wallet | NEEDS VERIFICATION | Do not treat as verified burned supply without methodology and evidence |
 | Operational wallet | SNAPSHOT ONLY | Address validity and current PNET balance snapshot recorded; role and control model not verified |
 | Contribution protocol | MVP READY FOR TESTNET DEPLOYMENT | Local implementation package prepared; TestNet app ID and deployment tx pending; not MainNet, not audited |
+| Base wallet warning | REMEDIATION OPEN | Verified source review found no contract-level honeypot mechanics; third-party warning remains displayed pending Blockaid/wallet update |
 | Exchange / bridge support | NOT CLAIMED | No venue support or listing outcome is implied |

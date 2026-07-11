@@ -1,6 +1,6 @@
 # PNET Documentation Index
 
-Status date: 2026-06-27
+Status date: 2026-07-11
 
 This directory is the public documentation set for ProfitNet / PNET. It is organized for reviewers, users, developers, auditors, ecosystem partners, and future contributors.
 
@@ -14,6 +14,7 @@ The repository remains documentation and media only. It must not contain private
 | User/community member | [user/USER_GUIDE.md](user/USER_GUIDE.md) | How to read the dossier and verify claims |
 | Developer | [developer/DEVELOPER_GUIDE.md](developer/DEVELOPER_GUIDE.md) | How to integrate safely with PNET documentation and future protocols |
 | Security reviewer | [security/SECURITY_GUIDE.md](security/SECURITY_GUIDE.md) | Threat model, sensitive-material policy, and audit gates |
+| Wallet-warning reviewer | [24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Verified-contract findings, warning status, and false-positive remediation evidence |
 | Contributor | [contribution/CONTRIBUTION_PROTOCOL_GUIDE.md](contribution/CONTRIBUTION_PROTOCOL_GUIDE.md) | Public-safe contribution protocol overview |
 | Contribution MVP reviewer | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | Contribution reviewer | [contribution/REAL_WORLD_CONTRIBUTION_EVIDENCE.md](contribution/REAL_WORLD_CONTRIBUTION_EVIDENCE.md) | Redacted third-party contribution evidence policy |
@@ -58,6 +59,7 @@ The repository remains documentation and media only. It must not contain private
 | [21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis package |
 | [22_MOONSHOT_RUNWAY.md](22_MOONSHOT_RUNWAY.md) | Public-safe growth, legitimacy, and distribution runway |
 | [23_COINGECKO_CMC_BUILD_TARGETS.md](23_COINGECKO_CMC_BUILD_TARGETS.md) | CoinGecko and CoinMarketCap build-toward checklist |
+| [24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Base wallet-warning analysis and Blockaid false-positive remediation record |
 | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP |
 | [pnet-contribution-protocol/METHODS.md](pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [pnet-contribution-protocol/LEGAL_DISCLAIMER.md](pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |
@@ -102,6 +104,7 @@ The repository remains documentation and media only. It must not contain private
 - Treat market metrics as stale unless refreshed.
 - Do not repeat risky website language except in avoided-claims notes.
 - Do not imply exchange support, bridge support, passive income, guaranteed value, or investment return.
+- Distinguish verified contract findings from unresolved third-party warning status; do not claim a warning is cleared until the affected surface or provider confirms it.
 - Do not publish personal data, private wallet notes, wallet screenshots, secrets, or signer material.
 
 Current Gate Status: DOCUMENTATION STRUCTURE READY FOR REVIEW; VERIFICATION GAPS REMAIN VISIBLE.
