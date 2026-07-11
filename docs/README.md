@@ -56,6 +56,7 @@ The repository remains documentation and media only. It must not contain private
 | [19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md](19_TESTING_SECURITY_DEPLOYMENT_MEASUREMENT.md) | Testing, deployment, and measurement plan |
 | [20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md](20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md) | Contribution protocol disclosure rules |
 | [21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis package |
+| [22_MOONSHOT_RUNWAY.md](22_MOONSHOT_RUNWAY.md) | Public-safe growth, legitimacy, and distribution runway |
 | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP |
 | [pnet-contribution-protocol/METHODS.md](pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [pnet-contribution-protocol/LEGAL_DISCLAIMER.md](pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |

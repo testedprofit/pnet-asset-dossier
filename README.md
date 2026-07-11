@@ -59,6 +59,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Canonical specification | [WHITEPAPER.md](WHITEPAPER.md) |
 | Funny companion whitepaper | [FUNPAPER.md](FUNPAPER.md) |
 | Roadmap and implementation gates | [ROADMAP.md](ROADMAP.md) |
+| Moonshot runway | [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
 | User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
 | Developer guide | [docs/developer/DEVELOPER_GUIDE.md](docs/developer/DEVELOPER_GUIDE.md) |
@@ -101,6 +102,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | [docs/audit/README.md](docs/audit/README.md) | Audit tracker, threat model, and review checklist |
 | [docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md](docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md) | Contribution protocol disclosure plan |
 | [docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis |
+| [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) | Public-safe growth, legitimacy, and distribution runway |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | [docs/pnet-contribution-protocol/METHODS.md](docs/pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md](docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |

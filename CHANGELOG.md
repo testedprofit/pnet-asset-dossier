@@ -10,6 +10,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added Base ERC-20 ProfitNet token references, BaseScan source verification status, and Uniswap Base pool references to the README, deployment notes, and public link registry.
 - Added `FUNPAPER.md` as a funny, public-safe companion whitepaper for the AI-first, Algorand-rooted, Base-expansion ProfitNet experiment.
 - Added public status wording that the BaseScan token profile/logo update application has been submitted and is awaiting external review.
+- Added `docs/22_MOONSHOT_RUNWAY.md` as a public-safe growth, legitimacy, distribution, liquidity, and Wormhole NTT practice runway.
 
 ### Changed
 
