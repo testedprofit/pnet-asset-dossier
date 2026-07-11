@@ -57,6 +57,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Need | File |
 | --- | --- |
 | Canonical specification | [WHITEPAPER.md](WHITEPAPER.md) |
+| Funny companion whitepaper | [FUNPAPER.md](FUNPAPER.md) |
 | Roadmap and implementation gates | [ROADMAP.md](ROADMAP.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
 | User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
@@ -78,6 +79,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | File | Purpose |
 | --- | --- |
 | [DEPLOYMENTS.md](DEPLOYMENTS.md) | Deployment and listing-reference cautions |
+| [FUNPAPER.md](FUNPAPER.md) | Funny, public-safe companion whitepaper |
 | [SECURITY.md](SECURITY.md) | Sensitive-material and reporting policy |
 | [DISCLAIMER.md](DISCLAIMER.md) | Risk and non-advice disclaimer |
 | [docs/01_ASSET_FACTS.md](docs/01_ASSET_FACTS.md) | Asset facts |

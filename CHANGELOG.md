@@ -8,6 +8,7 @@ All notable documentation changes to this dossier are recorded here.
 
 - Added `media/pnet-logo-32.svg` as a simplified 32 x 32 ProfitNet icon for explorer and wallet metadata submissions.
 - Added Base ERC-20 ProfitNet token references, BaseScan source verification status, and Uniswap Base pool references to the README, deployment notes, and public link registry.
+- Added `FUNPAPER.md` as a funny, public-safe companion whitepaper for the AI-first, Algorand-rooted, Base-expansion ProfitNet experiment.
 
 ### Changed
 
