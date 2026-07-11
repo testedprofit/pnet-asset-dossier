@@ -22,6 +22,7 @@ This file records public references used by the dossier. Links are source refere
 | Base contract source | https://basescan.org/address/0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a#code | BaseScan source verification reference | Verified source |
 | Base deployment tx | https://basescan.org/tx/0x7d6300cb7f84d18fdaeafe3c34195e946ec86e6ce8c91d87d577177873b39fd1 | Base deployment transaction | Public chain reference |
 | Uniswap PNET/USDC v4 pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small seed-liquidity pool | Third-party UI reference |
+| Uniswap PNET/USDC v4 price chart | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a?chart=price | Pool chart view for price snapshots | Third-party UI reference |
 | Uniswap PNET/USDC v4 position | https://app.uniswap.org/positions/v4/base/2731162 | Liquidity position reference | Third-party UI reference |
 
 ## Third-Party Public References

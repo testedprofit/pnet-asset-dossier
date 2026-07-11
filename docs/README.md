@@ -57,6 +57,7 @@ The repository remains documentation and media only. It must not contain private
 | [20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md](20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md) | Contribution protocol disclosure rules |
 | [21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis package |
 | [22_MOONSHOT_RUNWAY.md](22_MOONSHOT_RUNWAY.md) | Public-safe growth, legitimacy, and distribution runway |
+| [23_COINGECKO_CMC_BUILD_TARGETS.md](23_COINGECKO_CMC_BUILD_TARGETS.md) | CoinGecko and CoinMarketCap build-toward checklist |
 | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP |
 | [pnet-contribution-protocol/METHODS.md](pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [pnet-contribution-protocol/LEGAL_DISCLAIMER.md](pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |

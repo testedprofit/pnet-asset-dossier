@@ -35,6 +35,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Base total supply | `100,000,000` PNET | Fixed-supply ERC-20 constructor mint |
 | Base initial recipient | `0xd58cc829622c4c988af43028aaa37eda84104649` | Deployment constructor argument |
 | Base Uniswap pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small seed-liquidity reference only |
+| Base Uniswap price chart | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a?chart=price | Third-party chart reference |
 | Base token logo | [media/pnet-logo-32.svg](media/pnet-logo-32.svg) | Maintainer-provided listing icon |
 
 ### Legacy Algorand ASA
@@ -60,6 +61,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | Funny companion whitepaper | [FUNPAPER.md](FUNPAPER.md) |
 | Roadmap and implementation gates | [ROADMAP.md](ROADMAP.md) |
 | Moonshot runway | [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) |
+| CoinGecko / CMC build targets | [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
 | User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
 | Developer guide | [docs/developer/DEVELOPER_GUIDE.md](docs/developer/DEVELOPER_GUIDE.md) |
@@ -103,6 +105,7 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 | [docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md](docs/20_CONTRIBUTION_PROTOCOL_PUBLIC_DISCLOSURE_PLAN.md) | Contribution protocol disclosure plan |
 | [docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md](docs/21_CONTRIBUTION_PROTOCOL_FINAL_PACKAGE.md) | Contribution protocol synthesis |
 | [docs/22_MOONSHOT_RUNWAY.md](docs/22_MOONSHOT_RUNWAY.md) | Public-safe growth, legitimacy, and distribution runway |
+| [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) | CoinGecko and CoinMarketCap build-toward checklist |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | [docs/pnet-contribution-protocol/METHODS.md](docs/pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md](docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |

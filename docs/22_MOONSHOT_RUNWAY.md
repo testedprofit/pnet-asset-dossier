@@ -270,16 +270,38 @@ PNET is preparing Wormhole NTT practice workflows. No production PNET bridge is 
 
 Goal: use evidence, not middlemen.
 
-Free/official surfaces:
+Build toward these free/official surfaces:
 
 - BaseScan token profile/logo update,
 - Blockscout and Sourcify verification,
 - Uniswap public pool,
+- Uniswap price chart,
 - public token-list JSON,
 - CoinGecko request only after active-market prerequisites are credible,
 - CoinMarketCap request only when volume/activity and project evidence are no longer trivial.
 
+CoinGecko build gates:
+
+- active public market route,
+- stable public metadata,
+- clean website and logo,
+- source/explorer links,
+- enough liquidity and organic volume to look reviewable,
+- no community spam asking for listing.
+
+CoinMarketCap build gates:
+
+- functional website,
+- direct block explorer links,
+- direct market/pair links,
+- active public trading with material volume,
+- project contact,
+- complete evidence packet,
+- no misleading, vague, or promotional listing claims.
+
 Do not pay unofficial listing brokers. Use official forms and keep copies of the submitted evidence.
+
+Detailed checklist: [23_COINGECKO_CMC_BUILD_TARGETS.md](23_COINGECKO_CMC_BUILD_TARGETS.md).
 
 ## Metrics To Track
 

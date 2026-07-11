@@ -8,6 +8,7 @@ This repository does not contain deployment code, smart contract code, wallet co
 | --- | --- | --- |
 | Base ERC-20 | `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a` | Source verified on BaseScan/Blockscout/Sourcify; token profile submitted and review pending |
 | Base Uniswap v4 pool | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a | Small seed-liquidity reference only |
+| Base Uniswap v4 price chart | https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a?chart=price | Third-party chart reference |
 | Algorand ASA | `3169177585` | Verified by public indexers in [data/on-chain-proofs/asset-identity-proof-2026-06-27.md](data/on-chain-proofs/asset-identity-proof-2026-06-27.md) |
 | Vestige | https://vestige.fi/asset/3169177585 | Needs verification |
 | Official website | https://testedprofit.com | Needs verification |

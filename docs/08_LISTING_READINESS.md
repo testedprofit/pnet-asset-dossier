@@ -17,6 +17,7 @@ This document is a public-review package for listing diligence, ecosystem partne
 | Public links | Recorded in references | Add explorer/indexer evidence links |
 | Risk disclosures | Present | Keep disclaimers current |
 | Claims policy | Present | Enforce before public claims are added |
+| CoinGecko / CoinMarketCap readiness | Build targets documented | Complete gates in [23_COINGECKO_CMC_BUILD_TARGETS.md](23_COINGECKO_CMC_BUILD_TARGETS.md) before submission |
 | Human checklist | Present below | Complete before external submission |
 
 ## Asset Identity
@@ -110,4 +111,3 @@ Public claims must follow [docs/06_PUBLIC_CLAIMS_POLICY.md](06_PUBLIC_CLAIMS_POL
 | Verify LP/vault labels against pool IDs, balances, and asset pairs | Needs on-chain verification |
 | Save dated screenshots with source URL and capture time | Needs verification |
 | Confirm no exchange, bridge, or Coinbase support is implied | Needs verification |
-
