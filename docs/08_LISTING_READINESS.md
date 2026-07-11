@@ -17,6 +17,7 @@ PNET is a legitimate project. The verified Base contract does not contain honeyp
 | Base liquidity evidence | Very small legacy seed pool recorded; active Uniswap CCA and configuration now documented | Record final migration, canonical pool, position, exact liquidity, and timelock proof after auction completion |
 | Uniswap CCA pink-check | LP configuration appears sufficient after successful migration; three-of-four identity/traction criteria not currently evidenced | Complete [CCA verified-listing plan](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) without buying or fabricating eligibility signals |
 | Base holder distribution | [Block-pinned snapshot](../data/on-chain-proofs/base-holder-distribution-2026-07-11.md) published; maintainer-reported project/founder control of the top two addresses is at least `89.747111457500%` | Publish custody/vesting status, refresh after settlement, and improve honestly; the founder-control label is maintainer-supplied and no on-chain vesting, lock, or custody access is evidenced |
+| Robinhood Chain / CCIP | Chainlink token-admin registration request submitted 2026-07-11; no deployment or listing claimed | Wait for Chainlink response; test Base-canonical lock/release and Robinhood burn/mint on testnet before any mainnet deployment |
 | Issuer-funded repurchase / market support | This dossier does not approve or authorize a program or sale term | If any program is planned, obtain qualified counsel review and disclose counsel-approved material terms and a truthful non-sensitive funding-source category before any token sale; provide full confidential source details only to counsel/compliance, with public redactions allowed only when counsel approves and the public category/material terms remain truthful and non-misleading |
 | Legacy ASA identity | Name, unit, network, and ASA ID verified by public indexers at capture round | Recheck dated proof before external use |
 | Legacy ASA control fields | Creator and current zero manager/reserve/freeze/clawback values verified at capture round | Recheck dated proof before external use |
@@ -61,6 +62,7 @@ No code path was found that selectively blocks sells or lets a privileged accoun
 | LP timelock | Configured through 2026-08-17 02:59:59 UTC | Final migrated LP proof pending; do not call the seed position locked |
 | Uniswap CCA verification | [Readiness plan](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | No badge claimed; three-of-four public identity/traction requirements not currently evidenced |
 | Holder distribution | [Block `48,477,164` snapshot](../data/on-chain-proofs/base-holder-distribution-2026-07-11.md) recorded | Maintainer-reported project/founder control of the top two addresses is at least `89.747111457500%`; custody/vesting proof and genuine improvement remain open |
+| Robinhood Chain CCT readiness | [Readiness record](27_ROBINHOOD_CHAIN_CCT_READINESS.md) | Chainlink token-admin request submitted; no production bridge or Robinhood listing claimed |
 | Blockaid false-positive submission | Not evidenced in this dossier | Submit verified-source packet and record date/ticket status |
 | Warning cleared | Not complete | Warning remains displayed pending provider update |
 
@@ -138,6 +140,7 @@ See [references/public-links.md](../references/public-links.md) and [docs/11_API
 - Page-displayed locks, vaults, burns, and partner labels are not on-chain verified here.
 - The verified Base contract has no contract-level honeypot mechanics, but the third-party warning remains visible until Blockaid or downstream wallet surfaces update.
 - Very small liquidity and holder concentration are real market-risk and diligence issues even when contract-level honeypot mechanics are absent.
+- A 15% founder allocation can be reasonable when disclosed and consistently accounted for, but any claim that it is locked or vested requires enforceable evidence.
 - Any issuer-, founder-, treasury-, affiliate-, or related-party-funded repurchase, liquidity-support, or market-support program requires qualified counsel review and counsel-approved material disclosure before a token sale. It must not be described as a price floor, guaranteed liquidity, appreciation mechanism, or return promise.
 - Bridge availability does not imply exchange support or Coinbase listing.
 - No reader should connect a wallet, sign a transaction, transfer assets, or provide credentials to verify this dossier.
@@ -157,6 +160,7 @@ Public claims must follow [docs/06_PUBLIC_CLAIMS_POLICY.md](06_PUBLIC_CLAIMS_POL
 | Document auction evidence if an auction was used; otherwise state none was used | Needs verification |
 | Document any LP lock/burn mechanism without treating the v4 position page as lock proof | Needs on-chain evidence |
 | Publish dated Base holder-concentration snapshots and improve distribution honestly | Initial block-pinned snapshot and maintainer-supplied founder-control label published; custody/vesting evidence, periodic refresh, and genuine improvement remain open |
+| Track Chainlink token-admin registration for future Robinhood Chain CCT path | Submitted 2026-07-11; no approval, testnet proof, mainnet bridge, or Robinhood listing claimed |
 | If a repurchase or market-support program is planned, complete counsel review and counsel-approved sale disclosure before any token sale | This dossier does not approve or authorize a program or sale term; full confidential funding-source details belong only in private counsel/compliance records |
 | Submit false-positive evidence through Blockaid's report portal; reference its ticket in any optional Uniswap support follow-up | Needs external submission evidence |
 | Confirm warning removal on each affected surface before marking resolved | Pending external update |

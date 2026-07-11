@@ -59,7 +59,13 @@ The pink check shown beside some Uniswap auctions is a Verified CCA auction/laun
 
 At Base block `48,477,164`, the initial-recipient wallet held `74.747111457500%` of supply. The maintainer confirms that `0x7f97e32af1d2eb65d9d5f5b5ce15048768234a58` is a founder-controlled custodial allocation wallet holding `15,000,000` PNET. On that maintainer-supplied control label, at least `89.747111457500%` of supply was under project/founder beneficial control at the snapshot. The 15,000,000-PNET balance and transfer are on-chain verified; its role and custodial status are maintainer-supplied, and no on-chain vesting, lock, transfer restriction, or custody access is evidenced. Auction, LBP-strategy, and PoolManager balances are contract inventory, not independent owners, and ERC-20 balances do not prove an LP position NFT is locked.
 
+The 15% founder allocation is not presented here as inherently excessive; it is presented as a disclosed founder allocation that still needs custody, vesting, or lock evidence if any restriction is claimed. The concentration issue is a market-structure and disclosure issue, separate from the verified contract finding that no honeypot mechanics were found.
+
 The current decision is **NO-GO on another standard Uniswap CCA** until the active auction resolves, migration and LP custody are proven, a controlled-address registry and allocation/lock status are published, the canonical market meets the written quality gates, and legal review is complete. See the [holder snapshot](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) and [Base treasury and distribution plan](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md).
+
+### Robinhood Chain / Chainlink Status
+
+On 2026-07-11, the project submitted a Chainlink token-admin registration request for a possible future Robinhood Chain CCT/CCIP path. Base PNET remains canonical. The intended design is Base lock/release and Robinhood Chain burn/mint, not a duplicate independent PNET supply. No Robinhood Chain deployment, production bridge, Robinhood app listing, or Robinhood brokerage support is claimed. See [docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md](docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md).
 
 ### Legacy Algorand ASA
 
@@ -88,6 +94,7 @@ The current decision is **NO-GO on another standard Uniswap CCA** until the acti
 | Wallet warning / Blockaid remediation | [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) |
 | Uniswap CCA verified-listing plan | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) |
 | Base treasury and distribution plan | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) |
+| Robinhood Chain CCT readiness | [docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md](docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md) |
 | Base holder-distribution snapshot | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) |
 | Base PNET/USDC trade proof | [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
@@ -137,6 +144,7 @@ The current decision is **NO-GO on another standard Uniswap CCA** until the acti
 | [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Verified-contract wallet-warning analysis and false-positive remediation status |
 | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA pink-check criteria, PNET scorecard, and application plan |
 | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base custody, beneficial-owner distribution, canonical-pool gates, and 30/60/90 execution plan |
+| [docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md](docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md) | Chainlink token-admin request status and public-safe Robinhood Chain CCT readiness gates |
 | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) | Block-pinned Base balance and concentration snapshot with ownership cautions |
 | [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) | Verified tiny buy and bounded search showing no sell-direction pool swap yet |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
