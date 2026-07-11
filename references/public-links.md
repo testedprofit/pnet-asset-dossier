@@ -12,7 +12,7 @@ This file records public references used by the dossier. Links are source refere
 | testedprofit tokenomics page | https://testedprofit.com/pages/tokenomics/ | Displayed PNET supply, burn, allocation, vault, and unlock claims | Needs on-chain verification for asset and lock claims |
 | testedprofit PNET page | https://testedprofit.com/pages/PNET/ | Displayed ASA ID and decimals, plus public site navigation | Needs on-chain verification |
 | PNET asset dossier | https://github.com/testedprofit/pnet-asset-dossier | Public documentation and media hub | Maintainer-controlled reference |
-| 32x32 SVG token logo | https://raw.githubusercontent.com/testedprofit/pnet-asset-dossier/main/media/pnet-logo-32.svg | Token logo URL for explorer/wallet submissions | Maintainer-controlled reference |
+| 32x32 SVG token logo | https://raw.githubusercontent.com/testedprofit/pnet-asset-dossier/376be2dada8af8f8371bfc45516ca16be594060f/media/pnet-logo-32.svg | Commit-pinned token logo URL for explorer/wallet submissions | Maintainer-controlled reference |
 
 ## Base Public References
 
