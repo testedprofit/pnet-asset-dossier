@@ -28,8 +28,8 @@ It does not contain code, signer logic, wallet logic, private keys, mnemonics, A
 
 | Field | Value | Status |
 | --- | --- | --- |
-| Base token name | ProfitNet | Source verified on BaseScan; profile review pending |
-| Base token unit | PNET | Source verified on BaseScan; profile review pending |
+| Base token name | ProfitNet | Source verified on BaseScan; token profile submitted and review pending |
+| Base token unit | PNET | Source verified on BaseScan; token profile submitted and review pending |
 | Base chain ID | `8453` | Public chain reference |
 | Base contract | `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a` | Source verified on BaseScan/Blockscout/Sourcify |
 | Base total supply | `100,000,000` PNET | Fixed-supply ERC-20 constructor mint |
