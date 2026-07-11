@@ -18,6 +18,8 @@ All notable documentation changes to this dossier are recorded here.
 - Added `docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md` with the official pink-check criteria, PNET eligibility scorecard, post-migration LP evidence gate, and truthful application path.
 - Added a prepared Uniswap CCA application worksheet, public founder-disclosure template, and factual reporter source pack without claiming that PNET is currently eligible or covered by a qualifying outlet.
 - Added `data/asset-metadata/pnet-base-token.json` and `tokenlist.json` so Base PNET's 18-decimal ERC-20 identity is machine-readable and separate from the 6-decimal legacy Algorand ASA record.
+- Added a block-pinned Base holder-distribution proof at block `48,477,164`, including direct balance reconciliation, address-level concentration indicators, contract-inventory cautions, and the unresolved 15,000,000-PNET address label.
+- Added `docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md` with a strong no-go on another standard CCA now, canonical-pool and organic-participation gates, custody/beneficial-ownership distinctions, integrity rules, and split human/AI 30/60/90 actions.
 
 ### Changed
 
@@ -27,6 +29,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added explicit remediation guardrails: use the existing Uniswap v4 market, do not create a duplicate v2 pool merely to burn LP, do not wash trade or fake volume, and improve holder distribution only through genuine activity.
 - Recorded the active Uniswap CCA, launcher transaction, LBP strategy, configured LP commitment, and timelock recipient while leaving the final migrated pool and position pending on-chain confirmation.
 - Clarified that Uniswap's pink CCA check is an auction/launch designation, not a generic token verification and not a Blockaid-warning correction.
+- Updated the README, documentation index, on-chain proof index, and proof-package index to expose the Base concentration snapshot and treasury/distribution decision.
 
 ### Verification Status
 
@@ -35,7 +38,9 @@ All notable documentation changes to this dossier are recorded here.
 - Current Base Uniswap liquidity remains a small seed-liquidity reference only and should not be described as deep liquidity.
 - PNET's configured CCA LP allocation appears to exceed Uniswap's numeric LP threshold after successful migration, but the public record does not yet evidence three of the four required founder/social/press/fund criteria.
 - Verified-source review found no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, or other contract-level honeypot mechanics.
-- The Blockaid-sourced warning remains displayed pending external review/update; buy/sell transaction evidence, auction/LP-lock evidence, and holder-distribution snapshots remain open evidence items.
+- The Blockaid-sourced warning remains displayed pending external review/update; buy/sell transaction evidence, auction/LP-lock evidence, the 15% address control label, and recurring holder-distribution updates remain open evidence items.
+- At block `48,477,164`, the largest Base PNET address held `74.747111457500%`; same-control concentration could be `89.747111457500%` if the unlabelled 15,000,000-PNET address shares its beneficial controller, which remains unconfirmed.
+- CCA, LBP-strategy, and PoolManager balances are recorded as contract inventory rather than independent owners; ERC-20 balances do not prove that a v4 LP position NFT is locked.
 
 ## 2026-06-27
 

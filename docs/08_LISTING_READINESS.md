@@ -16,7 +16,7 @@ PNET is a legitimate project. The verified Base contract does not contain honeyp
 | Base tradeability evidence | Public v4 pool exists; buy/sell tx evidence not yet recorded here | Record one successful buy tx and one successful sell tx |
 | Base liquidity evidence | Very small legacy seed pool recorded; active Uniswap CCA and configuration now documented | Record final migration, canonical pool, position, exact liquidity, and timelock proof after auction completion |
 | Uniswap CCA pink-check | LP configuration appears sufficient after successful migration; three-of-four identity/traction criteria not currently evidenced | Complete [CCA verified-listing plan](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) without buying or fabricating eligibility signals |
-| Base holder distribution | Dated snapshot and honest improvement needed | Publish concentration snapshots; do not manufacture holders |
+| Base holder distribution | [Block-pinned snapshot](../data/on-chain-proofs/base-holder-distribution-2026-07-11.md) published; largest address held `74.747111457500%`; 15% address control unresolved | Confirm beneficial-control labels, refresh after settlement, and improve honestly; do not manufacture holders |
 | Legacy ASA identity | Name, unit, network, and ASA ID verified by public indexers at capture round | Recheck dated proof before external use |
 | Legacy ASA control fields | Creator and current zero manager/reserve/freeze/clawback values verified at capture round | Recheck dated proof before external use |
 | Legacy ASA supply and decimals | Display total, raw total, and decimals verified by public indexers at capture round | Recheck dated proof before external use |
@@ -59,7 +59,7 @@ No code path was found that selectively blocks sells or lets a privileged accoun
 | LP configuration | Approximately 3,559,314 PNET / 75% of auctioned PNET configured for LP; recipient `0xe684c6a25fcced415a5b503bf9738abf7873d023` | Configuration recorded; final LP-addition transaction and position pending |
 | LP timelock | Configured through 2026-08-17 02:59:59 UTC | Final migrated LP proof pending; do not call the seed position locked |
 | Uniswap CCA verification | [Readiness plan](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | No badge claimed; three-of-four public identity/traction requirements not currently evidenced |
-| Holder distribution | Current dated snapshot not recorded here | Needs snapshot and honest concentration improvement |
+| Holder distribution | [Block `48,477,164` snapshot](../data/on-chain-proofs/base-holder-distribution-2026-07-11.md) recorded | Largest-address concentration is `74.747111457500%`; 15% address label and genuine improvement remain open |
 | Blockaid false-positive submission | Not evidenced in this dossier | Submit verified-source packet and record date/ticket status |
 | Warning cleared | Not complete | Warning remains displayed pending provider update |
 
@@ -154,7 +154,7 @@ Public claims must follow [docs/06_PUBLIC_CLAIMS_POLICY.md](06_PUBLIC_CLAIMS_POL
 | Record a successful Base sell transaction with date, amount, and outcome | Needs on-chain evidence |
 | Document auction evidence if an auction was used; otherwise state none was used | Needs verification |
 | Document any LP lock/burn mechanism without treating the v4 position page as lock proof | Needs on-chain evidence |
-| Publish dated Base holder-concentration snapshots and improve distribution honestly | Needs verification |
+| Publish dated Base holder-concentration snapshots and improve distribution honestly | Initial block-pinned snapshot published; control label, periodic refresh, and genuine improvement remain open |
 | Submit false-positive evidence through Blockaid's report portal; reference its ticket in any optional Uniswap support follow-up | Needs external submission evidence |
 | Confirm warning removal on each affected surface before marking resolved | Pending external update |
 | Recheck ASA ID, asset name, unit, total, decimals, URL, and metadata-hash presence | Verified at capture round; refresh before external submission |

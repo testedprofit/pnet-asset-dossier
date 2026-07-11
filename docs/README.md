@@ -16,6 +16,7 @@ The repository remains documentation and media only. It must not contain private
 | Security reviewer | [security/SECURITY_GUIDE.md](security/SECURITY_GUIDE.md) | Threat model, sensitive-material policy, and audit gates |
 | Wallet-warning reviewer | [24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Verified-contract findings, warning status, and false-positive remediation evidence |
 | Uniswap CCA reviewer | [25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Pink-check criteria, PNET eligibility scorecard, LP proof gate, and application plan |
+| Treasury/distribution reviewer | [26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base custody, beneficial-owner distribution, canonical-pool gates, and human/AI 30/60/90 actions |
 | Contributor | [contribution/CONTRIBUTION_PROTOCOL_GUIDE.md](contribution/CONTRIBUTION_PROTOCOL_GUIDE.md) | Public-safe contribution protocol overview |
 | Contribution MVP reviewer | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | Contribution reviewer | [contribution/REAL_WORLD_CONTRIBUTION_EVIDENCE.md](contribution/REAL_WORLD_CONTRIBUTION_EVIDENCE.md) | Redacted third-party contribution evidence policy |
@@ -62,6 +63,7 @@ The repository remains documentation and media only. It must not contain private
 | [23_COINGECKO_CMC_BUILD_TARGETS.md](23_COINGECKO_CMC_BUILD_TARGETS.md) | CoinGecko and CoinMarketCap build-toward checklist |
 | [24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Base wallet-warning analysis and Blockaid false-positive remediation record |
 | [25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA verified-launch requirements and PNET execution plan |
+| [26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base treasury controls, holder-distribution plan, second-CCA no-go gates, and execution ownership |
 | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP |
 | [pnet-contribution-protocol/METHODS.md](pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [pnet-contribution-protocol/LEGAL_DISCLAIMER.md](pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |

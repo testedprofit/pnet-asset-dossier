@@ -1,6 +1,6 @@
 # CoinGecko and CoinMarketCap Build Targets
 
-Status: public-safe build-toward checklist; no listing outcome claimed  
+Status: public-safe build-toward checklist; no listing outcome claimed
 Date: 2026-07-11
 
 ## Purpose
@@ -31,7 +31,7 @@ Do not ask the community to spam listing teams.
 | Meaningful liquidity and organic volume | Needed |
 | Successful buy/sell transaction record | Needed in public evidence packet |
 | Auction / LP-lock evidence | CCA address, launcher transaction, strategy, allocation, and configured timelock recorded; final migration/pool/position proof pending |
-| Holder/activity snapshots | Needed |
+| Holder/activity snapshots | Block-pinned holder snapshot published; control labels and recurring activity snapshots still needed |
 | CoinGecko application | Not submitted |
 | CoinMarketCap application | Not submitted |
 
@@ -92,7 +92,7 @@ Do not apply to CoinMarketCap until PNET has material public trading activity an
 | Meaningful liquidity | CoinGecko, CMC | Needed |
 | Organic swaps over multiple days | CoinGecko, CMC | Needed |
 | Dated volume/liquidity snapshots | CoinGecko, CMC | Needed |
-| Holder distribution snapshot | CoinGecko, CMC | Needed |
+| Holder distribution snapshot | CoinGecko, CMC | Block `48,477,164` snapshot published; refresh after CCA settlement and resolve the 15% address label |
 | Honest concentration improvement | CoinGecko, CMC | Needed; no controlled-wallet splitting |
 | Product/utility proof | CoinGecko, CMC | Command Center / AI verifier planned |
 | No overclaiming | CoinGecko, CMC | Must maintain |
@@ -140,7 +140,7 @@ PNET is a legitimate project. The verified Base contract does not contain honeyp
 
 The contract is a minimal OpenZeppelin ERC-20 with a one-time fixed constructor mint and no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, exposed `owner()`, or exposed `minter()`. The warning nevertheless remains displayed pending Blockaid or downstream wallet-provider review.
 
-Before a CoinGecko or CoinMarketCap submission, complete the evidence and remediation steps in [24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](24_WALLET_WARNING_BLOCKAID_REMEDIATION.md): finish BaseScan profile/logo approval, record successful buy and sell transactions, document any auction and LP-lock evidence accurately, publish holder-distribution snapshots, and submit the false-positive packet through Blockaid's official report portal. Reference the Blockaid ticket in any optional Uniswap support follow-up.
+Before a CoinGecko or CoinMarketCap submission, complete the evidence and remediation steps in [24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](24_WALLET_WARNING_BLOCKAID_REMEDIATION.md): finish BaseScan profile/logo approval, record successful buy and sell transactions, document any auction and LP-lock evidence accurately, keep the holder-distribution snapshot current and resolve known control labels, and submit the false-positive packet through Blockaid's official report portal. Reference the Blockaid ticket in any optional Uniswap support follow-up.
 
 ## Submission Rules
 
@@ -162,7 +162,7 @@ Before a CoinGecko or CoinMarketCap submission, complete the evidence and remedi
 1. Finish BaseScan profile/logo review and record the approval.
 2. Record one successful buy and one successful sell transaction from the existing v4 pool.
 3. Finish the active CCA and document the final migration, canonical pool, liquidity provenance, position, and actual timelock mechanism.
-4. Publish a dated holder-distribution snapshot and improve concentration through genuine participation.
+4. Maintain the published holder-distribution snapshot, resolve the 15% address label, and improve concentration through genuine participation.
 5. Submit the verified false-positive evidence packet through Blockaid's official report portal, reference its ticket in any optional Uniswap support follow-up, and track the warning status.
 6. Update official website and public links.
 7. Launch the no-wallet ProfitNet Command Center.
@@ -171,8 +171,8 @@ Before a CoinGecko or CoinMarketCap submission, complete the evidence and remedi
 10. Publish the AI verifier or AutoDev concept as a product direction.
 11. Prepare the listing evidence packet and review all public claims.
 12. Keep the separate Uniswap CCA badge plan in [25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md); token metadata/listing readiness does not guarantee that badge.
-12. Submit CoinGecko only after active-market prerequisites are credible.
-13. Submit CoinMarketCap only after market activity and evidence are materially stronger.
+13. Submit CoinGecko only after active-market prerequisites are credible.
+14. Submit CoinMarketCap only after market activity and evidence are materially stronger.
 
 ## Source Notes
 

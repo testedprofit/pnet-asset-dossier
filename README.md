@@ -55,6 +55,12 @@ The verified source is a minimal OpenZeppelin ERC-20: its fixed supply is minted
 
 The pink check shown beside some Uniswap auctions is a Verified CCA auction/launch designation, not a generic verified-token badge. PNET's configured LP allocation appears sufficient for the numerical liquidity gate after successful migration, but the public record does not yet evidence the required three-of-four founder/social/press/fund criteria. See [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) for the exact criteria, scorecard, application worksheet, and truthful build path.
 
+### Base Holder and Treasury Status
+
+At Base block `48,477,164`, the largest address held `74.747111457500%` of supply. A second, unlabelled address held `15,000,000` PNET, so potential same-control concentration would be `89.747111457500%` if both addresses share one beneficial controller; that relationship remains unconfirmed. Auction, LBP-strategy, and PoolManager balances are contract inventory, not independent owners, and ERC-20 balances do not prove an LP position NFT is locked.
+
+The current decision is **NO-GO on another standard Uniswap CCA** until the active auction resolves, migration and LP custody are proven, beneficial-control labels are published, the canonical market meets the written quality gates, and legal review is complete. See the [holder snapshot](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) and [Base treasury and distribution plan](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md).
+
 ### Legacy Algorand ASA
 
 | Field | Value | Status |
@@ -81,6 +87,8 @@ The pink check shown beside some Uniswap auctions is a Verified CCA auction/laun
 | CoinGecko / CMC build targets | [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) |
 | Wallet warning / Blockaid remediation | [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) |
 | Uniswap CCA verified-listing plan | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) |
+| Base treasury and distribution plan | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) |
+| Base holder-distribution snapshot | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
 | User guide | [docs/user/USER_GUIDE.md](docs/user/USER_GUIDE.md) |
 | Developer guide | [docs/developer/DEVELOPER_GUIDE.md](docs/developer/DEVELOPER_GUIDE.md) |
@@ -127,6 +135,8 @@ The pink check shown beside some Uniswap auctions is a Verified CCA auction/laun
 | [docs/23_COINGECKO_CMC_BUILD_TARGETS.md](docs/23_COINGECKO_CMC_BUILD_TARGETS.md) | CoinGecko and CoinMarketCap build-toward checklist |
 | [docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md](docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md) | Verified-contract wallet-warning analysis and false-positive remediation status |
 | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA pink-check criteria, PNET scorecard, and application plan |
+| [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base custody, beneficial-owner distribution, canonical-pool gates, and 30/60/90 execution plan |
+| [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) | Block-pinned Base balance and concentration snapshot with ownership cautions |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | [docs/pnet-contribution-protocol/METHODS.md](docs/pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |
 | [docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md](docs/pnet-contribution-protocol/LEGAL_DISCLAIMER.md) | Draft legal disclaimer |
@@ -206,7 +216,7 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | --- | --- | --- |
 | Documentation-only scope | PASS | Repository contains documentation, metadata, references, and media only |
 | Whitepaper v1.1 | READY FOR REVIEW | Structure updated around specification, utility, roadmap, verification, and risks |
-| On-chain proof package | STARTED | ASA identity/current controls verified; burn/lock/vault proofs pending |
+| On-chain proof package | STARTED | ASA identity/current controls and a block-pinned Base holder snapshot are recorded; burn/lock/vault and beneficial-control proofs remain incomplete |
 | Implementation specs | STARTED | Contribution protocol, contract design principles, and snapshot API specs added |
 | Audit readiness | STARTED | Audit tracker, threat model, and review checklist added |
 | Documentation structure | READY FOR REVIEW | User, developer, security, contribution, verification, and template guides added |
@@ -218,4 +228,6 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | Operational wallet | SNAPSHOT ONLY | Address validity and current PNET balance snapshot recorded; role and control model not verified |
 | Contribution protocol | MVP READY FOR TESTNET DEPLOYMENT | Local implementation package prepared; TestNet app ID and deployment tx pending; not MainNet, not audited |
 | Base wallet warning | REMEDIATION OPEN | Verified source review found no contract-level honeypot mechanics; third-party warning remains displayed pending Blockaid/wallet update |
+| Base holder concentration | ACTION REQUIRED | Largest address held 74.7471% at block 48,477,164; the separate 15,000,000-PNET address still needs a public control/purpose label |
+| Additional standard CCA | NO-GO | Finish the current auction, prove migration/LP custody, preserve one canonical market, and pass the published distribution gates before reconsideration |
 | Exchange / bridge support | NOT CLAIMED | No venue support or listing outcome is implied |
