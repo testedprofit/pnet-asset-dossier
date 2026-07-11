@@ -21,6 +21,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added a block-pinned Base holder-distribution proof at block `48,477,164`, including direct balance reconciliation, address-level concentration indicators, contract-inventory cautions, and the maintainer-supplied founder-allocation custody label for the 15,000,000-PNET address. No on-chain vesting, lock, or custody access is evidenced for that allocation.
 - Added `docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md` with a strong no-go on another standard CCA now, canonical-pool and organic-participation gates, custody/beneficial-ownership distinctions, integrity rules, and split human/AI 30/60/90 actions.
 - Added `docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md` recording the 2026-07-11 Chainlink token-admin registration request, Base-canonical / Robinhood-bridged CCT architecture, and public-safe readiness gates without claiming a bridge deployment or Robinhood listing.
+- Added `docs/28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md` with Algorand-rooted/Base-expanded/Robinhood-planned positioning, a proposed capped `5,000,000` PNET Algorand <-> Base migration reserve, website copy, and bridge-claim guardrails.
 - Added `data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md` with a transaction-level successful tiny buy and a bounded review of all PNET transfers through block `48,488,235` and pool logs through block `48,488,596`; all 11 decoded seed-pool swaps were buy-direction and no successful sell-direction swap was found.
 
 ### Changed
@@ -35,6 +36,7 @@ All notable documentation changes to this dossier are recorded here.
 - Added a public-claims and sale-readiness rule requiring any planned issuer-, founder-, treasury-, affiliate-, or related-party-funded repurchase or market-support program to receive qualified counsel review and counsel-approved material disclosure before a token sale. Confidential funding-source details remain private to counsel/compliance; the public record uses only a truthful counsel-approved non-sensitive category.
 - Clarified that the 15% founder allocation is not inherently excessive when disclosed and consistently accounted for, but any lock or vesting claim requires enforceable evidence and concentration must improve through genuine beneficial ownership rather than controlled-wallet splitting.
 - Updated listing readiness, README, and documentation index with Chainlink/Robinhood Chain CCT status and a no-duplicate-supply warning.
+- Updated bridge notes and website templates so the public website can shift from Algorand-only framing to multichain status while making clear that Algorand <-> Base migration and Robinhood Chain support are not live yet.
 
 ### Verification Status
 
@@ -45,6 +47,7 @@ All notable documentation changes to this dossier are recorded here.
 - Verified-source review found no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, or other contract-level honeypot mechanics.
 - The Blockaid-sourced warning remains displayed pending external review/update. A tiny buy is now transaction-verified, while successful sell evidence, auction/LP-lock evidence, founder-wallet custody/vesting evidence, and recurring holder-distribution updates remain open.
 - Chainlink token-admin registration has been submitted for the future Robinhood Chain CCT path, but no approval, testnet round trip, production bridge, Robinhood Chain deployment, or Robinhood app/brokerage listing is claimed.
+- The first Algorand <-> Base migration concept is a capped reserve-backed swap, not a live bridge. Reserve wallets, swap terms, proof index, and review are still required before accepting any user migration transfers.
 - At block `48,477,164`, the largest Base PNET address held `74.747111457500%`. The maintainer confirms the separate 15,000,000-PNET address is a founder-controlled custodial allocation wallet, making maintainer-reported project/founder beneficial control at least `89.747111457500%`. The balance and transfer are on-chain verified; the role/custodial label is maintainer-supplied, and no on-chain vesting, lock, or custody access is evidenced.
 - CCA, LBP-strategy, and PoolManager balances are recorded as contract inventory rather than independent owners; ERC-20 balances do not prove that a v4 LP position NFT is locked.
 

@@ -18,6 +18,7 @@ The repository remains documentation and media only. It must not contain private
 | Uniswap CCA reviewer | [25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Pink-check criteria, PNET eligibility scorecard, LP proof gate, and application plan |
 | Treasury/distribution reviewer | [26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base custody, beneficial-owner distribution, canonical-pool gates, and human/AI 30/60/90 actions |
 | Robinhood Chain reviewer | [27_ROBINHOOD_CHAIN_CCT_READINESS.md](27_ROBINHOOD_CHAIN_CCT_READINESS.md) | Chainlink token-admin request status and Base-canonical / Robinhood-bridged readiness gates |
+| Multichain reviewer | [28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md](28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md) | Algorand-rooted/Base-expanded website positioning and capped migration reserve plan |
 | Contributor | [contribution/CONTRIBUTION_PROTOCOL_GUIDE.md](contribution/CONTRIBUTION_PROTOCOL_GUIDE.md) | Public-safe contribution protocol overview |
 | Contribution MVP reviewer | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
 | Contribution reviewer | [contribution/REAL_WORLD_CONTRIBUTION_EVIDENCE.md](contribution/REAL_WORLD_CONTRIBUTION_EVIDENCE.md) | Redacted third-party contribution evidence policy |
@@ -66,6 +67,7 @@ The repository remains documentation and media only. It must not contain private
 | [25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA verified-launch requirements and PNET execution plan |
 | [26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base treasury controls, holder-distribution plan, second-CCA no-go gates, and execution ownership |
 | [27_ROBINHOOD_CHAIN_CCT_READINESS.md](27_ROBINHOOD_CHAIN_CCT_READINESS.md) | Chainlink token-admin submission status, Robinhood Chain CCT architecture, and readiness gates |
+| [28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md](28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md) | Multichain website positioning, Algorand <-> Base migration reserve plan, and claims guardrails |
 | [../data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](../data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) | Verified tiny Base buy and bounded review showing that successful sell proof remains open |
 | [pnet-contribution-protocol/MVP.md](pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP |
 | [pnet-contribution-protocol/METHODS.md](pnet-contribution-protocol/METHODS.md) | Contribution Credit System methods |

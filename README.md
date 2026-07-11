@@ -67,6 +67,10 @@ The current decision is **NO-GO on another standard Uniswap CCA** until the acti
 
 On 2026-07-11, the project submitted a Chainlink token-admin registration request for a possible future Robinhood Chain CCT/CCIP path. Base PNET remains canonical. The intended design is Base lock/release and Robinhood Chain burn/mint, not a duplicate independent PNET supply. No Robinhood Chain deployment, production bridge, Robinhood app listing, or Robinhood brokerage support is claimed. See [docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md](docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md).
 
+### Multichain / Migration Status
+
+The website should present PNET as Algorand-rooted, Base-expanded, and preparing a Robinhood Chain path. The recommended Algorand <-> Base support model is a capped reserve-backed migration/swap path, starting with a proposed `5,000,000` PNET cap after owner approval and published terms. No Algorand <-> Base migration portal, Wormhole route, or automated bridge is live. See [docs/28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md](docs/28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md).
+
 ### Legacy Algorand ASA
 
 | Field | Value | Status |
@@ -95,6 +99,7 @@ On 2026-07-11, the project submitted a Chainlink token-admin registration reques
 | Uniswap CCA verified-listing plan | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) |
 | Base treasury and distribution plan | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) |
 | Robinhood Chain CCT readiness | [docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md](docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md) |
+| Multichain migration and website plan | [docs/28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md](docs/28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md) |
 | Base holder-distribution snapshot | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) |
 | Base PNET/USDC trade proof | [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) |
 | Documentation index | [docs/README.md](docs/README.md) |
@@ -145,6 +150,7 @@ On 2026-07-11, the project submitted a Chainlink token-admin registration reques
 | [docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | Uniswap CCA pink-check criteria, PNET scorecard, and application plan |
 | [docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md](docs/26_BASE_TREASURY_AND_DISTRIBUTION_PLAN.md) | Base custody, beneficial-owner distribution, canonical-pool gates, and 30/60/90 execution plan |
 | [docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md](docs/27_ROBINHOOD_CHAIN_CCT_READINESS.md) | Chainlink token-admin request status and public-safe Robinhood Chain CCT readiness gates |
+| [docs/28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md](docs/28_MULTICHAIN_MIGRATION_AND_WEBSITE_PLAN.md) | Algorand-rooted/Base-expanded/Robinhood-planned website positioning and capped migration reserve plan |
 | [data/on-chain-proofs/base-holder-distribution-2026-07-11.md](data/on-chain-proofs/base-holder-distribution-2026-07-11.md) | Block-pinned Base balance and concentration snapshot with ownership cautions |
 | [data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md](data/on-chain-proofs/base-pnet-usdc-trade-proof-2026-07-11.md) | Verified tiny buy and bounded search showing no sell-direction pool swap yet |
 | [docs/pnet-contribution-protocol/MVP.md](docs/pnet-contribution-protocol/MVP.md) | Contribution Credit System MVP status |
@@ -239,5 +245,6 @@ No private custody notes, recovery details, signer locations, personal data, or 
 | Contribution protocol | MVP READY FOR TESTNET DEPLOYMENT | Local implementation package prepared; TestNet app ID and deployment tx pending; not MainNet, not audited |
 | Base wallet warning | REMEDIATION OPEN | Verified source review found no contract-level honeypot mechanics; third-party warning remains displayed pending Blockaid/wallet update |
 | Base holder concentration | ACTION REQUIRED | Maintainer-reported project/founder control of the top two addresses was at least 89.7471% at block 48,477,164; no on-chain vesting, lock, or custody access for the 15,000,000-PNET founder allocation is evidenced |
+| Multichain migration | PLANNING | Recommended first Algorand <-> Base mechanism is a capped reserve-backed swap; no user deposits or bridge claims until terms and proof addresses are published |
 | Additional standard CCA | NO-GO | Finish the current auction, prove migration/LP custody, preserve one canonical market, and pass the published distribution gates before reconsideration |
 | Exchange / bridge support | NOT CLAIMED | No venue support or listing outcome is implied |

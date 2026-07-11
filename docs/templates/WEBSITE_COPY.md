@@ -31,6 +31,36 @@ Verification dossier:
 https://github.com/testedprofit/pnet-asset-dossier
 ```
 
+## Multichain Status Section
+
+```markdown
+## PNET Network Status
+
+ProfitNet / PNET is becoming a multichain project: rooted on Algorand, expanded to Base, and preparing a supply-backed Robinhood Chain path through Chainlink CCIP/CCT.
+
+| Network | Status |
+| --- | --- |
+| Algorand | Legacy/root PNET ASA `3169177585`; holder migration support is planned but not live |
+| Base | Verified ERC-20 PNET at `0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a` |
+| Robinhood Chain | Planned supply-backed representation through Chainlink CCIP/CCT; not deployed |
+
+Base PNET is source verified and fixed supply. The verified Base contract has no owner/admin mint, pause, blacklist, transfer tax, transfer override, or proxy.
+
+Robinhood Chain support is not live yet and does not imply a Robinhood app or brokerage listing.
+```
+
+## Algorand to Base Migration Section
+
+```markdown
+## Algorand <> Base Migration Status
+
+ProfitNet is evaluating a capped migration reserve so existing Algorand PNET holders can swap into Base PNET and Base holders can swap back into Algorand PNET. The first proposed cap is 5,000,000 PNET.
+
+This migration path is not live yet. The project will publish reserve addresses, terms, limits, proof links, and support instructions before accepting any migration transfers.
+
+Do not send PNET to any migration address until an official migration page and proof record are published.
+```
+
 ## Utility Page Section
 
 ```markdown
