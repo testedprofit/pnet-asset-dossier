@@ -12,6 +12,7 @@ All notable documentation changes to this dossier are recorded here.
 ### Changed
 
 - Updated public link snapshot date to include the Base ERC-20 launch and BaseScan token-profile workflow references.
+- Updated `media/pnet-logo-32.svg` to a gold badge / red banner mark matching the maintainer-provided ProfitNet gold logo source image.
 
 ### Verification Status
 
