@@ -27,10 +27,10 @@ Do not ask the community to spam listing teams.
 | Blockaid / wallet warning | Likely heuristic false positive; warning remains displayed pending provider review/update |
 | Official website updated for Base ERC-20 | Needed |
 | Public Command Center | Planned |
-| Active Uniswap pool | Exists with very small seed liquidity |
+| Active Uniswap market | Very small legacy seed pool plus active CCA; final migrated pool pending |
 | Meaningful liquidity and organic volume | Needed |
 | Successful buy/sell transaction record | Needed in public evidence packet |
-| Auction / LP-lock evidence | Needed if claimed; v4 position link alone is not lock proof |
+| Auction / LP-lock evidence | CCA address, launcher transaction, strategy, allocation, and configured timelock recorded; final migration/pool/position proof pending |
 | Holder/activity snapshots | Needed |
 | CoinGecko application | Not submitted |
 | CoinMarketCap application | Not submitted |
@@ -86,9 +86,9 @@ Do not apply to CoinMarketCap until PNET has material public trading activity an
 | Command Center live | CoinGecko, CMC | Planned |
 | Official contact email/socials | CoinGecko, CMC | Needed |
 | Stable token logo URL | CoinGecko, CMC | Commit-pinned SVG exists |
-| Active public pool | CoinGecko, CMC | Exists, very small |
+| Active public pool | CoinGecko, CMC | Legacy seed pool exists; wait for the auction-migrated canonical pool |
 | Successful public buy and sell transaction links | CoinGecko, CMC | Needed |
-| Auction / LP-lock evidence, if claimed | CoinGecko, CMC | Needed; position link is not lock proof |
+| Auction / LP-lock evidence, if claimed | CoinGecko, CMC | CCA configuration documented; final migration and LP position proof pending |
 | Meaningful liquidity | CoinGecko, CMC | Needed |
 | Organic swaps over multiple days | CoinGecko, CMC | Needed |
 | Dated volume/liquidity snapshots | CoinGecko, CMC | Needed |
@@ -122,7 +122,7 @@ Before any submission, assemble:
 - Uniswap swap URL;
 - Uniswap v4 position URL, clearly labeled as a position reference rather than LP-lock proof;
 - successful buy transaction and successful sell transaction links;
-- auction evidence if an auction was used, or a direct statement that none was used;
+- CCA auction page, launcher transaction, final migration transaction, and final canonical pool;
 - actual LP-lock/burn evidence if claimed, including mechanism, transaction, amount, duration, authority, and beneficiary;
 - liquidity snapshots;
 - volume snapshots;
@@ -161,7 +161,7 @@ Before a CoinGecko or CoinMarketCap submission, complete the evidence and remedi
 
 1. Finish BaseScan profile/logo review and record the approval.
 2. Record one successful buy and one successful sell transaction from the existing v4 pool.
-3. Document liquidity provenance, auction evidence if applicable, and any actual LP lock/burn mechanism.
+3. Finish the active CCA and document the final migration, canonical pool, liquidity provenance, position, and actual timelock mechanism.
 4. Publish a dated holder-distribution snapshot and improve concentration through genuine participation.
 5. Submit the verified false-positive evidence packet through Blockaid's official report portal, reference its ticket in any optional Uniswap support follow-up, and track the warning status.
 6. Update official website and public links.
@@ -170,6 +170,7 @@ Before a CoinGecko or CoinMarketCap submission, complete the evidence and remedi
 9. Track weekly holders, organic swaps, volume, TVL, and slippage.
 10. Publish the AI verifier or AutoDev concept as a product direction.
 11. Prepare the listing evidence packet and review all public claims.
+12. Keep the separate Uniswap CCA badge plan in [25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md); token metadata/listing readiness does not guarantee that badge.
 12. Submit CoinGecko only after active-market prerequisites are credible.
 13. Submit CoinMarketCap only after market activity and evidence are materially stronger.
 

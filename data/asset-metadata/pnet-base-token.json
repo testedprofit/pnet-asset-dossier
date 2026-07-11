@@ -1,0 +1,56 @@
+{
+  "schema_name": "pnet_base_token_facts",
+  "schema_version": "1.0.0",
+  "status_date": "2026-07-11",
+  "network": {
+    "name": "Base",
+    "chain_id": 8453
+  },
+  "token": {
+    "name": "ProfitNet",
+    "symbol": "PNET",
+    "address": "0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a",
+    "decimals": 18,
+    "total_supply_display_units": "100000000",
+    "total_supply_raw_units": "100000000000000000000000000",
+    "deployment_transaction": "0x7d6300cb7f84d18fdaeafe3c34195e946ec86e6ce8c91d87d577177873b39fd1",
+    "verification_status": "Source verified on BaseScan, Blockscout, and Sourcify; BaseScan token profile pending"
+  },
+  "links": {
+    "basescan_token": "https://basescan.org/token/0xe1f7f585f458cb6affcee2286b8482523b19ee5a",
+    "verified_source": "https://basescan.org/address/0xe1F7F585f458cB6AFFCEE2286b8482523B19ee5a#code",
+    "project_website": "https://testedprofit.com/pages/PNET/",
+    "public_dossier": "https://github.com/testedprofit/pnet-asset-dossier",
+    "logo_uri": "https://raw.githubusercontent.com/testedprofit/pnet-asset-dossier/376be2dada8af8f8371bfc45516ca16be594060f/media/pnet-logo-32.svg",
+    "auction": "https://app.uniswap.org/explore/auctions/base/0x777900C0FF11845c8e0D6C134b58C695023Aab4e",
+    "legacy_seed_pool": "https://app.uniswap.org/explore/pools/base/0xff481004f38fc7db43f3e3b47f6ad3e155482a00866d709d89700d303b0b4f3a"
+  },
+  "auction": {
+    "contract": "0x777900C0FF11845c8e0D6C134b58C695023Aab4e",
+    "launcher_transaction": "0xcaca93427d8d2a3c29704373e2906ca8e8ce5c84fe5198ce48e9b5726951cb54",
+    "lbp_strategy": "0x34385dD739FE5464892BF0bA4CC42492804dA000",
+    "lock_and_fee_recipient": "0xe684c6a25fcced415a5b503bf9738abf7873d023",
+    "start_utc": "2026-07-11T02:59:59Z",
+    "end_utc": "2026-07-18T02:59:59Z",
+    "configured_lp_timelock_end_utc": "2026-08-17T02:59:59Z",
+    "configured_pnet_for_lp_approx": "3559314.1032",
+    "configured_percent_of_auction_tokens_for_lp": "75.0",
+    "migration_status": "Pending at status date; final pool and LP position must be added after on-chain confirmation"
+  },
+  "socials": {
+    "official_x": null,
+    "status": "Project-controlled handle must be confirmed before external metadata submission"
+  },
+  "legacy_identity": {
+    "network": "Algorand",
+    "asa_id": 3169177585,
+    "decimals": 6,
+    "relationship_status": "Separate legacy deployment; no live canonical bridge or automatic redemption is documented"
+  },
+  "warning_status": {
+    "provider": "Blockaid via Uniswap",
+    "displayed": true,
+    "contract_review_conclusion": "The verified Base contract does not contain honeypot mechanics",
+    "remediation_status": "False-positive evidence package in preparation"
+  }
+}

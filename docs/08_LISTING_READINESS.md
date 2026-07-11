@@ -14,7 +14,8 @@ PNET is a legitimate project. The verified Base contract does not contain honeyp
 | Base contract review | No contract-level honeypot mechanics found in verified source | Include review findings and source link in false-positive packet |
 | Blockaid / wallet warning | Likely heuristic false positive; still displayed | Submit evidence through Blockaid's official report portal and track provider response |
 | Base tradeability evidence | Public v4 pool exists; buy/sell tx evidence not yet recorded here | Record one successful buy tx and one successful sell tx |
-| Base liquidity evidence | Very small seed pool and position links recorded | Document provenance, auction details if used, and any actual LP lock/burn mechanism |
+| Base liquidity evidence | Very small legacy seed pool recorded; active Uniswap CCA and configuration now documented | Record final migration, canonical pool, position, exact liquidity, and timelock proof after auction completion |
+| Uniswap CCA pink-check | LP configuration appears sufficient after successful migration; three-of-four identity/traction criteria not currently evidenced | Complete [CCA verified-listing plan](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) without buying or fabricating eligibility signals |
 | Base holder distribution | Dated snapshot and honest improvement needed | Publish concentration snapshots; do not manufacture holders |
 | Legacy ASA identity | Name, unit, network, and ASA ID verified by public indexers at capture round | Recheck dated proof before external use |
 | Legacy ASA control fields | Creator and current zero manager/reserve/freeze/clawback values verified at capture round | Recheck dated proof before external use |
@@ -54,8 +55,10 @@ No code path was found that selectively blocks sells or lets a privileged accoun
 | Liquidity position | [Uniswap v4 position 2731162](https://app.uniswap.org/positions/v4/base/2731162) | Position reference only; not proof of a lock or burn |
 | Successful buy | Transaction link not yet recorded | Needs on-chain evidence |
 | Successful sell | Transaction link not yet recorded | Needs on-chain evidence |
-| Auction, if used | No evidence recorded in this dossier | Publish rules, dates, URL, and transactions, or state no auction was used |
-| LP lock/burn | No evidence recorded in this dossier | Publish exact mechanism, transaction, amount, duration, authority, and beneficiary if applicable |
+| Auction | [PNET CCA](https://app.uniswap.org/explore/auctions/base/0x777900C0FF11845c8e0D6C134b58C695023Aab4e); launcher tx `0xcaca93427d8d2a3c29704373e2906ca8e8ce5c84fe5198ce48e9b5726951cb54` | Active; scheduled to end 2026-07-18 02:59:59 UTC |
+| LP configuration | Approximately 3,559,314 PNET / 75% of auctioned PNET configured for LP; recipient `0xe684c6a25fcced415a5b503bf9738abf7873d023` | Configuration recorded; final LP-addition transaction and position pending |
+| LP timelock | Configured through 2026-08-17 02:59:59 UTC | Final migrated LP proof pending; do not call the seed position locked |
+| Uniswap CCA verification | [Readiness plan](25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md) | No badge claimed; three-of-four public identity/traction requirements not currently evidenced |
 | Holder distribution | Current dated snapshot not recorded here | Needs snapshot and honest concentration improvement |
 | Blockaid false-positive submission | Not evidenced in this dossier | Submit verified-source packet and record date/ticket status |
 | Warning cleared | Not complete | Warning remains displayed pending provider update |

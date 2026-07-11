@@ -15,6 +15,9 @@ All notable documentation changes to this dossier are recorded here.
 - Added `docs/23_COINGECKO_CMC_BUILD_TARGETS.md` to make CoinGecko and CoinMarketCap explicit build-toward goals with readiness gates.
 - Added the Uniswap PNET/USDC price-chart URL as a public market-reference link for future snapshots and listing evidence packets.
 - Added `docs/24_WALLET_WARNING_BLOCKAID_REMEDIATION.md` with the verified Base contract findings, current third-party warning status, public-safe response wording, official Blockaid false-positive route, and evidence checklist.
+- Added `docs/25_UNISWAP_CCA_VERIFIED_LISTING_PLAN.md` with the official pink-check criteria, PNET eligibility scorecard, post-migration LP evidence gate, and truthful application path.
+- Added a prepared Uniswap CCA application worksheet, public founder-disclosure template, and factual reporter source pack without claiming that PNET is currently eligible or covered by a qualifying outlet.
+- Added `data/asset-metadata/pnet-base-token.json` and `tokenlist.json` so Base PNET's 18-decimal ERC-20 identity is machine-readable and separate from the 6-decimal legacy Algorand ASA record.
 
 ### Changed
 
@@ -22,12 +25,15 @@ All notable documentation changes to this dossier are recorded here.
 - Updated `media/pnet-logo-32.svg` to a gold badge / red banner mark matching the maintainer-provided ProfitNet gold logo source image.
 - Updated the README, documentation index, listing-readiness package, CoinGecko/CMC targets, and public link registry to track wallet-warning remediation without claiming that the displayed warning has already been removed.
 - Added explicit remediation guardrails: use the existing Uniswap v4 market, do not create a duplicate v2 pool merely to burn LP, do not wash trade or fake volume, and improve holder distribution only through genuine activity.
+- Recorded the active Uniswap CCA, launcher transaction, LBP strategy, configured LP commitment, and timelock recipient while leaving the final migrated pool and position pending on-chain confirmation.
+- Clarified that Uniswap's pink CCA check is an auction/launch designation, not a generic token verification and not a Blockaid-warning correction.
 
 ### Verification Status
 
 - Base ERC-20 source verification and BaseScan address ownership verification are complete.
 - BaseScan token profile/logo application has been submitted; review remains pending until BaseScan approves the update.
 - Current Base Uniswap liquidity remains a small seed-liquidity reference only and should not be described as deep liquidity.
+- PNET's configured CCA LP allocation appears to exceed Uniswap's numeric LP threshold after successful migration, but the public record does not yet evidence three of the four required founder/social/press/fund criteria.
 - Verified-source review found no owner/admin, post-deployment mint, pause, blacklist/whitelist, tax/fee, transfer override, proxy, or other contract-level honeypot mechanics.
 - The Blockaid-sourced warning remains displayed pending external review/update; buy/sell transaction evidence, auction/LP-lock evidence, and holder-distribution snapshots remain open evidence items.
 

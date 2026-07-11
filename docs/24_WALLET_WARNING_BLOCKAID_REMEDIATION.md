@@ -64,8 +64,8 @@ The official [Blockaid report portal](https://report.blockaid.io/) includes a pa
 | Successful PNET sell transaction | Not yet recorded in this dossier | Add a dated Base transaction link and observed outcome |
 | Uniswap v4 pool | Public; very small seed liquidity | Record dated liquidity, price-impact, and availability snapshots |
 | Uniswap v4 position | Public UI link recorded | Document position ownership and management without calling it locked |
-| Auction evidence, if an auction was used | Not yet recorded | Publish the auction URL, rules, dates, and relevant transaction links; otherwise state that no auction was used |
-| LP lock or burn evidence | Not yet recorded | Publish locker/burn address, chain, transaction, amount, duration, unlock terms, and beneficiary as applicable |
+| Auction evidence | PNET CCA, launcher transaction, strategy, dates, and configured LP allocation recorded | Record graduation/migration transaction and final canonical pool after auction completion |
+| LP lock or burn evidence | Lock/fee-recipient contract and configured 30-day timelock recorded | Record final migrated position, exact amounts, timelock block/time, and any executed dead-address transfers separately |
 | Holder distribution | Snapshot needed; concentration risk not resolved here | Publish dated concentration snapshots and improve distribution through genuine participation |
 | Blockaid false-positive report | Submission not evidenced in this dossier | Submit the verified-source packet through Blockaid's official report portal and record date/ticket status |
 | Warning removal | Pending external provider update | Recheck affected surfaces and record the first confirmed clear result |
